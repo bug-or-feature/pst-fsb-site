@@ -68,6 +68,6 @@ Market info stores the entire response from IG's `/markets` REST endpoint. The r
 
 ### epic_periods
 
-Epic periods are used to try to make sure we have as much knowledge as possible about what the  
+TBD 
 
 
