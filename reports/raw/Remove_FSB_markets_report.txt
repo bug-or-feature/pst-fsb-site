@@ -1,11 +1,11 @@
 
 ********************************************************************************
-    Remove FSB markets report report produced on 2023-05-10 22:32:03.433949     
+    Remove FSB markets report report produced on 2023-05-22 22:32:02.258918     
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['AUD_fsb'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['AUD_fsb', 'BRENT'] 
 
 
 
@@ -13,7 +13,7 @@ Following should be allowed to trade (delete from config.bad_markets) [0.300000 
 
 
 
-Markets too expensive (SR cost per trade > 0.010): ['AUD_fsb', 'CHF_fsb', 'COCOA_LDN_fsb', 'COCOA_fsb', 'DX_fsb', 'EURGBP_fsb', 'EUR_fsb', 'FED_fsb', 'GBP_fsb', 'JGB_fsb', 'LIVECOW_fsb', 'MSCISING_fsb', 'OATIES_fsb', 'PALLAD_fsb', 'PLAT_fsb', 'RICE_fsb', 'ROBUSTA_fsb', 'SONIA3_fsb', 'V2X_fsb']
+Markets too expensive (SR cost per trade > 0.010): ['AUD_fsb', 'CHF_fsb', 'COCOA_LDN_fsb', 'COCOA_fsb', 'DX_fsb', 'EURGBP_fsb', 'EUR_fsb', 'FED_fsb', 'GBP_fsb', 'JGB_fsb', 'LIVECOW_fsb', 'MSCISING_fsb', 'OATIES_fsb', 'RICE_fsb', 'SONIA3_fsb', 'V2X_fsb']
 
 
 
@@ -30,6 +30,7 @@ Put following into config.yaml
 exclude_instrument_lists:
   bad_markets:
     - AUD_fsb 
+    - BRENT 
     - COCOA_LDN_fsb 
     - COCOA_fsb 
     - CORN_fsb 
@@ -53,6 +54,7 @@ Put following into config.yaml
 exclude_instrument_lists:
   bad_markets:
     - AUD_fsb 
+    - BRENT 
     - CHF_fsb 
     - COCOA_LDN_fsb 
     - COCOA_fsb 
@@ -65,10 +67,7 @@ exclude_instrument_lists:
     - LIVECOW_fsb 
     - MSCISING_fsb 
     - OATIES_fsb 
-    - PALLAD_fsb 
-    - PLAT_fsb 
     - RICE_fsb 
-    - ROBUSTA_fsb 
     - SHATZ_fsb 
     - SONIA3_fsb 
     - US2_fsb 

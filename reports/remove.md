@@ -1,6 +1,6 @@
 ---
 title: Remove FSB Markets Report
-layout: minimum
+layout: minimal
 parent: Reports
 ---
 

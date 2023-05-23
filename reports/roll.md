@@ -1,6 +1,6 @@
 ---
 title: FSB Roll Report
-layout: minimum
+layout: minimal
 parent: Reports
 ---
 

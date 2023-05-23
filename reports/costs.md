@@ -5,5 +5,5 @@ parent: Reports
 ---
 
 <pre>
-{% include_relative raw/Status_report.txt %}
+{% include_relative raw/Costs_report.txt %}
 </pre>

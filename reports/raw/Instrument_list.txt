@@ -1,0 +1,97 @@
+
+********************************************************************************
+                     List of instruments with configuration                     
+********************************************************************************
+
+
+
+====================================================================================================================================================================================================================
+                                                                                       Combined instrument and broker config                                                                                        
+====================================================================================================================================================================================================================
+
+                                               Description  Pointsize Currency AssetClass Region            epic  multiplier bc_code  inverse                                         period_str  margin        from
+AEX_fsb                       Netherlands equity index AEX       5.00      GBP     Equity   EMEA        IX.D.AEX         1.0      AE    False                                      Month1|Month2   0.100  2005-09-19
+ASX_fsb                     Australian equity index ASX200       2.00      GBP     Equity   ASIA        IX.D.ASX         1.0      AP    False                               MONTH2|MONTH3|MONTH4   0.050  2001-09-17
+AUD_fsb                                    AUDUSD currency       1.00      GBP         FX   ASIA        CF.D.AUD     10000.0      A6    False                                    MAR|JUN|SEP|DEC   0.050  1987-03-11
+AUDJPY_fsb                                 AUDJPY currency       1.00      GBP         FX   ASIA     CF.D.AUDJPY       100.0      UK    False                                    MAR|JUN|SEP|DEC   0.050         n/a
+BOBL_fsb                           German 5 year bond Bobl       0.50      GBP       Bond   EMEA       IR.D.FGBM       100.0      HR    False                                      Month1|Month2   0.200  2000-03-08
+BRENT_W_fsb                             Brent crude summer       1.00      GBP        Ags   EMEA        EN.D.LCO       100.0      CB    False                 Month2|Month3|Month4|Month5|Month6   0.100  1989-08-11
+BTP_fsb                           Italian 10 year bond BTP       0.50      GBP       Bond   EMEA       IR.D.FBTS       100.0      II    False                                      Month1|Month2   0.200  2009-12-08
+BUND_fsb                          German 10 year bond Bund       0.50      GBP       Bond   EMEA       IR.D.FGBL       100.0      GG    False                                      Month1|Month2   0.200  2000-03-08
+BUXL_fsb                    German Buxl 15 to 30 year bond       0.50      GBP       Bond   EMEA       IR.D.FGBX       100.0      GX    False                                      Month1|Month2   0.200  2005-12-08
+CAC_fsb                          French equity index CAC40       1.00      GBP     Equity   EMEA        IX.D.CAC         1.0      MX    False                                      Month1|Month2   0.050  1988-09-19
+CAD_fsb                                    USDCAD currency       1.00      GBP         FX     US     CF.D.USDCAD     10000.0      D6     True                                    MAR|JUN|SEP|DEC   0.033  1988-06-14
+CHF_fsb                                    CHFUSD currency       1.00      GBP         FX   EMEA     CF.D.USDCHF     10000.0      S6     True                                    MAR|JUN|SEP|DEC   0.033  1988-06-13
+CHFJPY_fsb                                 CHFJPY currency       1.00      GBP         FX   EMEA     CF.D.CHFJPY       100.0      UP    False                                    MAR|JUN|SEP|DEC   0.033         n/a
+COCOA_fsb                                         Cocoa NY       1.00      GBP        Ags     US         CO.D.CC         1.0      CC    False   Month1|Month2|Month3|Month4|Month5|Month6|Month7   0.100  1995-02-07
+COCOA_LDN_fsb                                 Cocoa London       0.50      GBP        Ags   EMEA        CO.D.LCC         1.0      CA    False   Month1|Month2|Month3|Month4|Month5|Month6|Month7   0.100  1989-03-06
+COFFEE_fsb                         Coffee New York Arabica       0.50      GBP        Ags     US         CO.D.KC       100.0      KC    False                                      Month1|Month2   0.100  1995-02-08
+COPPER_fsb                                          Copper       0.10      GBP     Metals     US         MT.D.HG     10000.0      HG    False                                      Month1|Month2   0.100  1979-12-31
+CORN_fsb                                              Corn      10.00      GBP        Ags     US          CO.D.C         1.0      ZC    False                                      Month1|Month2   0.100  1959-08-28
+COTTON2_fsb                                      Cotton #2       0.50      GBP        Ags     US         CO.D.CT       100.0      CT    False                                      Month1|Month2   0.100  1995-02-15
+CRUDE_W_fsb                       Light sweet crude Winter       1.00      GBP     OilGas     US         EN.D.CL       100.0      CL    False                               Month1|Month2|Month3   0.100  1983-05-19
+DAX_fsb          DAX 30 Index (Deutsche Aktien Xchange 30)       0.50      GBP     Equity   EMEA        IX.D.DAX         1.0      DY    False                                           FAR|VFAR   0.050  2000-03-17
+DOW_fsb                 Dow Jones Industrial Average Index       0.20      GBP     Equity     US        IX.D.DOW         1.0      YM    False                                      MONTH1|MONTH2   0.050  2002-06-18
+DX_fsb                                    UUS Dollar Index       0.50      GBP         FX     US         CO.D.DX       100.0      DX    False                                      Month1|Month2   0.100  1988-06-13
+EDOLLAR_fsb                             US STIR Eurodollar       0.50      GBP       Bond     US         IR.D.ED       100.0      GE    False  Month1|Month3|MONTH7|MonthM|Month12|Month13|Mo...   0.200  1987-09-17
+EUA_fsb                            ECX EU carbon emissions       0.25      GBP     OilGas   EMEA        CO.D.CFI       100.0      CK    False                               Month1|Month2|Month3   0.100  2008-12-15
+EUR_fsb                                    EURUSD currency       1.00      GBP         FX   EMEA     CF.D.EURUSD     10000.0      E6    False                                    MAR|JUN|SEP|DEC   0.033  1999-03-12
+EURCAD_fsb                                 EURCAD currency       1.00      GBP         FX   EMEA     CF.D.EURCAD     10000.0      EP    False                                    MAR|JUN|SEP|DEC   0.033         n/a
+EURCHF_fsb                                 EURCHF currency       1.00      GBP         FX   EMEA     CF.D.EURCHF     10000.0      RF    False                                    MAR|JUN|SEP|DEC   0.033         n/a
+EURGBP_fsb                                 EURGBP currency       1.00      GBP         FX   EMEA     CF.D.EURGBP     10000.0      RP    False                                    MAR|JUN|SEP|DEC   0.033  1999-03-10
+EURIBOR_fsb                            Three Month EURIBOR       0.50      GBP       Bond   EMEA        IR.D.FEI       100.0      IM    False  Month2|Month3|Month4|Month7|MONTH5|MONTH6|Mont...   0.200  1989-06-14
+EUROSTX_fsb              European equity index EUROSTOXX50       1.00      GBP     Equity   EMEA       IX.D.STXE         1.0      FX    False                                      MONTH2|MONTH3   0.050  1999-03-19
+FED_fsb                                   30 Day Fed Funds       0.50      GBP       Bond     US         IR.D.FF       100.0      ZQ    False  Month1|Month2|Month3|Month5|Month6|Month7|Mont...   0.200  1988-10-27
+FTSE100_fsb                                  FTSE100 Index       0.50      GBP     Equity   EMEA       IX.D.FTSE         1.0       X    False                                      MONTH1|MONTH2   0.050  1988-03-18
+GAS_US_fsb                                  Natural gas US       0.50      GBP     OilGas     US         EN.D.NG      1000.0      NG    False                                      Month1|Month2   0.100  1990-05-22
+GASOIL_fsb                       ICE-EU Low Sulphur Gasoil      10.00      GBP        Ags   EMEA        EN.D.LGO         1.0      LF    False                                      Month1|Month2   0.100  1988-04-11
+GASOLINE_fsb                              RBOB Gasoline US       0.50      GBP        Ags     US         EN.D.RB     10000.0      RB    False                                      Month1|Month2   0.100  1988-03-29
+GBP_fsb                                    GBPUSD currency       1.00      GBP         FX   EMEA     CF.D.GBPUSD     10000.0      B6    False                                    MAR|JUN|SEP|DEC   0.033  1972-09-12
+GBPCHF_fsb                                 GBPCHF currency       1.00      GBP         FX   EMEA     CF.D.GBPCHF     10000.0      SS    False                                    MAR|JUN|SEP|DEC   0.033         n/a
+GBPJPY_fsb                                 GBPJPY currency       1.00      GBP         FX   EMEA     CF.D.GBPJPY       100.0      UR    False                                    MAR|JUN|SEP|DEC   0.033         n/a
+GILT_fsb                        UK 10 year bonds Long Gilt       0.50      GBP       Bond   EMEA        IR.D.FLG       100.0       G    False                                      Month1|Month2   0.200  2000-03-03
+GOLD_fsb                                              Gold       1.00      GBP     Metals     US         MT.D.GC         1.0      GC    False                               Month2|Month3|Month1   0.050  1975-01-28
+HANG_fsb                  Hong Kong equity index Hang Seng       0.10      GBP     Equity   ASIA   IX.D.HANGSENG         1.0      HS    False                                      NEAR|FAR|VFAR   0.100  1988-01-29
+HEATOIL_fsb                                    Heating oil       0.50      GBP        Ags     US         EN.D.HO     10000.0      HO    False                                      Month1|Month2   0.100  1988-03-29
+IBXEX_fsb                        Spanish equity index IBEX       0.20      GBP     Equity   EMEA       IX.D.IBEX         1.0      EF    False                                      Month1|Month2   0.100  1992-10-16
+JGB_fsb                           Japanese Government Bond       0.50      GBP       Bond   ASIA        IR.D.JGB       100.0      JX    False                               Month1|Month2|Month3   0.200  1998-06-10
+JPY_fsb                                    JPYUSD currency       1.00      GBP         FX   ASIA     CF.D.USDJPY     10000.0      J6     True                                    MAR|JUN|SEP|DEC   0.033  1972-09-13
+JSE40_fsb                 South Africa JSE 40 equity index       0.25      GBP     Equity   EMEA        IX.D.SAF         1.0      LX    False                                      MONTH1|MONTH2   0.100         n/a
+LEANHOG_fsb                                      Lean hogs       0.10      GBP        Ags     US         CO.D.LH       100.0      HE    False                                      Month1|Month2   0.100  1966-06-28
+LIVECOW_fsb                                    Live cattle       0.50      GBP        Ags     US         CO.D.LC       100.0      LE    False                                      Month1|Month2   0.100  1965-03-29
+LUMBER_fsb                            Random Length Lumber       0.10      GBP        Ags     US         CO.D.LB       100.0      LS    False                                      Month1|Month2   0.100  1970-02-25
+MSCISING_fsb                     MSCI Singapore Free Index      20.00      GBP     Equity   ASIA  IX.D.SINGAPORE         1.0      SV    False                                      MONTH1|MONTH2   0.100  2001-09-27
+NASDAQ_fsb                          US equity index Nasdaq       0.50      GBP     Equity     US     IX.D.NASDAQ         1.0      NQ    False                                      MONTH3|MONTH4   0.050  1999-09-20
+NIKKEI_fsb                         Nikkei 225 equity index       0.50      GBP     Equity   ASIA     IX.D.NIKFUT         1.0      NY    False                                           FAR|FAR3   0.050  1991-03-08
+NOK_fsb                                 NOK / USD currency       0.20      GBP         FX   EMEA     CF.D.USDNOK     10000.0      NR     True                                    MAR|JUN|SEP|DEC   0.050         n/a
+NZD_fsb                                    NZDUSD currency       1.00      GBP         FX   ASIA     CF.D.NZDUSD     10000.0      N6    False                                    MAR|JUN|SEP|DEC   0.050  1997-06-17
+OAT_fsb                            French 10 year bond OAT       0.50      GBP       Bond   EMEA       IR.D.FOAT       100.0      FN    False                                      Month1|Month2   0.200  2012-06-08
+OATIES_fsb                                     Oat Futures      15.00      GBP        Ags     US          CO.D.O         1.0      ZO    False                                      Month1|Month2   0.100  1984-12-04
+OJ_fsb                               Orange Juice (FCOJ-A)       0.50      GBP        Ags     US         CO.D.OJ       100.0      OJ    False                                      Month1|Month2   0.100  1967-04-25
+OMXS30_fsb                             OMX Sweden 30 index       3.00      GBP     Equity   EMEA        IX.D.OMX         1.0      OX    False                                      MONTH1|MONTH2   0.100  2012-02-15
+PALLAD_fsb                                       Palladium       2.00      GBP        Ags     US         MT.D.PA         1.0      PA    False                                      Month1|Month2   0.100  1977-02-24
+PLAT_fsb                                          Platinum       3.00      GBP        Ags     US         MT.D.PL         1.0      PL    False                                      Month1|Month2   0.100  1968-06-21
+RICE_fsb                                        Rough Rice       0.50      GBP        Ags     US         CO.D.RR      1000.0      ZR    False                                      Month1|Month2   0.100  1988-08-25
+ROBUSTA_fsb                                 Robusta Coffee       0.50      GBP        Ags   EMEA        CO.D.LKD         1.0      RM    False                               Month1|Month2|Month3   0.100  2008-10-23
+RUSSELL_fsb                             Russell 2000 Index       2.00      GBP     Equity     US    IX.D.RUSSELL         1.0      QR    False                                      MONTH1|MONTH2   0.100  2002-03-15
+SEK_fsb                                 SEK / USD currency       0.20      GBP         FX   EMEA     CF.D.USDSEK     10000.0      SK     True                                    MAR|JUN|SEP|DEC   0.050         n/a
+SHATZ_fsb                        German 2 year bond Schatz       0.50      GBP       Bond   EMEA       IR.D.FGBS       100.0      HF    False                                      Month1|Month2   0.200  2000-03-08
+SILVER_fsb                                          Silver       1.00      GBP     Metals     US         MT.D.SI       100.0      SI    False                                      Month1|Month2   0.100  1995-02-27
+SMI_fsb                             Swiss equity index SMI       0.50      GBP     Equity   EMEA        IX.D.SMI         1.0      SZ    False                                      MONTH1|MONTH2   0.100  2000-03-20
+SONIA3_fsb                               Three Month SONIA       0.50      GBP       Bond   EMEA        IR.D.FSS       100.0      MZ    False  Month2|Month3|Month4|Month6|Month7|Month8|mont...   0.200  2019-03-05
+SOYBEAN_fsb                                        Soybean       5.00      GBP        Ags     US          CO.D.S         1.0      ZS    False                                      Month1|Month2   0.100  1959-08-31
+SOYMEAL_fsb                                   Soybean Meal       0.25      GBP        Ags     US         CO.D.SM       100.0      ZM    False                                      Month1|Month2   0.100  1959-11-27
+SOYOIL_fsb                                     Soybean Oil       1.00      GBP        Ags     US         CO.D.BO       100.0      ZL    False                        Month1|Month2|Month3|Month4   0.100  1959-08-31
+SP500_fsb                          US equity index S&P 500       1.00      GBP     Equity     US      IX.D.SPTRD         1.0      ES    False                                      MONTH1|MONTH2   0.050  1997-12-18
+SUGAR11_fsb                                      Sugar #11       2.00      GBP        Ags     US         CO.D.SB       100.0      SB    False  Month1|Month2|Month3|Month4|Month5|Month6|Mont...   0.100  1980-02-26
+SUGAR_WHITE_fsb                            Sugar #5 London      15.00      GBP        Ags   EMEA        CO.D.LSU         1.0      SW    False          Month1|Month2|Month3|Month4|Month5|Month6   0.100  1989-02-07
+US2_fsb                                US 2 year bond note       0.50      GBP       Bond     US  IR.D.02YEAR100       100.0      ZT    False                                      Month1|Month2   0.200  1990-08-28
+US5_fsb                            US 5 year Treasury note       0.50      GBP       Bond     US  IR.D.05YEAR100       100.0      ZF    False                                      Month1|Month2   0.200  1988-05-31
+US10_fsb                              US 10 year bond note       0.50      GBP       Bond     US  IR.D.10YEAR100       100.0      ZN    False                                      Month1|Month2   0.200  1982-05-27
+US30_fsb                                  US Treasury Bond       0.50      GBP       Bond     US    IR.D.BOND100       100.0      ZB    False                                      Month1|Month2   0.200  1977-12-02
+US30U_fsb                           US Ultra Treasury Bond       0.50      GBP       Bond     US   IR.D.ULTRA100       100.0      UD    False                                      Month1|Month2   0.200  2010-03-02
+V2X_fsb                            Vol European equity V2X     100.00      GBP        Vol   EMEA     IN.D.VSTOXX         1.0      DV    False                 MONTH1|MONTH2|MONTH3|MONTH4|MONTH5   0.200  2012-11-12
+VIX_fsb                                  Vol US equity VIX     100.00      GBP        Vol     US        IN.D.VIX         1.0      VI    False                 MONTH1|MONTH2|MONTH3|MONTH4|MONTH5   0.200  2004-05-14
+WHEAT_fsb                                            Wheat      15.00      GBP        Ags     US          CO.D.W         1.0      ZW    False                        Month1|Month2|Month3|MonthZ   0.100  1959-11-30
+WHEAT_ICE_fsb                                    Wheat ICE      20.00      GBP        Ags   EMEA        CO.D.LWB         1.0      LW    False                               Month1|Month3|Month4   0.100  1994-01-05
+

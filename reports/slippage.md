@@ -1,6 +1,6 @@
 ---
 title: Slippage Report
-layout: minimum
+layout: minimal
 parent: Reports
 ---
 

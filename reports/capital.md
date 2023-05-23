@@ -1,6 +1,6 @@
 ---
 title: FSB Minimum Capital Report
-layout: minimum
+layout: minimal
 parent: Reports
 ---
 
