@@ -7,6 +7,70 @@ nav_order: 1
 
 # pysystemtrade-fsb data
 
+
+## Challenges
+
+### EPIC recycling
+On the IG platforms, a market that you can trade on is identified by an *EPIC*. An EPIC is a unique text 
+string containing letters, dots and numbers. For example, `IX.D.FTSE.DAILY.IP` is the EPIC for 
+the daily funded bet (DFB) on the FTSE 100 Index. EPICs work fine for undated instruments like this, but 
+for dated products they are less useful. For example, at the time of writing (January 2022), the EPIC for 
+the spread bet based on the ASX Australia 200 Index future (March 2022 expiry) is `IX.D.ASX.MONTH3.IP`. 
+And the contract expiring June 2022 is `IX.D.ASX.MONTH2.IP`, and September 2022 is `IX.D.ASX.MONTH4.IP`. 
+No doubt December 2022 will be `IX.D.ASX.MONTH3.IP` again. EPICs are recycled.
+
+Many markets only have two EPICs. For example the NASDAQ future has:
+- `IX.D.NASDAQ.MONTH3.IP`
+- `IX.D.NASDAQ.MONTH4.IP`
+
+even though there are four contracts per year. And the NIKKEI:
+- `IX.D.NIKFUT.FAR.IP`
+- `IX.D.NIKFUT.FAR3.IP`
+
+**Problem one:** there is no pattern or system for the EPIC names. When this was queried with IG Support, their 
+response was:
+
+> The dealing desk choose which EPIC to use and when, unfortunately we are unable to confirm beforehand, this is 
+something they do as and when needed. They are also able to make changes to which epic is used at any given moment, so 
+I do advise to check the epic if you ever receive an error
+
+**Problem two:** obviously, due to the EPICs being recycled, it is impossible to get historical data for futures based 
+spread bets. At the time of writing (January 2022) the oldest ASX contract for which you can get price 
+history is December 2021. 
+
+**Problem three:** just in terms of data, there are two API endpoints that an automated trading system would be 
+interested in; one to get current prices, and another to get historical prices. To make the problems described above even
+worse, with IG these two APIs are not synced. An EPIC used in the current price API will give you data for a different 
+contract than the one for the historical price API.
+
+Another request was made to IG Support for a schedule of the roll cycles for all the futures based spread bets. The 
+response was:
+
+> Your request of "Roll cycle for all Commodities, Indices, and Bonds and Rates" is not something we can provide. We 
+will only be providing information based on the API reference. Some products may have the same EPIC, but there is no 
+guarantee it will be the same always and its up to our dealing desk to manage that. And in such cases, we will not be 
+informing clients of the changes so thats something you will need to take note of.
+
+### IG API rate limits
+
+The IG APIs have rate limits; you can only make a certain number of requests during a certain time period
+(eg minute, hour, week etc) depending on the request type. The limits for the LIVE environment are published 
+[here](https://labs.ig.com/faq), but the limits for DEMO are lower, and have been known to change randomly and 
+without notice. The limits, as well as the epic recycling described above, mean that it is not practical to get 
+useful historical prices from the IG APIs
+
+### pysystemtrade is a futures trading system
+
+From one of [Rob's comments](https://github.com/robcarver17/pysystemtrade/issues/391#issuecomment-911441646) in an 
+issue in the main project:
+
+> Although I sort of originally envisaged pysystemtrade being multi asset, in practice the use of futures is now 
+completely baked in. However it should work pretty well for anything that looks like a future: a dated spread bet 
+being a good example of that
+
+What this means for this fork is that backtesting works pretty much straight out of the box, as long as the instrument 
+config, roll config and price data is good. Anything else, especially production stuff, will likely need work.
+
 ## prices
 
 In pysystemtrade-fsb the way data works is a little different from the upstream project. IG offers spread bets at prices that are often different from the underlying future. For example, the price for *US Crude*, (CRUDE_W_fsb), is 100 times the price of the future. RICE_fsb is 1000 times the price of its underlying instrument. And, to get the price for CHF_fsb, we have to invert it (divide by 1), **and** multiply by 10,000. Look at the [Instrument List Report](../reports/instruments.html), to see which instruments have multipliers, and which are inverted. So, in this project we import and store individual Futures contract prices, and then use them to generate the individual FSB prices; the futures prices are not overwritten. Multiple and adjusted prices are only generated for FSB instruments.
@@ -31,7 +95,7 @@ Roll calendars are different too. For many bets only the front contract is avail
 
 ## new mongo collections
 
-This fork includes three entirely new MongoDB collections, `epic_history`, `market_info`, and `epic_periods`. Epic history is an Arctic collection, the other two are normal Mongo collections. They all relate to [the challenges with the way IG offer their bets](https://github.com/bug-or-feature/pysystemtrade-fsb#challenges).
+This fork includes four entirely new MongoDB collections, `fsb_contract_prices`, `epic_history`, `market_info`, and `epic_periods`. FSB prices and epic history are Arctic collections, the other two are normal Mongo collections. They all relate to [the challenges with the way IG offer their bets](https://github.com/bug-or-feature/pysystemtrade-fsb#challenges).
 
 ### epic_history
 
