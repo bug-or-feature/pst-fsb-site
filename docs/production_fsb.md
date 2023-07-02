@@ -99,7 +99,7 @@ clone_data_for_instrument(instrument_from='EURIBOR', instrument_to= 'EURIBOR-ICE
 
 We have some [Click](https://click.palletsprojects.com/en/8.1.x/) wrappers around the interactive scripts. They are configured in the `entry_points` block at the end of `setup.py`. There is a [section in the upstream docs](https://github.com/robcarver17/pysystemtrade/blob/master/docs/production.md#scripts-under-other-non-linux-operating-systems) about this setup. To see the options:
 
-```python
+```
 $ pst
 Usage: pst [OPTIONS] COMMAND [ARGS]...
 
@@ -118,7 +118,7 @@ Commands:
 
 And to run Interactive Diagnostics:
 
-```python
+```
 $ pst d
 
  INTERACTIVE DIAGNOSTICS
