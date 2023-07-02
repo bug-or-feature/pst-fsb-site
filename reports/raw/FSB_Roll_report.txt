@@ -1,90 +1,89 @@
 
 ********************************************************************************
-         FSB Roll report report produced on 2023-05-23 14:37:22.547402          
+                  FSB Roll report produced on 01/07/2023 16:34                  
 ********************************************************************************
 
 
 
-==================================================================================================================================================================================
-                                                                         Status and time to roll in days                                                                          
-==================================================================================================================================================================================
+=====================================================================================================================================================================================================================
+                                                                                           Status and time to roll in days                                                                                           
+=====================================================================================================================================================================================================================
 
-                  status  roll_expiry  price_expiry  carry_expiry contract_priced contract_fwd  position_priced  relative_volume_fwd  contract_volume_fwd priced_status fwd_status
-EDOLLAR_fsb      No_Roll          -62           208           117        20231200     20240300              0.0                0.000                    0       OFFLINE    OFFLINE
-LUMBER_fsb       No_Roll          -27           -26            37        20230500     20230700              0.0                0.000                    0           n/a    OFFLINE
-GAS_US_fsb       No_Roll            0             1            34        20230600     20230700              0.0                1.065                33649     TRADEABLE    OFFLINE
-GILT_fsb         No_Roll            1             2            97        20230600     20230900              0.0                0.006                 1149     TRADEABLE  TRADEABLE
-PALLAD_fsb       No_Roll            5             6            98        20230600     20230900              0.0                0.189                  232     TRADEABLE    OFFLINE
-HANG_fsb         No_Roll            5             6            36        20230500     20230600              0.0                0.028                 3441     TRADEABLE    OFFLINE
-HEATOIL_fsb      No_Roll            5             6            36        20230600     20230700              0.0                3.765                 9712     TRADEABLE    OFFLINE
-MSCISING_fsb     No_Roll            5             6            35        20230500     20230600              0.0                0.001                  177     TRADEABLE    OFFLINE
-GASOLINE_fsb     No_Roll            5             6            36        20230600     20230700              0.0                2.986                11922     TRADEABLE    OFFLINE
-BRENT_W_fsb      No_Roll            6            36             6        20230800     20230900              0.0                0.396                19067     TRADEABLE    OFFLINE
-LEANHOG_fsb      No_Roll            6             7            37        20230600     20230700              0.0                1.150                11762    EDITS_ONLY    OFFLINE
-FED_fsb          No_Roll            6             7            37        20230500     20230600              0.0                2.238                18685     TRADEABLE  TRADEABLE
-LIVECOW_fsb      No_Roll            6             7            68        20230600     20230800              0.0                2.391                17152    EDITS_ONLY    OFFLINE
-BUND_fsb         No_Roll           13            14           105        20230600     20230900              0.0                0.001                  884     TRADEABLE    OFFLINE
-BTP_fsb          No_Roll           13            14           105        20230600     20230900              0.0                0.000                   24     TRADEABLE    OFFLINE
-BOBL_fsb         No_Roll           13            14           105        20230600     20230900              0.0                0.001                  321     TRADEABLE    OFFLINE
-OAT_fsb          No_Roll           13            14           105        20230600     20230900              0.0                0.002                  298     TRADEABLE    OFFLINE
-BUXL_fsb         No_Roll           13            14           105        20230600     20230900              0.0                0.002                  107     TRADEABLE    OFFLINE
-SHATZ_fsb        No_Roll           13            14           105        20230600     20230900              0.0                0.001                  305     TRADEABLE    OFFLINE
-NIKKEI_fsb       No_Roll           14            15           106        20230600     20230900              0.0                0.008                   23     TRADEABLE    OFFLINE
-COCOA_fsb        No_Roll           15            16            79        20230700     20230900              0.0                0.311                 6080     TRADEABLE    OFFLINE
-GASOIL_fsb       No_Roll           15            16            48        20230600     20230700              0.0                0.543                13180     TRADEABLE    OFFLINE
-COFFEE_fsb       No_Roll           15            16            90        20230700     20230900              0.0                0.273                 4235     TRADEABLE  TRADEABLE
-JGB_fsb          No_Roll           18            19           110        20230600     20230900              0.0                0.003                   50     TRADEABLE    OFFLINE
-ASX_fsb          No_Roll           20            21           120        20230600     20230900              0.0                0.000                   18     TRADEABLE    OFFLINE
-AEX_fsb          No_Roll           22            23            58        20230600     20230700              0.0                0.000                   11     TRADEABLE    OFFLINE
-NASDAQ_fsb       No_Roll           22            23           114        20230600     20230900              0.0                0.001                  294     TRADEABLE    OFFLINE
-OMXS30_fsb       No_Roll           22            23            58        20230600     20230700              0.0                0.001                  271     TRADEABLE    OFFLINE
-RUSSELL_fsb      No_Roll           22            23           114        20230600     20230900              0.0                0.001                   67     TRADEABLE    OFFLINE
-SMI_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.001                   14     TRADEABLE    OFFLINE
-SP500_fsb        No_Roll           22            23           114        20230600     20230900              0.0                0.001                  698     TRADEABLE    OFFLINE
-JPY_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.005                  345     TRADEABLE  TRADEABLE
-NZD_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.001                   13     TRADEABLE  TRADEABLE
-IBXEX_fsb        No_Roll           22            23            58        20230600     20230700              0.0                0.000                    4     TRADEABLE    OFFLINE
-CAC_fsb          No_Roll           22            23            58        20230600     20230700              0.0                0.000                    5     TRADEABLE    OFFLINE
-FTSE100_fsb      No_Roll           22            23           114        20230600     20230900              0.0                0.001                   38     TRADEABLE    OFFLINE
-EUR_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.006                  466     TRADEABLE  TRADEABLE
-CAD_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.008                  109     TRADEABLE  TRADEABLE
-EUROSTX_fsb      No_Roll           22            23           114        20230600     20230900              0.0                0.000                  192     TRADEABLE    OFFLINE
-CHF_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.014                   81     TRADEABLE  TRADEABLE
-EURGBP_fsb       No_Roll           22            23           114        20230600     20230900              0.0                0.007                   10     TRADEABLE  TRADEABLE
-GBP_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.006                  186     TRADEABLE  TRADEABLE
-DX_fsb           No_Roll           22            23           114        20230600     20230900              0.0                0.013                   97     TRADEABLE    OFFLINE
-DOW_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.002                  115     TRADEABLE    OFFLINE
-DAX_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.001                   50     TRADEABLE    OFFLINE
-CRUDE_W_fsb      No_Roll           22            23            56        20230700     20230800              0.0                0.064                 6297     TRADEABLE    OFFLINE
-AUD_fsb          No_Roll           22            23           114        20230600     20230900              0.0                0.002                   50     TRADEABLE  TRADEABLE
-COTTON2_fsb      No_Roll           23            23           130        20230700     20231000              0.0                0.000                    8     TRADEABLE        n/a
-EURIBOR_fsb      No_Roll           25            26           117        20230600     20230900              0.0                0.000                    0     TRADEABLE  TRADEABLE
-V2X_fsb          No_Roll           27            28            56        20230600     20230700              0.0                0.511                 8357     TRADEABLE  TRADEABLE
-VIX_fsb          No_Roll           27            28            56        20230600     20230700              0.0                0.397                10277     TRADEABLE  TRADEABLE
-SONIA3_fsb       No_Roll           28           118            21        20230600     20230900              0.0                1.205                 1774     TRADEABLE  TRADEABLE
-PLAT_fsb         No_Roll           29            30           121        20230700     20231000              0.0                0.027                  132     TRADEABLE    OFFLINE
-ROBUSTA_fsb      No_Roll           32            33            92        20230700     20230900              0.0                0.519                 3489     TRADEABLE    OFFLINE
-OJ_fsb           No_Roll           33            34            96        20230700     20230900              0.0                0.087                   44    EDITS_ONLY    OFFLINE
-SUGAR11_fsb      No_Roll           34            35           126        20230700     20231000              0.0                0.383                12880     TRADEABLE    OFFLINE
-SOYOIL_fsb       No_Roll           35            36            65        20230700     20230800              0.0                0.192                10797     TRADEABLE    OFFLINE
-SOYMEAL_fsb      No_Roll           35            36            65        20230700     20230800              0.0                0.180                 8485     TRADEABLE    OFFLINE
-SOYBEAN_fsb      No_Roll           35            36            69        20230700     20230800              0.0                0.062                 6335     TRADEABLE        n/a
-WHEAT_fsb        No_Roll           35            36            98        20230700     20230900              0.0                0.184                 8765     TRADEABLE    OFFLINE
-RICE_fsb         No_Roll           35            36            98        20230700     20230900              0.0                0.190                  117    EDITS_ONLY    OFFLINE
-COPPER_fsb       No_Roll           35            36            98        20230700     20230900              0.0                0.035                  816     TRADEABLE    OFFLINE
-CORN_fsb         No_Roll           35            36            98        20230700     20230900              0.0                0.228                24802     TRADEABLE    OFFLINE
-OATIES_fsb       No_Roll           35            36            98        20230700     20230900              0.0                0.061                   26     TRADEABLE    OFFLINE
-SILVER_fsb       No_Roll           35            36            98        20230700     20230900              0.0                0.016                  291     TRADEABLE    OFFLINE
-COCOA_LDN_fsb    No_Roll           43            44           106        20230700     20230900              0.0                0.548                 4062     TRADEABLE    OFFLINE
-SUGAR_WHITE_fsb  No_Roll           49            50           113        20230800     20231000              0.0                0.425                 1109     TRADEABLE    OFFLINE
-GOLD_fsb         No_Roll           62            63           187        20230800     20231200              0.0                0.073                  572     TRADEABLE    OFFLINE
-US10_fsb         No_Roll           96            97           191        20230900     20231200              0.0                0.000                    1     TRADEABLE        n/a
-US2_fsb          No_Roll           96            97           191        20230900     20231200              0.0                0.000                    0     TRADEABLE        n/a
-US30U_fsb        No_Roll           96            97           191        20230900     20231200              0.0                0.000                    0     TRADEABLE        n/a
-US30_fsb         No_Roll           96            97           191        20230900     20231200              0.0                0.000                    2     TRADEABLE        n/a
-US5_fsb          No_Roll           96            97           191        20230900     20231200              0.0                0.000                    0     TRADEABLE        n/a
-WHEAT_ICE_fsb    No_Roll          148           149           331        20231100     20240500              0.0                0.656                  125     TRADEABLE    OFFLINE
-EUA_fsb          No_Roll          204           205           572        20231200     20241200              0.0                0.046                  595     TRADEABLE    OFFLINE
+                  status  roll_expiry  price_expiry  carry_expiry contract_priced        priced_expiry contract_fwd  position_priced  relative_volume_fwd  contract_volume_fwd priced_status fwd_status  period_count
+COCOA_LDN_fsb    No_Roll            4             5            67        20230700  2023-07-07 15:50:00     20230900              0.0                4.537                 7487     TRADEABLE    OFFLINE             7
+GASOIL_fsb       No_Roll            8             9            38        20230700  2023-07-11 15:30:00     20230800              0.0                3.852                37031     TRADEABLE  TRADEABLE             2
+SUGAR_WHITE_fsb  No_Roll           10            11            74        20230800  2023-07-13 16:55:00     20231000              0.0                1.624                 5627     TRADEABLE    OFFLINE             6
+CRUDE_W_fsb      No_Roll           16            17            50        20230800  2023-07-19 18:30:00     20230900              0.0                0.131                14016     TRADEABLE  TRADEABLE             3
+VIX_fsb          No_Roll           16            17            45        20230700  2023-07-19 13:00:00     20230800              0.0                1.188                19359     TRADEABLE  TRADEABLE             5
+V2X_fsb          No_Roll           16            17            45        20230700  2023-07-19 09:30:00     20230800              0.0                0.413                 6503     TRADEABLE  TRADEABLE             5
+CAC_fsb          No_Roll           18            19            47        20230700  2023-07-21 13:40:00     20230800              0.0                0.000                    9     TRADEABLE    OFFLINE             2
+AEX_fsb          No_Roll           18            19            75        20230700  2023-07-21 13:30:00     20230900              0.0                0.002                   65     TRADEABLE    OFFLINE             2
+OMXS30_fsb       No_Roll           18            19            47        20230700  2023-07-21 07:00:00     20230800              0.0                0.000                   23     TRADEABLE    OFFLINE             2
+IBXEX_fsb        No_Roll           18            19            47        20230700  2023-07-21 14:15:00     20230800              0.0                0.000                   16     TRADEABLE    OFFLINE             2
+GOLD_fsb         No_Roll           23            24           148        20230800  2023-07-26 17:30:00     20231200              0.0                0.014                 1163     TRADEABLE    OFFLINE             3
+GAS_US_fsb       No_Roll           23            24            57        20230800  2023-07-26 18:30:00     20230900              0.0                0.267                13199     TRADEABLE  TRADEABLE             2
+SOYMEAL_fsb      No_Roll           25            26            91        20230800  2023-07-28 18:15:00     20231200              0.0                0.000                    0           n/a        n/a             2
+HANG_fsb         No_Roll           25            26            59        20230700  2023-07-28 02:59:00     20230800              0.0                0.005                  490           n/a        n/a             3
+SOYOIL_fsb       No_Roll           25            26            59        20230800  2023-07-28 18:15:00     20230900              0.0                0.333                 7661           n/a        n/a             4
+GASOLINE_fsb     No_Roll           25            26            61        20230800  2023-07-28 18:30:00     20230900              0.0                0.401                 5862           n/a        n/a             2
+MSCISING_fsb     No_Roll           25            26            59        20230700  2023-07-28 09:10:00     20230800              0.0                0.000                   46     TRADEABLE    OFFLINE             2
+HEATOIL_fsb      No_Roll           25            26            61        20230800  2023-07-28 18:30:00     20230900              0.0                0.307                 3977           n/a        n/a             2
+BRENT_W_fsb      No_Roll           25            26            59        20230900  2023-07-28 18:30:00     20231000              0.0                0.241                48148           n/a        n/a             5
+FED_fsb          No_Roll           28            29            60        20230700  2023-07-31 19:00:00     20230800              0.0                2.016                37975           n/a        n/a            12
+LIVECOW_fsb      No_Roll           28            29            89        20230800  2023-07-31 18:00:00     20231000              0.0                0.431                 8472    EDITS_ONLY    OFFLINE             2
+LEANHOG_fsb      No_Roll           28            29            91        20230800  2023-07-31 18:00:00     20231000              0.0                0.365                 4490           n/a        n/a             2
+COCOA_fsb        No_Roll           39            40           131        20230900  2023-08-11 17:50:00     20231200              0.0                0.319                 6636     TRADEABLE  TRADEABLE             7
+ROBUSTA_fsb      No_Roll           50            51           110        20230900  2023-08-22 16:30:00     20231100              0.0                0.346                 3815     TRADEABLE  TRADEABLE             3
+COFFEE_fsb       No_Roll           50            51           141        20230900  2023-08-22 18:25:00     20231200              0.0                0.257                 4019     TRADEABLE    OFFLINE             2
+OJ_fsb           No_Roll           56            57           116        20230900  2023-08-28 17:30:00     20231100              0.0                0.078                   25    EDITS_ONLY    OFFLINE             2
+US2_fsb          No_Roll           57            58           149        20230900  2023-08-29 19:00:00     20231200              0.0                0.000                    6     TRADEABLE    OFFLINE             2
+US10_fsb         No_Roll           57            58           149        20230900  2023-08-29 19:00:00     20231200              0.0                0.000                   34     TRADEABLE    OFFLINE             2
+US30_fsb         No_Roll           57            58           149        20230900  2023-08-29 19:00:00     20231200              0.0                0.000                   10     TRADEABLE    OFFLINE             2
+US5_fsb          No_Roll           57            58           149        20230900  2023-08-29 19:00:00     20231200              0.0                0.000                    3     TRADEABLE    OFFLINE             2
+GILT_fsb         No_Roll           57            58           149        20230900  2023-08-29 15:15:00     20231200              0.0                0.000                   10     TRADEABLE    OFFLINE             2
+US30U_fsb        No_Roll           57            58           149        20230900  2023-08-29 19:00:00     20231200              0.0                0.000                    0     TRADEABLE    OFFLINE             2
+SILVER_fsb       No_Roll           58            59           152        20230900  2023-08-30 17:25:00     20231200              0.0                0.018                  381           n/a        n/a             2
+RICE_fsb         No_Roll           58            59           122        20230900  2023-08-30 17:15:00     20231100              0.0                0.029                   19           n/a        n/a             2
+PALLAD_fsb       No_Roll           58            59           150        20230900  2023-08-30 17:00:00     20231200              0.0                0.009                   10     TRADEABLE    OFFLINE             2
+OATIES_fsb       No_Roll           58            59           152        20230900  2023-08-30 18:15:00     20231200              0.0                3.084                  331           n/a        n/a             2
+CORN_fsb         No_Roll           58            59           150        20230900  2023-08-30 18:15:00     20231200              0.0                2.016               216443           n/a        n/a             2
+WHEAT_fsb        No_Roll           58            59           150        20230900  2023-08-30 18:15:00     20231200              0.0                0.277                13531           n/a        n/a             4
+COPPER_fsb       No_Roll           58            59           150        20230900  2023-08-30 17:00:00     20231200              0.0                0.039                 1018           n/a        n/a             2
+SHATZ_fsb        No_Roll           65            66           157        20230900  2023-09-06 15:15:00     20231200              0.0                0.000                    3     TRADEABLE    OFFLINE             2
+BOBL_fsb         No_Roll           65            66           157        20230900  2023-09-06 15:15:00     20231200              0.0                0.000                    7     TRADEABLE    OFFLINE             2
+BTP3_fsb         No_Roll           65            66           157        20230900  2023-09-06 15:15:00     20231200              0.0                0.000                    0     TRADEABLE    OFFLINE             2
+BUXL_fsb         No_Roll           65            66           157        20230900  2023-09-06 15:15:00     20231200              0.0                0.000                    2     TRADEABLE    OFFLINE             2
+BUND_fsb         No_Roll           65            66           157        20230900  2023-09-06 15:15:00     20231200              0.0                0.000                    5     TRADEABLE    OFFLINE             2
+BTP_fsb          No_Roll           65            66           157        20230900  2023-09-06 15:15:00     20231200              0.0                0.000                   34     TRADEABLE    OFFLINE             2
+OAT_fsb          No_Roll           65            66           157        20230900  2023-09-06 15:15:00     20231200              0.0                0.000                   60     TRADEABLE    OFFLINE             2
+NIKKEI_fsb       No_Roll           66            67           158        20230900  2023-09-07 20:15:00     20231200              0.0                0.003                    9     TRADEABLE    OFFLINE             2
+JGB_fsb          No_Roll           70            71           163        20230900  2023-09-11 05:10:00     20231200              0.0                0.000                    0     TRADEABLE    OFFLINE             3
+GBP_fsb          No_Roll           74            75           166        20230900  2023-09-15 19:00:00     20231200              0.0                0.004                  191     TRADEABLE  TRADEABLE             4
+AUD_fsb          No_Roll           74            75           166        20230900  2023-09-15 19:00:00     20231200              0.0                0.002                   63     TRADEABLE  TRADEABLE             4
+DAX_fsb          No_Roll           74            75           166        20230900  2023-09-15 11:00:00     20231200              0.0                0.000                   16     TRADEABLE    OFFLINE             2
+DOW_fsb          No_Roll           74            75           166        20230900  2023-09-15 12:30:00     20231200              0.0                0.001                   38     TRADEABLE    OFFLINE             2
+DX_fsb           No_Roll           74            75           166        20230900  2023-09-15 18:00:00     20231200              0.0                0.003                   37     TRADEABLE    OFFLINE             2
+EURGBP_fsb       No_Roll           74            75           166        20230900  2023-09-15 19:00:00     20231200              0.0                0.000                    0     TRADEABLE  TRADEABLE             4
+JPY_fsb          No_Roll           74            75           166        20230900  2023-09-15 19:00:00     20231200              0.0                0.000                   18     TRADEABLE  TRADEABLE             4
+SP500_fsb        No_Roll           74            75           166        20230900  2023-09-15 12:30:00     20231200              0.0                0.001                  400     TRADEABLE    OFFLINE             2
+CHF_fsb          No_Roll           74            75           166        20230900  2023-09-15 19:00:00     20231200              0.0                0.004                   34     TRADEABLE  TRADEABLE             4
+NZD_fsb          No_Roll           74            75           166        20230900  2023-09-15 19:00:00     20231200              0.0                0.000                    1     TRADEABLE  TRADEABLE             4
+EUROSTX_fsb      No_Roll           74            75           166        20230900  2023-09-15 09:50:00     20231200              0.0                0.000                   52     TRADEABLE    OFFLINE             2
+CAD_fsb          No_Roll           74            75           166        20230900  2023-09-15 19:00:00     20231200              0.0                0.002                   69     TRADEABLE  TRADEABLE             4
+RUSSELL_fsb      No_Roll           74            75           166        20230900  2023-09-15 12:30:00     20231200              0.0                0.000                   25     TRADEABLE    OFFLINE             2
+EUR_fsb          No_Roll           74            75           166        20230900  2023-09-15 19:00:00     20231200              0.0                0.004                  334     TRADEABLE  TRADEABLE             4
+FTSE100_fsb      No_Roll           74            75           166        20230900  2023-09-15 09:00:00     20231200              0.0                0.001                   85     TRADEABLE    OFFLINE             2
+NASDAQ_fsb       No_Roll           74            75           166        20230900  2023-09-15 12:30:00     20231200              0.0                0.003                  645     TRADEABLE    OFFLINE             2
+SMI_fsb          No_Roll           74            75           166        20230900  2023-09-15 07:00:00     20231200              0.0                0.010                  266     TRADEABLE    OFFLINE             2
+EURIBOR-ICE_fsb  No_Roll           77            78           169        20230900  2023-09-18 09:00:00     20231200              0.0                0.727                85196     TRADEABLE  TRADEABLE            12
+SONIA3_fsb       No_Roll           80           170            79        20230900  2023-12-19 11:00:00     20231200              0.0                0.116                  207     TRADEABLE  TRADEABLE            10
+ASX_fsb          No_Roll           80            81           172        20230900  2023-09-21 01:59:00     20231200              0.0                0.023                  492     TRADEABLE    OFFLINE             3
+PLAT_fsb         No_Roll           81            82           173        20231000  2023-09-22 17:05:00     20240100              0.0                0.013                  125     TRADEABLE    OFFLINE             2
+SUGAR11_fsb      No_Roll           86            87           240        20231000  2023-09-27 16:55:00     20240300              0.0                0.266                17712     TRADEABLE    OFFLINE             8
+WHEAT_ICE_fsb    No_Roll          109           110           292        20231100  2023-10-20 15:50:00     20240500              0.0                0.306                   76     TRADEABLE    OFFLINE             3
+SOYBEAN_fsb      No_Roll          119           120           183        20231100  2023-10-30 18:15:00     20240100              0.0                0.112                14901           n/a        n/a             2
+COTTON2_fsb      No_Roll          138           138           229        20231200  2023-11-17 19:15:00     20240300              0.0                0.136                 2484     TRADEABLE    OFFLINE             2
+EUA_fsb          No_Roll          165           166           533        20231200  2023-12-15 17:00:00     20241200              0.0                0.079                  990     TRADEABLE    OFFLINE             3
 
 Roll_exp is days until preferred roll set by roll parameters. Prc_exp is days until price contract expires, Crry_exp is days until carry contract expires
 Contract suffix: p=price, f=forward, c=carry
