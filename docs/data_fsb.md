@@ -10,16 +10,21 @@ nav_order: 1
 
 ## Challenges
 
-### EPIC recycling
-On the IG platforms, a market that you can trade on is identified by an *EPIC*. An EPIC is a unique text 
-string containing letters, dots and numbers. For example, `IX.D.FTSE.DAILY.IP` is the EPIC for 
-the daily funded bet (DFB) on the FTSE 100 Index. EPICs work fine for undated instruments like this, but 
-for dated products they are less useful. For example, at the time of writing (January 2022), the EPIC for 
-the spread bet based on the ASX Australia 200 Index future (March 2022 expiry) is `IX.D.ASX.MONTH3.IP`. 
-And the contract expiring June 2022 is `IX.D.ASX.MONTH2.IP`, and September 2022 is `IX.D.ASX.MONTH4.IP`. 
-No doubt December 2022 will be `IX.D.ASX.MONTH3.IP` again. EPICs are recycled.
+### Anatomy of an epic
 
-Many markets only have two EPICs. For example the NASDAQ future has:
+On the IG platforms, a market that you can trade on is identified by an *epic*. An epic is a unique text string containing letters, dots and numbers. A lot of the challenges faced in this project relate to these epics, so its worth looking at their anatomy. Here's an example, it is one of the epics for a futures based dated spread bet on the FTSE 100 equities index: `IX.D.FTSE.MONTH1.IP`
+
+There's five parts to the epic 
+1. Two letter sector indicator. `IX` for indices, `CF` for FX, `IR` for bonds and rates, `EN` for energy, `CO` for commodities, `MT` for metals, `IN` for volatility indices
+2. Always `D`
+3. Market name. Examples `FTSE` for FTSE 100, `C` for Corn, `GC` for Gold
+4. Epic period. Two or more period indicators. Examples `Month1`, `MONTH2`, `MAR`, `DEC` 
+5. Always `IP`
+
+### epic recycling
+`IX.D.FTSE.DAILY.IP` is the epic for the daily funded bet (DFB) on the FTSE 100 Index. Epics work fine for undated instruments like this, but for dated products they are less useful. For example, at the time of writing (January 2022), the epic for the spread bet based on the ASX Australia 200 Index future (March 2022 expiry) is `IX.D.ASX.MONTH3.IP`. And the contract expiring June 2022 is `IX.D.ASX.MONTH2.IP`, and September 2022 is `IX.D.ASX.MONTH4.IP`. No doubt December 2022 will be `IX.D.ASX.MONTH3.IP` again. Epics are recycled.
+
+Many markets only have two epics. For example the NASDAQ future has:
 - `IX.D.NASDAQ.MONTH3.IP`
 - `IX.D.NASDAQ.MONTH4.IP`
 
@@ -27,49 +32,30 @@ even though there are four contracts per year. And the NIKKEI:
 - `IX.D.NIKFUT.FAR.IP`
 - `IX.D.NIKFUT.FAR3.IP`
 
-**Problem one:** there is no pattern or system for the EPIC names. When this was queried with IG Support, their 
+**Problem one:** there is no pattern or system for the epic names. When this was queried with IG Support, their 
 response was:
 
-> The dealing desk choose which EPIC to use and when, unfortunately we are unable to confirm beforehand, this is 
-something they do as and when needed. They are also able to make changes to which epic is used at any given moment, so 
-I do advise to check the epic if you ever receive an error
+> The dealing desk choose which epic to use and when, unfortunately we are unable to confirm beforehand, this is something they do as and when needed. They are also able to make changes to which epic is used at any given moment, so I do advise to check the epic if you ever receive an error
 
-**Problem two:** obviously, due to the EPICs being recycled, it is impossible to get historical data for futures based 
-spread bets. At the time of writing (January 2022) the oldest ASX contract for which you can get price 
-history is December 2021. 
+**Problem two:** obviously, due to the epics being recycled, it is impossible to get historical data for futures based spread bets. At the time of writing (January 2022) the oldest ASX contract for which you can get price history is December 2021. 
 
-**Problem three:** just in terms of data, there are two API endpoints that an automated trading system would be 
-interested in; one to get current prices, and another to get historical prices. To make the problems described above even
-worse, with IG these two APIs are not synced. An EPIC used in the current price API will give you data for a different 
-contract than the one for the historical price API.
+**Problem three:** just in terms of data, there are two API endpoints that an automated trading system would be interested in; one to get current prices, and another to get historical prices. To make the problems described above even worse, with IG these two APIs are not synced. An epic used in the current price API will give you data for a different contract than the one for the historical price API.
 
-Another request was made to IG Support for a schedule of the roll cycles for all the futures based spread bets. The 
-response was:
+Another request was made to IG Support for a schedule of the roll cycles for all the futures based spread bets. The response was:
 
-> Your request of "Roll cycle for all Commodities, Indices, and Bonds and Rates" is not something we can provide. We 
-will only be providing information based on the API reference. Some products may have the same EPIC, but there is no 
-guarantee it will be the same always and its up to our dealing desk to manage that. And in such cases, we will not be 
-informing clients of the changes so thats something you will need to take note of.
+> Your request of "Roll cycle for all Commodities, Indices, and Bonds and Rates" is not something we can provide. We will only be providing information based on the API reference. Some products may have the same epic, but there is no guarantee it will be the same always and its up to our dealing desk to manage that. And in such cases, we will not be informing clients of the changes so thats something you will need to take note of.
 
 ### IG API rate limits
 
-The IG APIs have rate limits; you can only make a certain number of requests during a certain time period
-(eg minute, hour, week etc) depending on the request type. The limits for the LIVE environment are published 
-[here](https://labs.ig.com/faq), but the limits for DEMO are lower, and have been known to change randomly and 
-without notice. The limits, as well as the epic recycling described above, mean that it is not practical to get 
-useful historical prices from the IG APIs
+The IG APIs have rate limits; you can only make a certain number of requests during a certain time period (eg minute, hour, week etc) depending on the request type. The limits for the LIVE environment are published [here](https://labs.ig.com/faq), but the limits for DEMO are lower, and have been known to change randomly and without notice. The limits, as well as the epic recycling described above, mean that it is not practical to get useful historical prices from the IG APIs
 
 ### pysystemtrade is a futures trading system
 
-From one of [Rob's comments](https://github.com/robcarver17/pysystemtrade/issues/391#issuecomment-911441646) in an 
-issue in the main project:
+From one of [Rob's comments](https://github.com/robcarver17/pysystemtrade/issues/391#issuecomment-911441646) in an issue in the main project:
 
-> Although I sort of originally envisaged pysystemtrade being multi asset, in practice the use of futures is now 
-completely baked in. However it should work pretty well for anything that looks like a future: a dated spread bet 
-being a good example of that
+> Although I sort of originally envisaged pysystemtrade being multi asset, in practice the use of futures is now completely baked in. However it should work pretty well for anything that looks like a future: a dated spread bet being a good example of that
 
-What this means for this fork is that backtesting works pretty much straight out of the box, as long as the instrument 
-config, roll config and price data is good. Anything else, especially production stuff, will likely need work.
+What this means for this fork is that backtesting works pretty much straight out of the box, as long as the instrument config, roll config and price data is good. Anything else, especially production stuff, will likely need work.
 
 ## prices
 
@@ -99,7 +85,7 @@ This fork includes four entirely new MongoDB collections, `fsb_contract_prices`,
 
 ### epic_history
 
-Epic history is a timeseries dataframe, one per instrument, and records the changes in the relationship over time between an instrument, its EPICs, and its underlying futures contracts. Here's a sample from `GOLD_fsb` at the time of writing (May 2023):
+Epic history is a timeseries dataframe, one per instrument, and records the changes in the relationship over time between an instrument, its epics, and its underlying futures contracts. Here's a sample from `GOLD_fsb` at the time of writing (May 2023):
 
 |         Date         |                      MONTH1                       |                        Month2                        |                       Month3                       | Month1 |
 |:--------------------:|:-------------------------------------------------:|:----------------------------------------------------:|:--------------------------------------------------:|:------:|
@@ -112,23 +98,21 @@ Epic history is a timeseries dataframe, one per instrument, and records the chan
 |2023-04-17 11:17:13|UNMAPPED|DEC-23&#x7c;2023-11-27 18:30:00&#x7c;OFFLINE|AUG-23&#x7c;2023-07-26 17:30:00&#x7c;OFFLINE|JUN-23&#x7c;2023-05-25 17:30:00&#x7c;EDITS_ONLY|
 |2023-04-18 11:16:55|UNMAPPED|DEC-23&#x7c;2023-11-27 18:30:00&#x7c;OFFLINE|AUG-23&#x7c;2023-07-26 17:30:00&#x7c;OFFLINE|JUN-23&#x7c;2023-05-25 17:30:00&#x7c;TRADEABLE|
 
-To understand what this means, we need to look at the full EPIC. For GOLD_fsb, all the known EPICs are currently
+To understand what this means, we need to look at the full epic. For GOLD_fsb, all the known epics are currently
 
 - MT.D.GC.Month1.IP
 - MT.D.GC.Month2.IP
 - MT.D.GC.Month3.IP
 
-The EPIC can be split into 5 parts, separated by the dot '.' character. Part 2 is always 'D', and part 5 is always 'IP'. Part 3 describes the instrument, 'GC' here, which is the two letter symbol for the Gold future on the CME. Part 1 represents the asset class, Indexes, Rates, Commodities, Energy, Metals etc. Part 4 we call the 'epic period', and it maps to the column names in the 'epic_history' Arctic collection. 
+Looking at the last row in the collection, the Month1 column shows us that the epic `MT.D.GC.Month1.IP` currently represents the June 2023 Gold contract, it expires on 25 June 2023, and it is currently tradeable. The previous row shows us that before 18 April 2023, the June contract's trading status was EDITS_ONLY. 
 
-Looking at the last row in the collection, the Month1 column shows us that the EPIC `MT.D.GC.Month1.IP` currently represents the June 2023 Gold contract, it expires on 25 June 2023, and it is currently tradeable. The previous row shows us that before 18 April 2023, the June contract's trading status was EDITS_ONLY. 
-
-The Month3 column shows that the next contract, August 2023, will have the EPIC `MT.D.GC.Month3.IP`, but it is currently not tradeable. The Month2 column shows that the December 2023 contract will have the EPIC `MT.D.GC.Month2.IP`, (also not tradeable), but before the end of March, that EPIC represented the April 2023 contract. 
+The Month3 column shows that the next contract, August 2023, will have the epic `MT.D.GC.Month3.IP`, but it is currently not tradeable. The Month2 column shows that the December 2023 contract will have the epic `MT.D.GC.Month2.IP`, (also not tradeable), but before the end of March, that epic represented the April 2023 contract. 
 
 The first column shows us that before the middle of February 2023, there was another epic period being used. The name changed from 'MONTH1' to 'Month1' around that time. 
 
 ### market_info
 
-Market info stores the entire response from IG's `/markets` REST endpoint. The response contains all the published information for the passed EPIC. For example, minimum bet size, market hours, expiry date, margin bands, dealing rules and so forth. We save it locally, so we don't have to hit the IG API too often, due to the rate limits. 
+Market info stores the entire response from IG's `/markets` REST endpoint. The response contains all the published information for the passed epic. For example, minimum bet size, market hours, expiry date, margin bands, dealing rules and so forth. We save it locally, so we don't have to hit the IG API too often, due to the rate limits. 
 
 ### epic_periods
 
