@@ -1,23 +1,23 @@
 
 ********************************************************************************
-             Remove FSB markets report produced on 30/06/2023 22:31             
+             Remove FSB markets report produced on 30/08/2023 22:32             
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['AUD_fsb', 'BRENT', 'BTP3_fsb', 'EURIBOR-ICE_fsb', 'EUR_fsb'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['BRENT', 'BTP3_fsb', 'EURIBOR-ICE_fsb'] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['EDOLLAR_fsb', 'CORN_fsb', 'LUMBER_fsb', 'JSE40_fsb', 'EURIBOR_fsb']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['RICE_fsb', 'JSE40_fsb', 'COCOA_fsb', 'LIVECOW_fsb', 'COCOA_LDN_fsb', 'LUMBER_fsb', 'CORN_fsb', 'EURIBOR_fsb', 'EDOLLAR_fsb']
 
 
 
-Markets too expensive (SR cost per trade > 0.010): ['AUD_fsb', 'BTP3_fsb', 'CHF_fsb', 'COCOA_LDN_fsb', 'COCOA_fsb', 'COTTON2_fsb', 'DX_fsb', 'EURGBP_fsb', 'EUR_fsb', 'FED_fsb', 'GBP_fsb', 'JGB_fsb', 'LIVECOW_fsb', 'MSCISING_fsb', 'OATIES_fsb', 'PLAT_fsb', 'SONIA3_fsb', 'V2X_fsb']
+Markets too expensive (SR cost per trade > 0.010): ['EURIBOR-ICE_fsb', 'FED_fsb', 'MSCISING_fsb', 'OATIES_fsb']
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BTP3_fsb', 'EURIBOR-ICE_fsb', 'FED_fsb', 'JGB_fsb', 'SHATZ_fsb', 'SONIA3_fsb', 'US2_fsb']
+Markets too safe (Annual % std. dev < 5.0): ['BOBL_fsb', 'BTP3_fsb', 'EURIBOR-ICE_fsb', 'FED_fsb', 'JGB_fsb', 'SHATZ_fsb', 'SONIA3_fsb', 'US2_fsb', 'US5_fsb']
 
 
 
@@ -29,20 +29,14 @@ Use the following if you want to minimise turnover of markets
 Put following into config.yaml
 exclude_instrument_lists:
   bad_markets:
-    - AUD_fsb 
     - BRENT 
     - BTP3_fsb 
-    - COCOA_LDN_fsb 
-    - COCOA_fsb 
     - EURGBP_fsb 
     - EURIBOR-ICE_fsb 
-    - EUR_fsb 
     - FED_fsb 
     - JGB_fsb 
-    - LIVECOW_fsb 
     - MSCISING_fsb 
     - OATIES_fsb 
-    - RICE_fsb 
     - SHATZ_fsb 
     - SONIA3_fsb 
     - US2_fsb 
@@ -55,28 +49,18 @@ Use the following if you want a clean slate without considering existing markets
 Put following into config.yaml
 exclude_instrument_lists:
   bad_markets:
-    - AUD_fsb 
+    - BOBL_fsb 
     - BRENT 
     - BTP3_fsb 
-    - CHF_fsb 
-    - COCOA_LDN_fsb 
-    - COCOA_fsb 
-    - COTTON2_fsb 
-    - DX_fsb 
-    - EURGBP_fsb 
     - EURIBOR-ICE_fsb 
-    - EUR_fsb 
     - FED_fsb 
-    - GBP_fsb 
     - JGB_fsb 
-    - LIVECOW_fsb 
     - MSCISING_fsb 
     - OATIES_fsb 
-    - PLAT_fsb 
     - SHATZ_fsb 
     - SONIA3_fsb 
     - US2_fsb 
-    - V2X_fsb 
+    - US5_fsb 
  
 
 

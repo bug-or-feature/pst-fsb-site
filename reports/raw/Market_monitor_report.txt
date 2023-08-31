@@ -1,0 +1,1987 @@
+
+********************************************************************************
+               Market monitor report produced on 30/08/2023 22:40               
+********************************************************************************
+
+
+This report lists instruments by their percentage returns, over different periods (eg 1 day, 7 days, 1 month, 3 months, 6 months, YTD and 1 year) 
+The first few tables are top6/bottom 6, then subsequently we have all instruments.
+The return tables are sorted by instrument name, outright percentage return (1=1%), and vol adjusted return.
+Search by period/order eg 1B/name, 1M/change, YTD/vol_adjusted 
++Periods: ['1B', '7D', '1M', '3M', '6M', 'YTD', '12M']
+
+======================================================
+Market moves for period 1B, sort by change (1B/change)
+======================================================
+
+             name  change  vol_adjusted
+30     GASOIL_fsb   -3.60         -1.90
+47     OATIES_fsb   -3.37         -1.63
+37    HEATOIL_fsb   -2.96         -1.59
+72        VIX_fsb   -2.83         -0.78
+62     SOYOIL_fsb   -1.51         -0.69
+51     PALLAD_fsb   -1.48         -0.69
+23        EUA_fsb    1.47          0.81
+14      COCOA_fsb    2.05          1.89
+13  COCOA_LDN_fsb    2.17          2.03
+49         OJ_fsb    2.49          1.21
+32     GAS_US_fsb    4.22          1.31
+41    LEANHOG_fsb    4.64          2.34
+
+
+==================================================================
+Market moves for period 1B, sort by vol_adjusted (1B/vol_adjusted)
+==================================================================
+
+             name  change  vol_adjusted
+30     GASOIL_fsb   -3.60         -1.90
+47     OATIES_fsb   -3.37         -1.63
+37    HEATOIL_fsb   -2.96         -1.59
+22         DX_fsb   -0.36         -0.99
+64    SUGAR11_fsb   -1.21         -0.81
+72        VIX_fsb   -2.83         -0.78
+27        EUR_fsb    0.50          1.24
+32     GAS_US_fsb    4.22          1.31
+33        GBP_fsb    0.65          1.50
+14      COCOA_fsb    2.05          1.89
+13  COCOA_LDN_fsb    2.17          2.03
+41    LEANHOG_fsb    4.64          2.34
+
+
+======================================================
+Market moves for period 7D, sort by change (7D/change)
+======================================================
+
+             name  change  vol_adjusted
+71        V2X_fsb  -10.03         -1.26
+72        VIX_fsb   -9.38         -1.09
+74      WHEAT_fsb   -5.68         -0.71
+51     PALLAD_fsb   -4.78         -0.87
+17       CORN_fsb   -3.27         -0.51
+23        EUA_fsb   -1.14         -0.25
+53       RICE_fsb    6.54          1.58
+14      COCOA_fsb    6.65          2.11
+64    SUGAR11_fsb    6.68          1.72
+13  COCOA_LDN_fsb    7.85          2.57
+47     OATIES_fsb    8.53          1.48
+32     GAS_US_fsb    8.81          1.00
+
+
+==================================================================
+Market moves for period 7D, sort by vol_adjusted (7D/vol_adjusted)
+==================================================================
+
+               name  change  vol_adjusted
+71          V2X_fsb  -10.03         -1.26
+6          BTP3_fsb   -0.43         -1.15
+72          VIX_fsb   -9.38         -1.09
+56        SHATZ_fsb   -0.22         -0.89
+51       PALLAD_fsb   -4.78         -0.87
+74        WHEAT_fsb   -5.68         -0.71
+47       OATIES_fsb    8.53          1.48
+53         RICE_fsb    6.54          1.58
+64      SUGAR11_fsb    6.68          1.72
+65  SUGAR_WHITE_fsb    6.06          1.83
+14        COCOA_fsb    6.65          2.11
+13    COCOA_LDN_fsb    7.85          2.57
+
+
+======================================================
+Market moves for period 1M, sort by change (1M/change)
+======================================================
+
+               name  change  vol_adjusted
+74        WHEAT_fsb  -16.21         -0.91
+17         CORN_fsb   -9.16         -0.60
+36         HANG_fsb   -8.49         -1.13
+72          VIX_fsb   -8.25         -0.47
+43     MSCISING_fsb   -8.04         -1.74
+73    WHEAT_ICE_fsb   -5.98         -0.51
+37      HEATOIL_fsb    5.38          0.58
+49           OJ_fsb    5.41          0.59
+53         RICE_fsb    5.97          0.55
+65  SUGAR_WHITE_fsb    6.72          0.85
+13    COCOA_LDN_fsb    7.97          1.08
+47       OATIES_fsb   11.85          0.80
+
+
+==================================================================
+Market moves for period 1M, sort by vol_adjusted (1M/vol_adjusted)
+==================================================================
+
+               name  change  vol_adjusted
+43     MSCISING_fsb   -8.04         -1.74
+0           AEX_fsb   -5.59         -1.38
+36         HANG_fsb   -8.49         -1.13
+20          DAX_fsb   -3.85         -1.00
+74        WHEAT_fsb  -16.21         -0.91
+26      EUROSTX_fsb   -3.68         -0.86
+22           DX_fsb    1.70          0.70
+47       OATIES_fsb   11.85          0.80
+65  SUGAR_WHITE_fsb    6.72          0.85
+11          CAD_fsb    2.17          1.04
+13    COCOA_LDN_fsb    7.97          1.08
+40          JPY_fsb    4.32          1.33
+
+
+======================================================
+Market moves for period 3M, sort by change (3M/change)
+======================================================
+
+             name  change  vol_adjusted
+72        VIX_fsb  -38.20         -1.35
+71        V2X_fsb  -23.33         -0.91
+51     PALLAD_fsb  -12.67         -0.55
+15     COFFEE_fsb  -11.89         -0.69
+17       CORN_fsb  -11.42         -0.75
+68      US30U_fsb   -6.16         -0.71
+47     OATIES_fsb   32.67          2.00
+41    LEANHOG_fsb   37.03          1.65
+13  COCOA_LDN_fsb   37.41          3.88
+37    HEATOIL_fsb   38.14          1.60
+30     GASOIL_fsb   43.91          1.74
+62     SOYOIL_fsb   77.10          2.96
+
+
+==================================================================
+Market moves for period 3M, sort by vol_adjusted (3M/vol_adjusted)
+==================================================================
+
+             name  change  vol_adjusted
+72        VIX_fsb  -38.20         -1.35
+71        V2X_fsb  -23.33         -0.91
+17       CORN_fsb  -11.42         -0.75
+66       US10_fsb   -3.25         -0.73
+69       US30_fsb   -5.06         -0.72
+68      US30U_fsb   -6.16         -0.71
+30     GASOIL_fsb   43.91          1.74
+14      COCOA_fsb   20.41          2.00
+47     OATIES_fsb   32.67          2.00
+60    SOYBEAN_fsb   28.16          2.08
+62     SOYOIL_fsb   77.10          2.96
+13  COCOA_LDN_fsb   37.41          3.88
+
+
+======================================================
+Market moves for period 6M, sort by change (6M/change)
+======================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -52.59         -1.83
+71          V2X_fsb  -32.24         -1.13
+73    WHEAT_ICE_fsb  -21.75         -1.34
+74        WHEAT_fsb  -20.63         -0.88
+32       GAS_US_fsb  -18.16         -0.23
+51       PALLAD_fsb  -13.65         -0.36
+47       OATIES_fsb   29.93          1.41
+14        COCOA_fsb   33.09          2.34
+65  SUGAR_WHITE_fsb   36.40          2.03
+49           OJ_fsb   39.14          1.25
+54      ROBUSTA_fsb   41.79          1.92
+13    COCOA_LDN_fsb   51.48          3.65
+
+
+==================================================================
+Market moves for period 6M, sort by vol_adjusted (6M/vol_adjusted)
+==================================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -52.59         -1.83
+73    WHEAT_ICE_fsb  -21.75         -1.34
+71          V2X_fsb  -32.24         -1.13
+25  EURIBOR-ICE_fsb   -0.36         -1.11
+74        WHEAT_fsb  -20.63         -0.88
+29      FTSE100_fsb   -4.98         -0.71
+45       NIKKEI_fsb   18.79          1.64
+54      ROBUSTA_fsb   41.79          1.92
+65  SUGAR_WHITE_fsb   36.40          2.03
+42      LIVECOW_fsb   12.61          2.16
+14        COCOA_fsb   33.09          2.34
+13    COCOA_LDN_fsb   51.48          3.65
+
+
+========================================================
+Market moves for period YTD, sort by change (YTD/change)
+========================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -58.39         -1.71
+71          V2X_fsb  -40.18         -1.13
+32       GAS_US_fsb  -40.01         -0.36
+51       PALLAD_fsb  -32.46         -0.73
+74        WHEAT_fsb  -29.18         -1.05
+73    WHEAT_ICE_fsb  -28.86         -1.40
+64      SUGAR11_fsb   40.67          1.78
+65  SUGAR_WHITE_fsb   41.37          1.85
+14        COCOA_fsb   41.91          2.06
+13    COCOA_LDN_fsb   55.28          2.94
+54      ROBUSTA_fsb   71.03          2.88
+49           OJ_fsb   83.40          2.35
+
+
+====================================================================
+Market moves for period YTD, sort by vol_adjusted (YTD/vol_adjusted)
+====================================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -58.39         -1.71
+73    WHEAT_ICE_fsb  -28.86         -1.40
+71          V2X_fsb  -40.18         -1.13
+74        WHEAT_fsb  -29.18         -1.05
+17         CORN_fsb  -17.75         -1.00
+67          US2_fsb   -1.99         -0.95
+65  SUGAR_WHITE_fsb   41.37          1.85
+42      LIVECOW_fsb   15.50          1.91
+14        COCOA_fsb   41.91          2.06
+49           OJ_fsb   83.40          2.35
+54      ROBUSTA_fsb   71.03          2.88
+13    COCOA_LDN_fsb   55.28          2.94
+
+
+========================================================
+Market moves for period 12M, sort by change (12M/change)
+========================================================
+
+               name  change  vol_adjusted
+32       GAS_US_fsb  -74.20         -1.18
+72          VIX_fsb  -65.50         -1.30
+71          V2X_fsb  -55.26         -0.98
+51       PALLAD_fsb  -41.39         -0.73
+73    WHEAT_ICE_fsb  -36.23         -0.97
+74        WHEAT_fsb  -32.87         -0.64
+31     GASOLINE_fsb   50.08          0.51
+14        COCOA_fsb   53.07          1.82
+65  SUGAR_WHITE_fsb   61.60          1.94
+64      SUGAR11_fsb   63.32          1.99
+13    COCOA_LDN_fsb   85.42          3.34
+49           OJ_fsb  124.17          2.79
+
+
+====================================================================
+Market moves for period 12M, sort by vol_adjusted (12M/vol_adjusted)
+====================================================================
+
+               name  change  vol_adjusted
+67          US2_fsb   -3.75         -1.32
+72          VIX_fsb  -65.50         -1.30
+32       GAS_US_fsb  -74.20         -1.18
+71          V2X_fsb  -55.26         -0.98
+73    WHEAT_ICE_fsb  -36.23         -0.97
+56        SHATZ_fsb   -2.68         -0.81
+42      LIVECOW_fsb   21.60          1.77
+14        COCOA_fsb   53.07          1.82
+65  SUGAR_WHITE_fsb   61.60          1.94
+64      SUGAR11_fsb   63.32          1.99
+49           OJ_fsb  124.17          2.79
+13    COCOA_LDN_fsb   85.42          3.34
+
+
+==================================================
+Market moves for period 1B, sort by name (1B/name)
+==================================================
+
+               name  change  vol_adjusted
+0           AEX_fsb    0.07          0.08
+1           ASX_fsb    0.61          0.85
+2        AUDJPY_fsb    0.55          0.88
+3           AUD_fsb    0.07          0.11
+4          BOBL_fsb   -0.11         -0.41
+5       BRENT_W_fsb    0.14          0.10
+6          BTP3_fsb    0.03          0.19
+7           BTP_fsb    0.11          0.19
+8          BUND_fsb   -0.27         -0.54
+9          BUXL_fsb   -0.62         -0.54
+10          CAC_fsb    0.03          0.03
+11          CAD_fsb   -0.18         -0.59
+12          CHF_fsb   -0.06         -0.13
+13    COCOA_LDN_fsb    2.17          2.03
+14        COCOA_fsb    2.05          1.89
+15       COFFEE_fsb    0.52          0.30
+16       COPPER_fsb   -0.24         -0.19
+17         CORN_fsb   -1.44         -0.60
+18      COTTON2_fsb    0.83          0.62
+19      CRUDE_W_fsb    0.28          0.18
+20          DAX_fsb   -0.56         -0.76
+21          DOW_fsb    0.14          0.24
+22           DX_fsb   -0.36         -0.99
+23          EUA_fsb    1.47          0.81
+24       EURGBP_fsb   -0.13         -0.43
+26      EUROSTX_fsb   -0.60         -0.70
+27          EUR_fsb    0.50          1.24
+28          FED_fsb    0.00          0.55
+29      FTSE100_fsb   -0.23         -0.33
+30       GASOIL_fsb   -3.60         -1.90
+31     GASOLINE_fsb    0.31          0.16
+32       GAS_US_fsb    4.22          1.31
+33          GBP_fsb    0.65          1.50
+34         GILT_fsb    0.10          0.11
+35         GOLD_fsb    0.40          0.70
+36         HANG_fsb   -0.59         -0.39
+37      HEATOIL_fsb   -2.96         -1.59
+40          JPY_fsb    0.12          0.22
+41      LEANHOG_fsb    4.64          2.34
+42      LIVECOW_fsb   -0.48         -0.72
+44       NASDAQ_fsb    0.51          0.46
+45       NIKKEI_fsb   -0.06         -0.06
+46          NZD_fsb    0.08          0.14
+47       OATIES_fsb   -3.37         -1.63
+48          OAT_fsb   -0.28         -0.54
+49           OJ_fsb    2.49          1.21
+51       PALLAD_fsb   -1.48         -0.69
+52         PLAT_fsb   -0.12         -0.09
+53         RICE_fsb    0.63          0.43
+54      ROBUSTA_fsb    1.13          0.73
+55      RUSSELL_fsb    0.51          0.54
+56        SHATZ_fsb   -0.04         -0.38
+57       SILVER_fsb   -0.32         -0.22
+58          SMI_fsb   -0.27         -0.41
+60      SOYBEAN_fsb   -0.56         -0.38
+61      SOYMEAL_fsb   -0.75         -0.49
+62       SOYOIL_fsb   -1.51         -0.69
+63        SP500_fsb    0.40          0.58
+64      SUGAR11_fsb   -1.21         -0.81
+65  SUGAR_WHITE_fsb    0.03          0.02
+66         US10_fsb    0.08          0.21
+67          US2_fsb    0.05          0.40
+68        US30U_fsb    0.27          0.29
+69         US30_fsb    0.18          0.24
+70          US5_fsb    0.10          0.34
+71          V2X_fsb    0.30          0.09
+72          VIX_fsb   -2.83         -0.78
+73    WHEAT_ICE_fsb    0.00          0.00
+74        WHEAT_fsb    0.66          0.22
+
+
+======================================================
+Market moves for period 1B, sort by change (1B/change)
+======================================================
+
+               name  change  vol_adjusted
+30       GASOIL_fsb   -3.60         -1.90
+47       OATIES_fsb   -3.37         -1.63
+37      HEATOIL_fsb   -2.96         -1.59
+72          VIX_fsb   -2.83         -0.78
+62       SOYOIL_fsb   -1.51         -0.69
+51       PALLAD_fsb   -1.48         -0.69
+17         CORN_fsb   -1.44         -0.60
+64      SUGAR11_fsb   -1.21         -0.81
+61      SOYMEAL_fsb   -0.75         -0.49
+9          BUXL_fsb   -0.62         -0.54
+26      EUROSTX_fsb   -0.60         -0.70
+36         HANG_fsb   -0.59         -0.39
+60      SOYBEAN_fsb   -0.56         -0.38
+20          DAX_fsb   -0.56         -0.76
+42      LIVECOW_fsb   -0.48         -0.72
+22           DX_fsb   -0.36         -0.99
+57       SILVER_fsb   -0.32         -0.22
+48          OAT_fsb   -0.28         -0.54
+8          BUND_fsb   -0.27         -0.54
+58          SMI_fsb   -0.27         -0.41
+16       COPPER_fsb   -0.24         -0.19
+29      FTSE100_fsb   -0.23         -0.33
+11          CAD_fsb   -0.18         -0.59
+24       EURGBP_fsb   -0.13         -0.43
+52         PLAT_fsb   -0.12         -0.09
+4          BOBL_fsb   -0.11         -0.41
+45       NIKKEI_fsb   -0.06         -0.06
+12          CHF_fsb   -0.06         -0.13
+56        SHATZ_fsb   -0.04         -0.38
+73    WHEAT_ICE_fsb    0.00          0.00
+28          FED_fsb    0.00          0.55
+10          CAC_fsb    0.03          0.03
+65  SUGAR_WHITE_fsb    0.03          0.02
+6          BTP3_fsb    0.03          0.19
+67          US2_fsb    0.05          0.40
+0           AEX_fsb    0.07          0.08
+3           AUD_fsb    0.07          0.11
+46          NZD_fsb    0.08          0.14
+66         US10_fsb    0.08          0.21
+34         GILT_fsb    0.10          0.11
+70          US5_fsb    0.10          0.34
+7           BTP_fsb    0.11          0.19
+40          JPY_fsb    0.12          0.22
+21          DOW_fsb    0.14          0.24
+5       BRENT_W_fsb    0.14          0.10
+69         US30_fsb    0.18          0.24
+68        US30U_fsb    0.27          0.29
+19      CRUDE_W_fsb    0.28          0.18
+71          V2X_fsb    0.30          0.09
+31     GASOLINE_fsb    0.31          0.16
+35         GOLD_fsb    0.40          0.70
+63        SP500_fsb    0.40          0.58
+27          EUR_fsb    0.50          1.24
+44       NASDAQ_fsb    0.51          0.46
+55      RUSSELL_fsb    0.51          0.54
+15       COFFEE_fsb    0.52          0.30
+2        AUDJPY_fsb    0.55          0.88
+1           ASX_fsb    0.61          0.85
+53         RICE_fsb    0.63          0.43
+33          GBP_fsb    0.65          1.50
+74        WHEAT_fsb    0.66          0.22
+18      COTTON2_fsb    0.83          0.62
+54      ROBUSTA_fsb    1.13          0.73
+23          EUA_fsb    1.47          0.81
+14        COCOA_fsb    2.05          1.89
+13    COCOA_LDN_fsb    2.17          2.03
+49           OJ_fsb    2.49          1.21
+32       GAS_US_fsb    4.22          1.31
+41      LEANHOG_fsb    4.64          2.34
+
+
+==================================================================
+Market moves for period 1B, sort by vol_adjusted (1B/vol_adjusted)
+==================================================================
+
+               name  change  vol_adjusted
+30       GASOIL_fsb   -3.60         -1.90
+47       OATIES_fsb   -3.37         -1.63
+37      HEATOIL_fsb   -2.96         -1.59
+22           DX_fsb   -0.36         -0.99
+64      SUGAR11_fsb   -1.21         -0.81
+72          VIX_fsb   -2.83         -0.78
+20          DAX_fsb   -0.56         -0.76
+42      LIVECOW_fsb   -0.48         -0.72
+26      EUROSTX_fsb   -0.60         -0.70
+51       PALLAD_fsb   -1.48         -0.69
+62       SOYOIL_fsb   -1.51         -0.69
+17         CORN_fsb   -1.44         -0.60
+11          CAD_fsb   -0.18         -0.59
+9          BUXL_fsb   -0.62         -0.54
+48          OAT_fsb   -0.28         -0.54
+8          BUND_fsb   -0.27         -0.54
+61      SOYMEAL_fsb   -0.75         -0.49
+24       EURGBP_fsb   -0.13         -0.43
+4          BOBL_fsb   -0.11         -0.41
+58          SMI_fsb   -0.27         -0.41
+36         HANG_fsb   -0.59         -0.39
+56        SHATZ_fsb   -0.04         -0.38
+60      SOYBEAN_fsb   -0.56         -0.38
+29      FTSE100_fsb   -0.23         -0.33
+57       SILVER_fsb   -0.32         -0.22
+16       COPPER_fsb   -0.24         -0.19
+12          CHF_fsb   -0.06         -0.13
+52         PLAT_fsb   -0.12         -0.09
+45       NIKKEI_fsb   -0.06         -0.06
+73    WHEAT_ICE_fsb    0.00          0.00
+65  SUGAR_WHITE_fsb    0.03          0.02
+10          CAC_fsb    0.03          0.03
+0           AEX_fsb    0.07          0.08
+71          V2X_fsb    0.30          0.09
+5       BRENT_W_fsb    0.14          0.10
+3           AUD_fsb    0.07          0.11
+34         GILT_fsb    0.10          0.11
+46          NZD_fsb    0.08          0.14
+31     GASOLINE_fsb    0.31          0.16
+19      CRUDE_W_fsb    0.28          0.18
+6          BTP3_fsb    0.03          0.19
+7           BTP_fsb    0.11          0.19
+66         US10_fsb    0.08          0.21
+74        WHEAT_fsb    0.66          0.22
+40          JPY_fsb    0.12          0.22
+69         US30_fsb    0.18          0.24
+21          DOW_fsb    0.14          0.24
+68        US30U_fsb    0.27          0.29
+15       COFFEE_fsb    0.52          0.30
+70          US5_fsb    0.10          0.34
+67          US2_fsb    0.05          0.40
+53         RICE_fsb    0.63          0.43
+44       NASDAQ_fsb    0.51          0.46
+55      RUSSELL_fsb    0.51          0.54
+28          FED_fsb    0.00          0.55
+63        SP500_fsb    0.40          0.58
+18      COTTON2_fsb    0.83          0.62
+35         GOLD_fsb    0.40          0.70
+54      ROBUSTA_fsb    1.13          0.73
+23          EUA_fsb    1.47          0.81
+1           ASX_fsb    0.61          0.85
+2        AUDJPY_fsb    0.55          0.88
+49           OJ_fsb    2.49          1.21
+27          EUR_fsb    0.50          1.24
+32       GAS_US_fsb    4.22          1.31
+33          GBP_fsb    0.65          1.50
+14        COCOA_fsb    2.05          1.89
+13    COCOA_LDN_fsb    2.17          2.03
+41      LEANHOG_fsb    4.64          2.34
+
+
+==================================================
+Market moves for period 7D, sort by name (7D/name)
+==================================================
+
+               name  change  vol_adjusted
+0           AEX_fsb    1.64          0.72
+1           ASX_fsb    1.77          0.92
+2        AUDJPY_fsb    1.04          0.59
+3           AUD_fsb   -0.01         -0.00
+4          BOBL_fsb   -0.37         -0.53
+5       BRENT_W_fsb    3.35          0.82
+6          BTP3_fsb   -0.43         -1.15
+7           BTP_fsb   -0.64         -0.42
+8          BUND_fsb   -0.50         -0.39
+9          BUXL_fsb   -1.02         -0.35
+10          CAC_fsb    2.07          0.95
+11          CAD_fsb    0.09          0.10
+12          CHF_fsb    0.16          0.14
+13    COCOA_LDN_fsb    7.85          2.57
+14        COCOA_fsb    6.65          2.11
+15       COFFEE_fsb    0.10          0.02
+16       COPPER_fsb   -0.75         -0.22
+17         CORN_fsb   -3.27         -0.51
+18      COTTON2_fsb    2.34          0.64
+19      CRUDE_W_fsb    3.78          0.83
+20          DAX_fsb    0.66          0.34
+21          DOW_fsb    1.20          0.81
+22           DX_fsb   -0.15         -0.15
+23          EUA_fsb   -1.14         -0.25
+24       EURGBP_fsb    0.55          0.67
+25  EURIBOR-ICE_fsb   -0.02         -0.31
+26      EUROSTX_fsb    0.63          0.28
+27          EUR_fsb    0.51          0.48
+28          FED_fsb    0.01          0.98
+29      FTSE100_fsb    1.75          0.92
+30       GASOIL_fsb   -0.88         -0.18
+31     GASOLINE_fsb    0.40          0.08
+32       GAS_US_fsb    8.81          1.00
+33          GBP_fsb   -0.03         -0.03
+34         GILT_fsb    0.01          0.00
+35         GOLD_fsb    1.32          0.86
+36         HANG_fsb    3.63          0.85
+37      HEATOIL_fsb   -0.45         -0.10
+38        IBXEX_fsb    2.01          0.92
+39          JGB_fsb   -0.10         -0.19
+40          JPY_fsb    1.09          0.73
+41      LEANHOG_fsb    5.93          1.12
+42      LIVECOW_fsb    0.69          0.38
+43     MSCISING_fsb    1.08          0.38
+44       NASDAQ_fsb    1.16          0.48
+45       NIKKEI_fsb    0.70          0.25
+46          NZD_fsb   -0.03         -0.02
+47       OATIES_fsb    8.53          1.48
+48          OAT_fsb   -0.41         -0.31
+49           OJ_fsb    3.86          0.68
+50       OMXS30_fsb    1.36          0.60
+51       PALLAD_fsb   -4.78         -0.87
+52         PLAT_fsb    5.06          1.29
+53         RICE_fsb    6.54          1.58
+54      ROBUSTA_fsb    3.91          0.89
+55      RUSSELL_fsb    1.72          0.67
+56        SHATZ_fsb   -0.22         -0.89
+57       SILVER_fsb    1.13          0.31
+58          SMI_fsb    0.64          0.37
+59       SONIA3_fsb    0.02          0.12
+60      SOYBEAN_fsb    1.43          0.36
+61      SOYMEAL_fsb    1.31          0.31
+62       SOYOIL_fsb   -0.18         -0.03
+63        SP500_fsb    1.29          0.81
+64      SUGAR11_fsb    6.68          1.72
+65  SUGAR_WHITE_fsb    6.06          1.83
+66         US10_fsb    0.44          0.41
+67          US2_fsb    0.10          0.31
+68        US30U_fsb    0.68          0.29
+69         US30_fsb    0.62          0.32
+70          US5_fsb    0.33          0.44
+71          V2X_fsb  -10.03         -1.26
+72          VIX_fsb   -9.38         -1.09
+73    WHEAT_ICE_fsb   -0.66         -0.13
+74        WHEAT_fsb   -5.68         -0.71
+
+
+======================================================
+Market moves for period 7D, sort by change (7D/change)
+======================================================
+
+               name  change  vol_adjusted
+71          V2X_fsb  -10.03         -1.26
+72          VIX_fsb   -9.38         -1.09
+74        WHEAT_fsb   -5.68         -0.71
+51       PALLAD_fsb   -4.78         -0.87
+17         CORN_fsb   -3.27         -0.51
+23          EUA_fsb   -1.14         -0.25
+9          BUXL_fsb   -1.02         -0.35
+30       GASOIL_fsb   -0.88         -0.18
+16       COPPER_fsb   -0.75         -0.22
+73    WHEAT_ICE_fsb   -0.66         -0.13
+7           BTP_fsb   -0.64         -0.42
+8          BUND_fsb   -0.50         -0.39
+37      HEATOIL_fsb   -0.45         -0.10
+6          BTP3_fsb   -0.43         -1.15
+48          OAT_fsb   -0.41         -0.31
+4          BOBL_fsb   -0.37         -0.53
+56        SHATZ_fsb   -0.22         -0.89
+62       SOYOIL_fsb   -0.18         -0.03
+22           DX_fsb   -0.15         -0.15
+39          JGB_fsb   -0.10         -0.19
+46          NZD_fsb   -0.03         -0.02
+33          GBP_fsb   -0.03         -0.03
+25  EURIBOR-ICE_fsb   -0.02         -0.31
+3           AUD_fsb   -0.01         -0.00
+34         GILT_fsb    0.01          0.00
+28          FED_fsb    0.01          0.98
+59       SONIA3_fsb    0.02          0.12
+11          CAD_fsb    0.09          0.10
+15       COFFEE_fsb    0.10          0.02
+67          US2_fsb    0.10          0.31
+12          CHF_fsb    0.16          0.14
+70          US5_fsb    0.33          0.44
+31     GASOLINE_fsb    0.40          0.08
+66         US10_fsb    0.44          0.41
+27          EUR_fsb    0.51          0.48
+24       EURGBP_fsb    0.55          0.67
+69         US30_fsb    0.62          0.32
+26      EUROSTX_fsb    0.63          0.28
+58          SMI_fsb    0.64          0.37
+20          DAX_fsb    0.66          0.34
+68        US30U_fsb    0.68          0.29
+42      LIVECOW_fsb    0.69          0.38
+45       NIKKEI_fsb    0.70          0.25
+2        AUDJPY_fsb    1.04          0.59
+43     MSCISING_fsb    1.08          0.38
+40          JPY_fsb    1.09          0.73
+57       SILVER_fsb    1.13          0.31
+44       NASDAQ_fsb    1.16          0.48
+21          DOW_fsb    1.20          0.81
+63        SP500_fsb    1.29          0.81
+61      SOYMEAL_fsb    1.31          0.31
+35         GOLD_fsb    1.32          0.86
+50       OMXS30_fsb    1.36          0.60
+60      SOYBEAN_fsb    1.43          0.36
+0           AEX_fsb    1.64          0.72
+55      RUSSELL_fsb    1.72          0.67
+29      FTSE100_fsb    1.75          0.92
+1           ASX_fsb    1.77          0.92
+38        IBXEX_fsb    2.01          0.92
+10          CAC_fsb    2.07          0.95
+18      COTTON2_fsb    2.34          0.64
+5       BRENT_W_fsb    3.35          0.82
+36         HANG_fsb    3.63          0.85
+19      CRUDE_W_fsb    3.78          0.83
+49           OJ_fsb    3.86          0.68
+54      ROBUSTA_fsb    3.91          0.89
+52         PLAT_fsb    5.06          1.29
+41      LEANHOG_fsb    5.93          1.12
+65  SUGAR_WHITE_fsb    6.06          1.83
+53         RICE_fsb    6.54          1.58
+14        COCOA_fsb    6.65          2.11
+64      SUGAR11_fsb    6.68          1.72
+13    COCOA_LDN_fsb    7.85          2.57
+47       OATIES_fsb    8.53          1.48
+32       GAS_US_fsb    8.81          1.00
+
+
+==================================================================
+Market moves for period 7D, sort by vol_adjusted (7D/vol_adjusted)
+==================================================================
+
+               name  change  vol_adjusted
+71          V2X_fsb  -10.03         -1.26
+6          BTP3_fsb   -0.43         -1.15
+72          VIX_fsb   -9.38         -1.09
+56        SHATZ_fsb   -0.22         -0.89
+51       PALLAD_fsb   -4.78         -0.87
+74        WHEAT_fsb   -5.68         -0.71
+4          BOBL_fsb   -0.37         -0.53
+17         CORN_fsb   -3.27         -0.51
+7           BTP_fsb   -0.64         -0.42
+8          BUND_fsb   -0.50         -0.39
+9          BUXL_fsb   -1.02         -0.35
+25  EURIBOR-ICE_fsb   -0.02         -0.31
+48          OAT_fsb   -0.41         -0.31
+23          EUA_fsb   -1.14         -0.25
+16       COPPER_fsb   -0.75         -0.22
+39          JGB_fsb   -0.10         -0.19
+30       GASOIL_fsb   -0.88         -0.18
+22           DX_fsb   -0.15         -0.15
+73    WHEAT_ICE_fsb   -0.66         -0.13
+37      HEATOIL_fsb   -0.45         -0.10
+62       SOYOIL_fsb   -0.18         -0.03
+33          GBP_fsb   -0.03         -0.03
+46          NZD_fsb   -0.03         -0.02
+3           AUD_fsb   -0.01         -0.00
+34         GILT_fsb    0.01          0.00
+15       COFFEE_fsb    0.10          0.02
+31     GASOLINE_fsb    0.40          0.08
+11          CAD_fsb    0.09          0.10
+59       SONIA3_fsb    0.02          0.12
+12          CHF_fsb    0.16          0.14
+45       NIKKEI_fsb    0.70          0.25
+26      EUROSTX_fsb    0.63          0.28
+68        US30U_fsb    0.68          0.29
+57       SILVER_fsb    1.13          0.31
+67          US2_fsb    0.10          0.31
+61      SOYMEAL_fsb    1.31          0.31
+69         US30_fsb    0.62          0.32
+20          DAX_fsb    0.66          0.34
+60      SOYBEAN_fsb    1.43          0.36
+58          SMI_fsb    0.64          0.37
+42      LIVECOW_fsb    0.69          0.38
+43     MSCISING_fsb    1.08          0.38
+66         US10_fsb    0.44          0.41
+70          US5_fsb    0.33          0.44
+27          EUR_fsb    0.51          0.48
+44       NASDAQ_fsb    1.16          0.48
+2        AUDJPY_fsb    1.04          0.59
+50       OMXS30_fsb    1.36          0.60
+18      COTTON2_fsb    2.34          0.64
+55      RUSSELL_fsb    1.72          0.67
+24       EURGBP_fsb    0.55          0.67
+49           OJ_fsb    3.86          0.68
+0           AEX_fsb    1.64          0.72
+40          JPY_fsb    1.09          0.73
+63        SP500_fsb    1.29          0.81
+21          DOW_fsb    1.20          0.81
+5       BRENT_W_fsb    3.35          0.82
+19      CRUDE_W_fsb    3.78          0.83
+36         HANG_fsb    3.63          0.85
+35         GOLD_fsb    1.32          0.86
+54      ROBUSTA_fsb    3.91          0.89
+38        IBXEX_fsb    2.01          0.92
+1           ASX_fsb    1.77          0.92
+29      FTSE100_fsb    1.75          0.92
+10          CAC_fsb    2.07          0.95
+28          FED_fsb    0.01          0.98
+32       GAS_US_fsb    8.81          1.00
+41      LEANHOG_fsb    5.93          1.12
+52         PLAT_fsb    5.06          1.29
+47       OATIES_fsb    8.53          1.48
+53         RICE_fsb    6.54          1.58
+64      SUGAR11_fsb    6.68          1.72
+65  SUGAR_WHITE_fsb    6.06          1.83
+14        COCOA_fsb    6.65          2.11
+13    COCOA_LDN_fsb    7.85          2.57
+
+
+==================================================
+Market moves for period 1M, sort by name (1M/name)
+==================================================
+
+               name  change  vol_adjusted
+0           AEX_fsb   -5.59         -1.38
+1           ASX_fsb   -1.56         -0.36
+2        AUDJPY_fsb    1.17          0.30
+3           AUD_fsb   -2.78         -0.76
+4          BOBL_fsb   -0.12         -0.07
+5       BRENT_W_fsb    1.77          0.20
+6          BTP3_fsb   -0.14         -0.15
+7           BTP_fsb   -0.42         -0.12
+8          BUND_fsb   -0.41         -0.14
+9          BUXL_fsb   -1.68         -0.27
+10          CAC_fsb   -1.76         -0.38
+11          CAD_fsb    2.17          1.04
+12          CHF_fsb    1.31          0.42
+13    COCOA_LDN_fsb    7.97          1.08
+14        COCOA_fsb    1.48          0.25
+15       COFFEE_fsb   -4.99         -0.51
+16       COPPER_fsb   -4.01         -0.62
+17         CORN_fsb   -9.16         -0.60
+18      COTTON2_fsb    4.39          0.49
+19      CRUDE_W_fsb    2.24          0.23
+20          DAX_fsb   -3.85         -1.00
+21          DOW_fsb   -1.84         -0.58
+22           DX_fsb    1.70          0.70
+23          EUA_fsb   -3.31         -0.33
+24       EURGBP_fsb    0.02          0.01
+25  EURIBOR-ICE_fsb   -0.03         -0.24
+26      EUROSTX_fsb   -3.68         -0.86
+27          EUR_fsb   -1.06         -0.40
+28          FED_fsb    0.01          0.29
+29      FTSE100_fsb   -2.30         -0.59
+30       GASOIL_fsb    4.97          0.52
+31     GASOLINE_fsb   -3.35         -0.33
+32       GAS_US_fsb    1.68          0.10
+33          GBP_fsb   -1.07         -0.38
+34         GILT_fsb   -1.28         -0.29
+35         GOLD_fsb   -1.23         -0.32
+36         HANG_fsb   -8.49         -1.13
+37      HEATOIL_fsb    5.38          0.58
+38        IBXEX_fsb   -1.65         -0.38
+39          JGB_fsb   -0.14         -0.14
+40          JPY_fsb    4.32          1.33
+41      LEANHOG_fsb   -1.13         -0.11
+42      LIVECOW_fsb    0.46          0.11
+43     MSCISING_fsb   -8.04         -1.74
+44       NASDAQ_fsb   -2.36         -0.50
+45       NIKKEI_fsb   -2.20         -0.42
+46          NZD_fsb   -3.04         -0.79
+47       OATIES_fsb   11.85          0.80
+48          OAT_fsb   -0.21         -0.07
+49           OJ_fsb    5.41          0.59
+50       OMXS30_fsb   -3.56         -0.74
+51       PALLAD_fsb   -1.71         -0.15
+52         PLAT_fsb    4.29          0.50
+53         RICE_fsb    5.97          0.55
+54      ROBUSTA_fsb    3.70          0.37
+55      RUSSELL_fsb   -4.28         -0.75
+56        SHATZ_fsb   -0.07         -0.11
+57       SILVER_fsb    0.81          0.10
+58          SMI_fsb   -2.05         -0.52
+59       SONIA3_fsb    0.07          0.22
+60      SOYBEAN_fsb    1.58          0.18
+61      SOYMEAL_fsb    2.07          0.21
+62       SOYOIL_fsb    1.25          0.09
+63        SP500_fsb   -1.85         -0.60
+64      SUGAR11_fsb    4.77          0.53
+65  SUGAR_WHITE_fsb    6.72          0.85
+66         US10_fsb   -0.94         -0.39
+67          US2_fsb   -0.07         -0.09
+68        US30U_fsb   -3.51         -0.75
+69         US30_fsb   -2.59         -0.65
+70          US5_fsb   -0.49         -0.27
+71          V2X_fsb   -0.60         -0.03
+72          VIX_fsb   -8.25         -0.47
+73    WHEAT_ICE_fsb   -5.98         -0.51
+74        WHEAT_fsb  -16.21         -0.91
+
+
+======================================================
+Market moves for period 1M, sort by change (1M/change)
+======================================================
+
+               name  change  vol_adjusted
+74        WHEAT_fsb  -16.21         -0.91
+17         CORN_fsb   -9.16         -0.60
+36         HANG_fsb   -8.49         -1.13
+72          VIX_fsb   -8.25         -0.47
+43     MSCISING_fsb   -8.04         -1.74
+73    WHEAT_ICE_fsb   -5.98         -0.51
+0           AEX_fsb   -5.59         -1.38
+15       COFFEE_fsb   -4.99         -0.51
+55      RUSSELL_fsb   -4.28         -0.75
+16       COPPER_fsb   -4.01         -0.62
+20          DAX_fsb   -3.85         -1.00
+26      EUROSTX_fsb   -3.68         -0.86
+50       OMXS30_fsb   -3.56         -0.74
+68        US30U_fsb   -3.51         -0.75
+31     GASOLINE_fsb   -3.35         -0.33
+23          EUA_fsb   -3.31         -0.33
+46          NZD_fsb   -3.04         -0.79
+3           AUD_fsb   -2.78         -0.76
+69         US30_fsb   -2.59         -0.65
+44       NASDAQ_fsb   -2.36         -0.50
+29      FTSE100_fsb   -2.30         -0.59
+45       NIKKEI_fsb   -2.20         -0.42
+58          SMI_fsb   -2.05         -0.52
+63        SP500_fsb   -1.85         -0.60
+21          DOW_fsb   -1.84         -0.58
+10          CAC_fsb   -1.76         -0.38
+51       PALLAD_fsb   -1.71         -0.15
+9          BUXL_fsb   -1.68         -0.27
+38        IBXEX_fsb   -1.65         -0.38
+1           ASX_fsb   -1.56         -0.36
+34         GILT_fsb   -1.28         -0.29
+35         GOLD_fsb   -1.23         -0.32
+41      LEANHOG_fsb   -1.13         -0.11
+33          GBP_fsb   -1.07         -0.38
+27          EUR_fsb   -1.06         -0.40
+66         US10_fsb   -0.94         -0.39
+71          V2X_fsb   -0.60         -0.03
+70          US5_fsb   -0.49         -0.27
+7           BTP_fsb   -0.42         -0.12
+8          BUND_fsb   -0.41         -0.14
+48          OAT_fsb   -0.21         -0.07
+39          JGB_fsb   -0.14         -0.14
+6          BTP3_fsb   -0.14         -0.15
+4          BOBL_fsb   -0.12         -0.07
+67          US2_fsb   -0.07         -0.09
+56        SHATZ_fsb   -0.07         -0.11
+25  EURIBOR-ICE_fsb   -0.03         -0.24
+28          FED_fsb    0.01          0.29
+24       EURGBP_fsb    0.02          0.01
+59       SONIA3_fsb    0.07          0.22
+42      LIVECOW_fsb    0.46          0.11
+57       SILVER_fsb    0.81          0.10
+2        AUDJPY_fsb    1.17          0.30
+62       SOYOIL_fsb    1.25          0.09
+12          CHF_fsb    1.31          0.42
+14        COCOA_fsb    1.48          0.25
+60      SOYBEAN_fsb    1.58          0.18
+32       GAS_US_fsb    1.68          0.10
+22           DX_fsb    1.70          0.70
+5       BRENT_W_fsb    1.77          0.20
+61      SOYMEAL_fsb    2.07          0.21
+11          CAD_fsb    2.17          1.04
+19      CRUDE_W_fsb    2.24          0.23
+54      ROBUSTA_fsb    3.70          0.37
+52         PLAT_fsb    4.29          0.50
+40          JPY_fsb    4.32          1.33
+18      COTTON2_fsb    4.39          0.49
+64      SUGAR11_fsb    4.77          0.53
+30       GASOIL_fsb    4.97          0.52
+37      HEATOIL_fsb    5.38          0.58
+49           OJ_fsb    5.41          0.59
+53         RICE_fsb    5.97          0.55
+65  SUGAR_WHITE_fsb    6.72          0.85
+13    COCOA_LDN_fsb    7.97          1.08
+47       OATIES_fsb   11.85          0.80
+
+
+==================================================================
+Market moves for period 1M, sort by vol_adjusted (1M/vol_adjusted)
+==================================================================
+
+               name  change  vol_adjusted
+43     MSCISING_fsb   -8.04         -1.74
+0           AEX_fsb   -5.59         -1.38
+36         HANG_fsb   -8.49         -1.13
+20          DAX_fsb   -3.85         -1.00
+74        WHEAT_fsb  -16.21         -0.91
+26      EUROSTX_fsb   -3.68         -0.86
+46          NZD_fsb   -3.04         -0.79
+3           AUD_fsb   -2.78         -0.76
+55      RUSSELL_fsb   -4.28         -0.75
+68        US30U_fsb   -3.51         -0.75
+50       OMXS30_fsb   -3.56         -0.74
+69         US30_fsb   -2.59         -0.65
+16       COPPER_fsb   -4.01         -0.62
+17         CORN_fsb   -9.16         -0.60
+63        SP500_fsb   -1.85         -0.60
+29      FTSE100_fsb   -2.30         -0.59
+21          DOW_fsb   -1.84         -0.58
+58          SMI_fsb   -2.05         -0.52
+73    WHEAT_ICE_fsb   -5.98         -0.51
+15       COFFEE_fsb   -4.99         -0.51
+44       NASDAQ_fsb   -2.36         -0.50
+72          VIX_fsb   -8.25         -0.47
+45       NIKKEI_fsb   -2.20         -0.42
+27          EUR_fsb   -1.06         -0.40
+66         US10_fsb   -0.94         -0.39
+10          CAC_fsb   -1.76         -0.38
+38        IBXEX_fsb   -1.65         -0.38
+33          GBP_fsb   -1.07         -0.38
+1           ASX_fsb   -1.56         -0.36
+23          EUA_fsb   -3.31         -0.33
+31     GASOLINE_fsb   -3.35         -0.33
+35         GOLD_fsb   -1.23         -0.32
+34         GILT_fsb   -1.28         -0.29
+70          US5_fsb   -0.49         -0.27
+9          BUXL_fsb   -1.68         -0.27
+25  EURIBOR-ICE_fsb   -0.03         -0.24
+6          BTP3_fsb   -0.14         -0.15
+51       PALLAD_fsb   -1.71         -0.15
+8          BUND_fsb   -0.41         -0.14
+39          JGB_fsb   -0.14         -0.14
+7           BTP_fsb   -0.42         -0.12
+56        SHATZ_fsb   -0.07         -0.11
+41      LEANHOG_fsb   -1.13         -0.11
+67          US2_fsb   -0.07         -0.09
+4          BOBL_fsb   -0.12         -0.07
+48          OAT_fsb   -0.21         -0.07
+71          V2X_fsb   -0.60         -0.03
+24       EURGBP_fsb    0.02          0.01
+62       SOYOIL_fsb    1.25          0.09
+57       SILVER_fsb    0.81          0.10
+32       GAS_US_fsb    1.68          0.10
+42      LIVECOW_fsb    0.46          0.11
+60      SOYBEAN_fsb    1.58          0.18
+5       BRENT_W_fsb    1.77          0.20
+61      SOYMEAL_fsb    2.07          0.21
+59       SONIA3_fsb    0.07          0.22
+19      CRUDE_W_fsb    2.24          0.23
+14        COCOA_fsb    1.48          0.25
+28          FED_fsb    0.01          0.29
+2        AUDJPY_fsb    1.17          0.30
+54      ROBUSTA_fsb    3.70          0.37
+12          CHF_fsb    1.31          0.42
+18      COTTON2_fsb    4.39          0.49
+52         PLAT_fsb    4.29          0.50
+30       GASOIL_fsb    4.97          0.52
+64      SUGAR11_fsb    4.77          0.53
+53         RICE_fsb    5.97          0.55
+37      HEATOIL_fsb    5.38          0.58
+49           OJ_fsb    5.41          0.59
+22           DX_fsb    1.70          0.70
+47       OATIES_fsb   11.85          0.80
+65  SUGAR_WHITE_fsb    6.72          0.85
+11          CAD_fsb    2.17          1.04
+13    COCOA_LDN_fsb    7.97          1.08
+40          JPY_fsb    4.32          1.33
+
+
+==================================================
+Market moves for period 3M, sort by name (3M/name)
+==================================================
+
+               name  change  vol_adjusted
+0           AEX_fsb   -0.56         -0.07
+1           ASX_fsb    1.45          0.23
+2        AUDJPY_fsb    6.03          0.85
+3           AUD_fsb   -0.79         -0.12
+4          BOBL_fsb   -1.30         -0.37
+5       BRENT_W_fsb   16.70          0.77
+6          BTP3_fsb   -0.57         -0.34
+7           BTP_fsb   -0.16         -0.03
+8          BUND_fsb   -1.89         -0.33
+9          BUXL_fsb   -3.88         -0.30
+10          CAC_fsb    3.15          0.38
+11          CAD_fsb   -0.32         -0.08
+12          CHF_fsb   -2.11         -0.44
+13    COCOA_LDN_fsb   37.41          3.88
+14        COCOA_fsb   20.41          2.00
+15       COFFEE_fsb  -11.89         -0.69
+16       COPPER_fsb    2.94          0.21
+17         CORN_fsb  -11.42         -0.75
+18      COTTON2_fsb    6.22          0.32
+19      CRUDE_W_fsb   18.14          0.79
+20          DAX_fsb   -0.89         -0.13
+21          DOW_fsb    4.75          0.67
+22           DX_fsb   -0.46         -0.11
+23          EUA_fsb    7.62          0.36
+24       EURGBP_fsb   -1.01         -0.33
+25  EURIBOR-ICE_fsb    0.02          0.05
+26      EUROSTX_fsb    0.07          0.01
+27          EUR_fsb    1.27          0.29
+28          FED_fsb    0.09          1.28
+29      FTSE100_fsb   -0.85         -0.13
+30       GASOIL_fsb   43.91          1.74
+31     GASOLINE_fsb   22.38          0.90
+32       GAS_US_fsb   12.96          0.31
+33          GBP_fsb    2.31          0.48
+34         GILT_fsb   -1.96         -0.26
+35         GOLD_fsb   -2.21         -0.26
+36         HANG_fsb    2.47          0.16
+37      HEATOIL_fsb   38.14          1.60
+38        IBXEX_fsb    5.70          0.67
+39          JGB_fsb   -0.84         -0.41
+40          JPY_fsb    6.03          0.97
+41      LEANHOG_fsb   37.03          1.65
+42      LIVECOW_fsb    7.11          1.43
+43     MSCISING_fsb   -0.20         -0.02
+44       NASDAQ_fsb    6.20          0.65
+45       NIKKEI_fsb    3.93          0.51
+46          NZD_fsb   -1.17         -0.15
+47       OATIES_fsb   32.67          2.00
+48          OAT_fsb   -1.68         -0.29
+49           OJ_fsb   20.72          0.95
+50       OMXS30_fsb   -3.38         -0.34
+51       PALLAD_fsb  -12.67         -0.55
+52         PLAT_fsb   -4.62         -0.28
+53         RICE_fsb   13.27          0.85
+54      ROBUSTA_fsb    8.38          0.57
+55      RUSSELL_fsb    6.71          0.60
+56        SHATZ_fsb   -0.76         -0.51
+57       SILVER_fsb    4.82          0.31
+58          SMI_fsb   -1.81         -0.29
+59       SONIA3_fsb   -0.12         -0.22
+60      SOYBEAN_fsb   28.16          2.08
+61      SOYMEAL_fsb   21.89          1.35
+62       SOYOIL_fsb   77.10          2.96
+63        SP500_fsb    6.25          0.82
+64      SUGAR11_fsb    0.88          0.06
+65  SUGAR_WHITE_fsb    7.40          0.53
+66         US10_fsb   -3.25         -0.73
+67          US2_fsb   -1.29         -0.66
+68        US30U_fsb   -6.16         -0.71
+69         US30_fsb   -5.06         -0.72
+70          US5_fsb   -2.26         -0.63
+71          V2X_fsb  -23.33         -0.91
+72          VIX_fsb  -38.20         -1.35
+73    WHEAT_ICE_fsb    4.33          0.26
+74        WHEAT_fsb   -3.08         -0.16
+
+
+======================================================
+Market moves for period 3M, sort by change (3M/change)
+======================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -38.20         -1.35
+71          V2X_fsb  -23.33         -0.91
+51       PALLAD_fsb  -12.67         -0.55
+15       COFFEE_fsb  -11.89         -0.69
+17         CORN_fsb  -11.42         -0.75
+68        US30U_fsb   -6.16         -0.71
+69         US30_fsb   -5.06         -0.72
+52         PLAT_fsb   -4.62         -0.28
+9          BUXL_fsb   -3.88         -0.30
+50       OMXS30_fsb   -3.38         -0.34
+66         US10_fsb   -3.25         -0.73
+74        WHEAT_fsb   -3.08         -0.16
+70          US5_fsb   -2.26         -0.63
+35         GOLD_fsb   -2.21         -0.26
+12          CHF_fsb   -2.11         -0.44
+34         GILT_fsb   -1.96         -0.26
+8          BUND_fsb   -1.89         -0.33
+58          SMI_fsb   -1.81         -0.29
+48          OAT_fsb   -1.68         -0.29
+4          BOBL_fsb   -1.30         -0.37
+67          US2_fsb   -1.29         -0.66
+46          NZD_fsb   -1.17         -0.15
+24       EURGBP_fsb   -1.01         -0.33
+20          DAX_fsb   -0.89         -0.13
+29      FTSE100_fsb   -0.85         -0.13
+39          JGB_fsb   -0.84         -0.41
+3           AUD_fsb   -0.79         -0.12
+56        SHATZ_fsb   -0.76         -0.51
+6          BTP3_fsb   -0.57         -0.34
+0           AEX_fsb   -0.56         -0.07
+22           DX_fsb   -0.46         -0.11
+11          CAD_fsb   -0.32         -0.08
+43     MSCISING_fsb   -0.20         -0.02
+7           BTP_fsb   -0.16         -0.03
+59       SONIA3_fsb   -0.12         -0.22
+25  EURIBOR-ICE_fsb    0.02          0.05
+26      EUROSTX_fsb    0.07          0.01
+28          FED_fsb    0.09          1.28
+64      SUGAR11_fsb    0.88          0.06
+27          EUR_fsb    1.27          0.29
+1           ASX_fsb    1.45          0.23
+33          GBP_fsb    2.31          0.48
+36         HANG_fsb    2.47          0.16
+16       COPPER_fsb    2.94          0.21
+10          CAC_fsb    3.15          0.38
+45       NIKKEI_fsb    3.93          0.51
+73    WHEAT_ICE_fsb    4.33          0.26
+21          DOW_fsb    4.75          0.67
+57       SILVER_fsb    4.82          0.31
+38        IBXEX_fsb    5.70          0.67
+40          JPY_fsb    6.03          0.97
+2        AUDJPY_fsb    6.03          0.85
+44       NASDAQ_fsb    6.20          0.65
+18      COTTON2_fsb    6.22          0.32
+63        SP500_fsb    6.25          0.82
+55      RUSSELL_fsb    6.71          0.60
+42      LIVECOW_fsb    7.11          1.43
+65  SUGAR_WHITE_fsb    7.40          0.53
+23          EUA_fsb    7.62          0.36
+54      ROBUSTA_fsb    8.38          0.57
+32       GAS_US_fsb   12.96          0.31
+53         RICE_fsb   13.27          0.85
+5       BRENT_W_fsb   16.70          0.77
+19      CRUDE_W_fsb   18.14          0.79
+14        COCOA_fsb   20.41          2.00
+49           OJ_fsb   20.72          0.95
+61      SOYMEAL_fsb   21.89          1.35
+31     GASOLINE_fsb   22.38          0.90
+60      SOYBEAN_fsb   28.16          2.08
+47       OATIES_fsb   32.67          2.00
+41      LEANHOG_fsb   37.03          1.65
+13    COCOA_LDN_fsb   37.41          3.88
+37      HEATOIL_fsb   38.14          1.60
+30       GASOIL_fsb   43.91          1.74
+62       SOYOIL_fsb   77.10          2.96
+
+
+==================================================================
+Market moves for period 3M, sort by vol_adjusted (3M/vol_adjusted)
+==================================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -38.20         -1.35
+71          V2X_fsb  -23.33         -0.91
+17         CORN_fsb  -11.42         -0.75
+66         US10_fsb   -3.25         -0.73
+69         US30_fsb   -5.06         -0.72
+68        US30U_fsb   -6.16         -0.71
+15       COFFEE_fsb  -11.89         -0.69
+67          US2_fsb   -1.29         -0.66
+70          US5_fsb   -2.26         -0.63
+51       PALLAD_fsb  -12.67         -0.55
+56        SHATZ_fsb   -0.76         -0.51
+12          CHF_fsb   -2.11         -0.44
+39          JGB_fsb   -0.84         -0.41
+4          BOBL_fsb   -1.30         -0.37
+6          BTP3_fsb   -0.57         -0.34
+50       OMXS30_fsb   -3.38         -0.34
+24       EURGBP_fsb   -1.01         -0.33
+8          BUND_fsb   -1.89         -0.33
+9          BUXL_fsb   -3.88         -0.30
+48          OAT_fsb   -1.68         -0.29
+58          SMI_fsb   -1.81         -0.29
+52         PLAT_fsb   -4.62         -0.28
+34         GILT_fsb   -1.96         -0.26
+35         GOLD_fsb   -2.21         -0.26
+59       SONIA3_fsb   -0.12         -0.22
+74        WHEAT_fsb   -3.08         -0.16
+46          NZD_fsb   -1.17         -0.15
+29      FTSE100_fsb   -0.85         -0.13
+20          DAX_fsb   -0.89         -0.13
+3           AUD_fsb   -0.79         -0.12
+22           DX_fsb   -0.46         -0.11
+11          CAD_fsb   -0.32         -0.08
+0           AEX_fsb   -0.56         -0.07
+7           BTP_fsb   -0.16         -0.03
+43     MSCISING_fsb   -0.20         -0.02
+26      EUROSTX_fsb    0.07          0.01
+25  EURIBOR-ICE_fsb    0.02          0.05
+64      SUGAR11_fsb    0.88          0.06
+36         HANG_fsb    2.47          0.16
+16       COPPER_fsb    2.94          0.21
+1           ASX_fsb    1.45          0.23
+73    WHEAT_ICE_fsb    4.33          0.26
+27          EUR_fsb    1.27          0.29
+32       GAS_US_fsb   12.96          0.31
+57       SILVER_fsb    4.82          0.31
+18      COTTON2_fsb    6.22          0.32
+23          EUA_fsb    7.62          0.36
+10          CAC_fsb    3.15          0.38
+33          GBP_fsb    2.31          0.48
+45       NIKKEI_fsb    3.93          0.51
+65  SUGAR_WHITE_fsb    7.40          0.53
+54      ROBUSTA_fsb    8.38          0.57
+55      RUSSELL_fsb    6.71          0.60
+44       NASDAQ_fsb    6.20          0.65
+21          DOW_fsb    4.75          0.67
+38        IBXEX_fsb    5.70          0.67
+5       BRENT_W_fsb   16.70          0.77
+19      CRUDE_W_fsb   18.14          0.79
+63        SP500_fsb    6.25          0.82
+2        AUDJPY_fsb    6.03          0.85
+53         RICE_fsb   13.27          0.85
+31     GASOLINE_fsb   22.38          0.90
+49           OJ_fsb   20.72          0.95
+40          JPY_fsb    6.03          0.97
+28          FED_fsb    0.09          1.28
+61      SOYMEAL_fsb   21.89          1.35
+42      LIVECOW_fsb    7.11          1.43
+37      HEATOIL_fsb   38.14          1.60
+41      LEANHOG_fsb   37.03          1.65
+30       GASOIL_fsb   43.91          1.74
+14        COCOA_fsb   20.41          2.00
+47       OATIES_fsb   32.67          2.00
+60      SOYBEAN_fsb   28.16          2.08
+62       SOYOIL_fsb   77.10          2.96
+13    COCOA_LDN_fsb   37.41          3.88
+
+
+==================================================
+Market moves for period 6M, sort by name (6M/name)
+==================================================
+
+               name  change  vol_adjusted
+0           AEX_fsb    0.13          0.01
+1           ASX_fsb    1.28          0.14
+2        AUDJPY_fsb    5.92          0.58
+3           AUD_fsb   -4.25         -0.37
+4          BOBL_fsb    0.55          0.12
+5       BRENT_W_fsb    3.73          0.13
+6          BTP3_fsb    0.40          0.14
+7           BTP_fsb    3.97          0.32
+8          BUND_fsb    0.85          0.10
+9          BUXL_fsb   -0.72         -0.03
+10          CAC_fsb    2.70          0.25
+11          CAD_fsb   -0.54         -0.09
+12          CHF_fsb   -4.96         -0.64
+13    COCOA_LDN_fsb   51.48          3.65
+14        COCOA_fsb   33.09          2.34
+15       COFFEE_fsb  -13.47         -0.48
+16       COPPER_fsb   -7.78         -0.41
+17         CORN_fsb  -11.18         -0.68
+18      COTTON2_fsb    5.42          0.21
+19      CRUDE_W_fsb    6.76          0.24
+20          DAX_fsb    1.77          0.16
+21          DOW_fsb    5.43          0.45
+22           DX_fsb   -0.99         -0.14
+23          EUA_fsb  -12.82         -0.44
+24       EURGBP_fsb   -2.98         -0.48
+25  EURIBOR-ICE_fsb   -0.36         -1.11
+26      EUROSTX_fsb    3.15          0.27
+27          EUR_fsb    2.19          0.30
+28          FED_fsb    0.03          0.75
+29      FTSE100_fsb   -4.98         -0.71
+30       GASOIL_fsb   16.62          0.39
+31     GASOLINE_fsb   23.08          0.58
+32       GAS_US_fsb  -18.16         -0.23
+33          GBP_fsb    5.31          0.53
+34         GILT_fsb   -5.44         -0.45
+35         GOLD_fsb    3.37          0.31
+36         HANG_fsb   -7.36         -0.33
+37      HEATOIL_fsb   17.69          0.40
+38        IBXEX_fsb    3.22          0.33
+39          JGB_fsb    1.45          0.50
+40          JPY_fsb   10.25          0.86
+41      LEANHOG_fsb    6.31          0.24
+42      LIVECOW_fsb   12.61          2.16
+43     MSCISING_fsb   -3.00         -0.25
+44       NASDAQ_fsb   25.72          1.29
+45       NIKKEI_fsb   18.79          1.64
+46          NZD_fsb   -3.39         -0.32
+47       OATIES_fsb   29.93          1.41
+48          OAT_fsb    0.78          0.08
+49           OJ_fsb   39.14          1.25
+50       OMXS30_fsb   -0.79         -0.06
+51       PALLAD_fsb  -13.65         -0.36
+52         PLAT_fsb    2.47          0.10
+53         RICE_fsb    9.59          0.60
+54      ROBUSTA_fsb   41.79          1.92
+55      RUSSELL_fsb   -1.01         -0.06
+56        SHATZ_fsb   -0.14         -0.09
+57       SILVER_fsb   14.87          0.62
+58          SMI_fsb    1.45          0.15
+59       SONIA3_fsb   -0.41         -0.43
+60      SOYBEAN_fsb   10.64          0.75
+61      SOYMEAL_fsb    0.22          0.01
+62       SOYOIL_fsb   25.14          0.90
+63        SP500_fsb   12.00          0.84
+64      SUGAR11_fsb   29.42          1.33
+65  SUGAR_WHITE_fsb   36.40          2.03
+66         US10_fsb   -1.68         -0.29
+67          US2_fsb   -0.96         -0.55
+68        US30U_fsb   -5.95         -0.43
+69         US30_fsb   -3.22         -0.32
+70          US5_fsb   -1.14         -0.27
+71          V2X_fsb  -32.24         -1.13
+72          VIX_fsb  -52.59         -1.83
+73    WHEAT_ICE_fsb  -21.75         -1.34
+74        WHEAT_fsb  -20.63         -0.88
+
+
+======================================================
+Market moves for period 6M, sort by change (6M/change)
+======================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -52.59         -1.83
+71          V2X_fsb  -32.24         -1.13
+73    WHEAT_ICE_fsb  -21.75         -1.34
+74        WHEAT_fsb  -20.63         -0.88
+32       GAS_US_fsb  -18.16         -0.23
+51       PALLAD_fsb  -13.65         -0.36
+15       COFFEE_fsb  -13.47         -0.48
+23          EUA_fsb  -12.82         -0.44
+17         CORN_fsb  -11.18         -0.68
+16       COPPER_fsb   -7.78         -0.41
+36         HANG_fsb   -7.36         -0.33
+68        US30U_fsb   -5.95         -0.43
+34         GILT_fsb   -5.44         -0.45
+29      FTSE100_fsb   -4.98         -0.71
+12          CHF_fsb   -4.96         -0.64
+3           AUD_fsb   -4.25         -0.37
+46          NZD_fsb   -3.39         -0.32
+69         US30_fsb   -3.22         -0.32
+43     MSCISING_fsb   -3.00         -0.25
+24       EURGBP_fsb   -2.98         -0.48
+66         US10_fsb   -1.68         -0.29
+70          US5_fsb   -1.14         -0.27
+55      RUSSELL_fsb   -1.01         -0.06
+22           DX_fsb   -0.99         -0.14
+67          US2_fsb   -0.96         -0.55
+50       OMXS30_fsb   -0.79         -0.06
+9          BUXL_fsb   -0.72         -0.03
+11          CAD_fsb   -0.54         -0.09
+59       SONIA3_fsb   -0.41         -0.43
+25  EURIBOR-ICE_fsb   -0.36         -1.11
+56        SHATZ_fsb   -0.14         -0.09
+28          FED_fsb    0.03          0.75
+0           AEX_fsb    0.13          0.01
+61      SOYMEAL_fsb    0.22          0.01
+6          BTP3_fsb    0.40          0.14
+4          BOBL_fsb    0.55          0.12
+48          OAT_fsb    0.78          0.08
+8          BUND_fsb    0.85          0.10
+1           ASX_fsb    1.28          0.14
+39          JGB_fsb    1.45          0.50
+58          SMI_fsb    1.45          0.15
+20          DAX_fsb    1.77          0.16
+27          EUR_fsb    2.19          0.30
+52         PLAT_fsb    2.47          0.10
+10          CAC_fsb    2.70          0.25
+26      EUROSTX_fsb    3.15          0.27
+38        IBXEX_fsb    3.22          0.33
+35         GOLD_fsb    3.37          0.31
+5       BRENT_W_fsb    3.73          0.13
+7           BTP_fsb    3.97          0.32
+33          GBP_fsb    5.31          0.53
+18      COTTON2_fsb    5.42          0.21
+21          DOW_fsb    5.43          0.45
+2        AUDJPY_fsb    5.92          0.58
+41      LEANHOG_fsb    6.31          0.24
+19      CRUDE_W_fsb    6.76          0.24
+53         RICE_fsb    9.59          0.60
+40          JPY_fsb   10.25          0.86
+60      SOYBEAN_fsb   10.64          0.75
+63        SP500_fsb   12.00          0.84
+42      LIVECOW_fsb   12.61          2.16
+57       SILVER_fsb   14.87          0.62
+30       GASOIL_fsb   16.62          0.39
+37      HEATOIL_fsb   17.69          0.40
+45       NIKKEI_fsb   18.79          1.64
+31     GASOLINE_fsb   23.08          0.58
+62       SOYOIL_fsb   25.14          0.90
+44       NASDAQ_fsb   25.72          1.29
+64      SUGAR11_fsb   29.42          1.33
+47       OATIES_fsb   29.93          1.41
+14        COCOA_fsb   33.09          2.34
+65  SUGAR_WHITE_fsb   36.40          2.03
+49           OJ_fsb   39.14          1.25
+54      ROBUSTA_fsb   41.79          1.92
+13    COCOA_LDN_fsb   51.48          3.65
+
+
+==================================================================
+Market moves for period 6M, sort by vol_adjusted (6M/vol_adjusted)
+==================================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -52.59         -1.83
+73    WHEAT_ICE_fsb  -21.75         -1.34
+71          V2X_fsb  -32.24         -1.13
+25  EURIBOR-ICE_fsb   -0.36         -1.11
+74        WHEAT_fsb  -20.63         -0.88
+29      FTSE100_fsb   -4.98         -0.71
+17         CORN_fsb  -11.18         -0.68
+12          CHF_fsb   -4.96         -0.64
+67          US2_fsb   -0.96         -0.55
+15       COFFEE_fsb  -13.47         -0.48
+24       EURGBP_fsb   -2.98         -0.48
+34         GILT_fsb   -5.44         -0.45
+23          EUA_fsb  -12.82         -0.44
+59       SONIA3_fsb   -0.41         -0.43
+68        US30U_fsb   -5.95         -0.43
+16       COPPER_fsb   -7.78         -0.41
+3           AUD_fsb   -4.25         -0.37
+51       PALLAD_fsb  -13.65         -0.36
+36         HANG_fsb   -7.36         -0.33
+46          NZD_fsb   -3.39         -0.32
+69         US30_fsb   -3.22         -0.32
+66         US10_fsb   -1.68         -0.29
+70          US5_fsb   -1.14         -0.27
+43     MSCISING_fsb   -3.00         -0.25
+32       GAS_US_fsb  -18.16         -0.23
+22           DX_fsb   -0.99         -0.14
+56        SHATZ_fsb   -0.14         -0.09
+11          CAD_fsb   -0.54         -0.09
+55      RUSSELL_fsb   -1.01         -0.06
+50       OMXS30_fsb   -0.79         -0.06
+9          BUXL_fsb   -0.72         -0.03
+61      SOYMEAL_fsb    0.22          0.01
+0           AEX_fsb    0.13          0.01
+48          OAT_fsb    0.78          0.08
+52         PLAT_fsb    2.47          0.10
+8          BUND_fsb    0.85          0.10
+4          BOBL_fsb    0.55          0.12
+5       BRENT_W_fsb    3.73          0.13
+6          BTP3_fsb    0.40          0.14
+1           ASX_fsb    1.28          0.14
+58          SMI_fsb    1.45          0.15
+20          DAX_fsb    1.77          0.16
+18      COTTON2_fsb    5.42          0.21
+19      CRUDE_W_fsb    6.76          0.24
+41      LEANHOG_fsb    6.31          0.24
+10          CAC_fsb    2.70          0.25
+26      EUROSTX_fsb    3.15          0.27
+27          EUR_fsb    2.19          0.30
+35         GOLD_fsb    3.37          0.31
+7           BTP_fsb    3.97          0.32
+38        IBXEX_fsb    3.22          0.33
+30       GASOIL_fsb   16.62          0.39
+37      HEATOIL_fsb   17.69          0.40
+21          DOW_fsb    5.43          0.45
+39          JGB_fsb    1.45          0.50
+33          GBP_fsb    5.31          0.53
+2        AUDJPY_fsb    5.92          0.58
+31     GASOLINE_fsb   23.08          0.58
+53         RICE_fsb    9.59          0.60
+57       SILVER_fsb   14.87          0.62
+60      SOYBEAN_fsb   10.64          0.75
+28          FED_fsb    0.03          0.75
+63        SP500_fsb   12.00          0.84
+40          JPY_fsb   10.25          0.86
+62       SOYOIL_fsb   25.14          0.90
+49           OJ_fsb   39.14          1.25
+44       NASDAQ_fsb   25.72          1.29
+64      SUGAR11_fsb   29.42          1.33
+47       OATIES_fsb   29.93          1.41
+45       NIKKEI_fsb   18.79          1.64
+54      ROBUSTA_fsb   41.79          1.92
+65  SUGAR_WHITE_fsb   36.40          2.03
+42      LIVECOW_fsb   12.61          2.16
+14        COCOA_fsb   33.09          2.34
+13    COCOA_LDN_fsb   51.48          3.65
+
+
+====================================================
+Market moves for period YTD, sort by name (YTD/name)
+====================================================
+
+               name  change  vol_adjusted
+0           AEX_fsb    7.04          0.40
+1           ASX_fsb    5.33          0.40
+2        AUDJPY_fsb    9.62          0.67
+3           AUD_fsb   -5.56         -0.41
+4          BOBL_fsb    0.00          0.00
+5       BRENT_W_fsb    2.26          0.06
+6          BTP3_fsb    0.38          0.09
+7           BTP_fsb    7.01          0.44
+8          BUND_fsb    0.76          0.07
+9          BUXL_fsb   -1.35         -0.05
+10          CAC_fsb   12.24          0.77
+11          CAD_fsb    0.14          0.02
+12          CHF_fsb   -2.48         -0.25
+13    COCOA_LDN_fsb   55.28          2.94
+14        COCOA_fsb   41.91          2.06
+15       COFFEE_fsb   -5.25         -0.13
+16       COPPER_fsb   -2.15         -0.09
+17         CORN_fsb  -17.75         -1.00
+18      COTTON2_fsb    5.52          0.14
+19      CRUDE_W_fsb    1.09          0.03
+20          DAX_fsb   11.68          0.67
+21          DOW_fsb    3.08          0.17
+22           DX_fsb    0.33          0.03
+23          EUA_fsb    3.73          0.10
+24       EURGBP_fsb   -3.87         -0.44
+25  EURIBOR-ICE_fsb   -0.25         -0.42
+26      EUROSTX_fsb   14.73          0.80
+27          EUR_fsb    0.83          0.09
+28          FED_fsb    0.04          0.56
+29      FTSE100_fsb    0.07          0.01
+30       GASOIL_fsb    6.05          0.12
+31     GASOLINE_fsb   19.34          0.43
+32       GAS_US_fsb  -40.01         -0.36
+33          GBP_fsb    4.89          0.34
+34         GILT_fsb   -4.27         -0.26
+35         GOLD_fsb    2.28          0.17
+36         HANG_fsb   -4.98         -0.18
+37      HEATOIL_fsb    0.20          0.00
+38        IBXEX_fsb   15.06          1.14
+39          JGB_fsb    2.39          0.74
+40          JPY_fsb   16.00          0.89
+41      LEANHOG_fsb   -9.66         -0.32
+42      LIVECOW_fsb   15.50          1.91
+43     MSCISING_fsb   -1.38         -0.09
+44       NASDAQ_fsb   36.45          1.20
+45       NIKKEI_fsb   25.58          1.33
+46          NZD_fsb   -5.61         -0.43
+47       OATIES_fsb   30.18          0.93
+48          OAT_fsb    1.03          0.09
+49           OJ_fsb   83.40          2.35
+50       OMXS30_fsb    5.47          0.30
+51       PALLAD_fsb  -32.46         -0.73
+52         PLAT_fsb   -9.90         -0.32
+53         RICE_fsb    0.66          0.04
+54      ROBUSTA_fsb   71.03          2.88
+55      RUSSELL_fsb    5.32          0.21
+56        SHATZ_fsb   -0.53         -0.25
+57       SILVER_fsb   -0.85         -0.03
+58          SMI_fsb    4.94          0.38
+59       SONIA3_fsb   -0.41         -0.27
+60      SOYBEAN_fsb    8.41          0.42
+61      SOYMEAL_fsb    4.89          0.17
+62       SOYOIL_fsb   14.35          0.36
+63        SP500_fsb   14.61          0.64
+64      SUGAR11_fsb   40.67          1.78
+65  SUGAR_WHITE_fsb   41.37          1.85
+66         US10_fsb   -3.00         -0.43
+67          US2_fsb   -1.99         -0.95
+68        US30U_fsb   -5.71         -0.31
+69         US30_fsb   -4.24         -0.32
+70          US5_fsb   -2.55         -0.53
+71          V2X_fsb  -40.18         -1.13
+72          VIX_fsb  -58.39         -1.71
+73    WHEAT_ICE_fsb  -28.86         -1.40
+74        WHEAT_fsb  -29.18         -1.05
+
+
+========================================================
+Market moves for period YTD, sort by change (YTD/change)
+========================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -58.39         -1.71
+71          V2X_fsb  -40.18         -1.13
+32       GAS_US_fsb  -40.01         -0.36
+51       PALLAD_fsb  -32.46         -0.73
+74        WHEAT_fsb  -29.18         -1.05
+73    WHEAT_ICE_fsb  -28.86         -1.40
+17         CORN_fsb  -17.75         -1.00
+52         PLAT_fsb   -9.90         -0.32
+41      LEANHOG_fsb   -9.66         -0.32
+68        US30U_fsb   -5.71         -0.31
+46          NZD_fsb   -5.61         -0.43
+3           AUD_fsb   -5.56         -0.41
+15       COFFEE_fsb   -5.25         -0.13
+36         HANG_fsb   -4.98         -0.18
+34         GILT_fsb   -4.27         -0.26
+69         US30_fsb   -4.24         -0.32
+24       EURGBP_fsb   -3.87         -0.44
+66         US10_fsb   -3.00         -0.43
+70          US5_fsb   -2.55         -0.53
+12          CHF_fsb   -2.48         -0.25
+16       COPPER_fsb   -2.15         -0.09
+67          US2_fsb   -1.99         -0.95
+43     MSCISING_fsb   -1.38         -0.09
+9          BUXL_fsb   -1.35         -0.05
+57       SILVER_fsb   -0.85         -0.03
+56        SHATZ_fsb   -0.53         -0.25
+59       SONIA3_fsb   -0.41         -0.27
+25  EURIBOR-ICE_fsb   -0.25         -0.42
+4          BOBL_fsb    0.00          0.00
+28          FED_fsb    0.04          0.56
+29      FTSE100_fsb    0.07          0.01
+11          CAD_fsb    0.14          0.02
+37      HEATOIL_fsb    0.20          0.00
+22           DX_fsb    0.33          0.03
+6          BTP3_fsb    0.38          0.09
+53         RICE_fsb    0.66          0.04
+8          BUND_fsb    0.76          0.07
+27          EUR_fsb    0.83          0.09
+48          OAT_fsb    1.03          0.09
+19      CRUDE_W_fsb    1.09          0.03
+5       BRENT_W_fsb    2.26          0.06
+35         GOLD_fsb    2.28          0.17
+39          JGB_fsb    2.39          0.74
+21          DOW_fsb    3.08          0.17
+23          EUA_fsb    3.73          0.10
+61      SOYMEAL_fsb    4.89          0.17
+33          GBP_fsb    4.89          0.34
+58          SMI_fsb    4.94          0.38
+55      RUSSELL_fsb    5.32          0.21
+1           ASX_fsb    5.33          0.40
+50       OMXS30_fsb    5.47          0.30
+18      COTTON2_fsb    5.52          0.14
+30       GASOIL_fsb    6.05          0.12
+7           BTP_fsb    7.01          0.44
+0           AEX_fsb    7.04          0.40
+60      SOYBEAN_fsb    8.41          0.42
+2        AUDJPY_fsb    9.62          0.67
+20          DAX_fsb   11.68          0.67
+10          CAC_fsb   12.24          0.77
+62       SOYOIL_fsb   14.35          0.36
+63        SP500_fsb   14.61          0.64
+26      EUROSTX_fsb   14.73          0.80
+38        IBXEX_fsb   15.06          1.14
+42      LIVECOW_fsb   15.50          1.91
+40          JPY_fsb   16.00          0.89
+31     GASOLINE_fsb   19.34          0.43
+45       NIKKEI_fsb   25.58          1.33
+47       OATIES_fsb   30.18          0.93
+44       NASDAQ_fsb   36.45          1.20
+64      SUGAR11_fsb   40.67          1.78
+65  SUGAR_WHITE_fsb   41.37          1.85
+14        COCOA_fsb   41.91          2.06
+13    COCOA_LDN_fsb   55.28          2.94
+54      ROBUSTA_fsb   71.03          2.88
+49           OJ_fsb   83.40          2.35
+
+
+====================================================================
+Market moves for period YTD, sort by vol_adjusted (YTD/vol_adjusted)
+====================================================================
+
+               name  change  vol_adjusted
+72          VIX_fsb  -58.39         -1.71
+73    WHEAT_ICE_fsb  -28.86         -1.40
+71          V2X_fsb  -40.18         -1.13
+74        WHEAT_fsb  -29.18         -1.05
+17         CORN_fsb  -17.75         -1.00
+67          US2_fsb   -1.99         -0.95
+51       PALLAD_fsb  -32.46         -0.73
+70          US5_fsb   -2.55         -0.53
+24       EURGBP_fsb   -3.87         -0.44
+66         US10_fsb   -3.00         -0.43
+46          NZD_fsb   -5.61         -0.43
+25  EURIBOR-ICE_fsb   -0.25         -0.42
+3           AUD_fsb   -5.56         -0.41
+32       GAS_US_fsb  -40.01         -0.36
+69         US30_fsb   -4.24         -0.32
+52         PLAT_fsb   -9.90         -0.32
+41      LEANHOG_fsb   -9.66         -0.32
+68        US30U_fsb   -5.71         -0.31
+59       SONIA3_fsb   -0.41         -0.27
+34         GILT_fsb   -4.27         -0.26
+12          CHF_fsb   -2.48         -0.25
+56        SHATZ_fsb   -0.53         -0.25
+36         HANG_fsb   -4.98         -0.18
+15       COFFEE_fsb   -5.25         -0.13
+16       COPPER_fsb   -2.15         -0.09
+43     MSCISING_fsb   -1.38         -0.09
+9          BUXL_fsb   -1.35         -0.05
+57       SILVER_fsb   -0.85         -0.03
+4          BOBL_fsb    0.00          0.00
+37      HEATOIL_fsb    0.20          0.00
+29      FTSE100_fsb    0.07          0.01
+11          CAD_fsb    0.14          0.02
+19      CRUDE_W_fsb    1.09          0.03
+22           DX_fsb    0.33          0.03
+53         RICE_fsb    0.66          0.04
+5       BRENT_W_fsb    2.26          0.06
+8          BUND_fsb    0.76          0.07
+48          OAT_fsb    1.03          0.09
+6          BTP3_fsb    0.38          0.09
+27          EUR_fsb    0.83          0.09
+23          EUA_fsb    3.73          0.10
+30       GASOIL_fsb    6.05          0.12
+18      COTTON2_fsb    5.52          0.14
+61      SOYMEAL_fsb    4.89          0.17
+35         GOLD_fsb    2.28          0.17
+21          DOW_fsb    3.08          0.17
+55      RUSSELL_fsb    5.32          0.21
+50       OMXS30_fsb    5.47          0.30
+33          GBP_fsb    4.89          0.34
+62       SOYOIL_fsb   14.35          0.36
+58          SMI_fsb    4.94          0.38
+1           ASX_fsb    5.33          0.40
+0           AEX_fsb    7.04          0.40
+60      SOYBEAN_fsb    8.41          0.42
+31     GASOLINE_fsb   19.34          0.43
+7           BTP_fsb    7.01          0.44
+28          FED_fsb    0.04          0.56
+63        SP500_fsb   14.61          0.64
+2        AUDJPY_fsb    9.62          0.67
+20          DAX_fsb   11.68          0.67
+39          JGB_fsb    2.39          0.74
+10          CAC_fsb   12.24          0.77
+26      EUROSTX_fsb   14.73          0.80
+40          JPY_fsb   16.00          0.89
+47       OATIES_fsb   30.18          0.93
+38        IBXEX_fsb   15.06          1.14
+44       NASDAQ_fsb   36.45          1.20
+45       NIKKEI_fsb   25.58          1.33
+64      SUGAR11_fsb   40.67          1.78
+65  SUGAR_WHITE_fsb   41.37          1.85
+42      LIVECOW_fsb   15.50          1.91
+14        COCOA_fsb   41.91          2.06
+49           OJ_fsb   83.40          2.35
+54      ROBUSTA_fsb   71.03          2.88
+13    COCOA_LDN_fsb   55.28          2.94
+
+
+====================================================
+Market moves for period 12M, sort by name (12M/name)
+====================================================
+
+               name  change  vol_adjusted
+0           AEX_fsb    8.20          0.34
+1           ASX_fsb    6.55          0.40
+2        AUDJPY_fsb    3.31          0.23
+3           AUD_fsb   -6.45         -0.42
+4          BOBL_fsb   -5.14         -0.58
+5       BRENT_W_fsb   -9.08         -0.16
+6          BTP3_fsb   -0.50         -0.08
+7           BTP_fsb    0.96          0.05
+8          BUND_fsb   -8.07         -0.54
+9          BUXL_fsb  -18.65         -0.68
+10          CAC_fsb   19.08          0.80
+11          CAD_fsb    3.80          0.40
+12          CHF_fsb   -6.47         -0.63
+13    COCOA_LDN_fsb   85.42          3.34
+14        COCOA_fsb   53.07          1.82
+15       COFFEE_fsb  -32.58         -0.73
+16       COPPER_fsb    5.54          0.18
+17         CORN_fsb  -18.21         -0.42
+18      COTTON2_fsb  -21.84         -0.47
+19      CRUDE_W_fsb  -10.47         -0.18
+20          DAX_fsb   19.19          0.65
+21          DOW_fsb    6.94          0.29
+22           DX_fsb   -3.93         -0.38
+23          EUA_fsb    1.26          0.02
+24       EURGBP_fsb   -1.48         -0.19
+25  EURIBOR-ICE_fsb   -0.66         -0.72
+26      EUROSTX_fsb   22.74          0.79
+27          EUR_fsb    6.31          0.56
+28          FED_fsb    0.09          0.50
+29      FTSE100_fsb    1.42          0.09
+30       GASOIL_fsb   -0.99         -0.01
+31     GASOLINE_fsb   50.08          0.51
+32       GAS_US_fsb  -74.20         -1.18
+33          GBP_fsb    8.18          0.67
+34         GILT_fsb  -10.56         -0.74
+35         GOLD_fsb    7.06          0.46
+36         HANG_fsb   -4.77         -0.16
+37      HEATOIL_fsb    7.20          0.10
+38        IBXEX_fsb   22.99          1.13
+39          JGB_fsb    0.76          0.21
+40          JPY_fsb   10.67          0.71
+41      LEANHOG_fsb   -8.27         -0.22
+42      LIVECOW_fsb   21.60          1.77
+43     MSCISING_fsb   -1.25         -0.06
+44       NASDAQ_fsb   20.40          0.55
+45       NIKKEI_fsb   17.46          0.75
+46          NZD_fsb   -2.65         -0.17
+47       OATIES_fsb   21.52          0.31
+48          OAT_fsb   -6.58         -0.47
+49           OJ_fsb  124.17          2.79
+50       OMXS30_fsb   14.32          0.60
+51       PALLAD_fsb  -41.39         -0.73
+52         PLAT_fsb   17.17          0.45
+53         RICE_fsb   -0.36         -0.01
+54      ROBUSTA_fsb   34.25          1.08
+55      RUSSELL_fsb   -0.02         -0.00
+56        SHATZ_fsb   -2.68         -0.81
+57       SILVER_fsb   29.16          0.81
+58          SMI_fsb    3.51          0.19
+59       SONIA3_fsb   -0.50         -0.27
+60      SOYBEAN_fsb   15.55          0.32
+61      SOYMEAL_fsb   24.44          0.48
+62       SOYOIL_fsb   24.74          0.40
+63        SP500_fsb    9.97          0.35
+64      SUGAR11_fsb   63.32          1.99
+65  SUGAR_WHITE_fsb   61.60          1.94
+66         US10_fsb   -7.00         -0.74
+67          US2_fsb   -3.75         -1.32
+68        US30U_fsb  -15.98         -0.73
+69         US30_fsb  -11.82         -0.73
+70          US5_fsb   -5.32         -0.79
+71          V2X_fsb  -55.26         -0.98
+72          VIX_fsb  -65.50         -1.30
+73    WHEAT_ICE_fsb  -36.23         -0.97
+74        WHEAT_fsb  -32.87         -0.64
+
+
+========================================================
+Market moves for period 12M, sort by change (12M/change)
+========================================================
+
+               name  change  vol_adjusted
+32       GAS_US_fsb  -74.20         -1.18
+72          VIX_fsb  -65.50         -1.30
+71          V2X_fsb  -55.26         -0.98
+51       PALLAD_fsb  -41.39         -0.73
+73    WHEAT_ICE_fsb  -36.23         -0.97
+74        WHEAT_fsb  -32.87         -0.64
+15       COFFEE_fsb  -32.58         -0.73
+18      COTTON2_fsb  -21.84         -0.47
+9          BUXL_fsb  -18.65         -0.68
+17         CORN_fsb  -18.21         -0.42
+68        US30U_fsb  -15.98         -0.73
+69         US30_fsb  -11.82         -0.73
+34         GILT_fsb  -10.56         -0.74
+19      CRUDE_W_fsb  -10.47         -0.18
+5       BRENT_W_fsb   -9.08         -0.16
+41      LEANHOG_fsb   -8.27         -0.22
+8          BUND_fsb   -8.07         -0.54
+66         US10_fsb   -7.00         -0.74
+48          OAT_fsb   -6.58         -0.47
+12          CHF_fsb   -6.47         -0.63
+3           AUD_fsb   -6.45         -0.42
+70          US5_fsb   -5.32         -0.79
+4          BOBL_fsb   -5.14         -0.58
+36         HANG_fsb   -4.77         -0.16
+22           DX_fsb   -3.93         -0.38
+67          US2_fsb   -3.75         -1.32
+56        SHATZ_fsb   -2.68         -0.81
+46          NZD_fsb   -2.65         -0.17
+24       EURGBP_fsb   -1.48         -0.19
+43     MSCISING_fsb   -1.25         -0.06
+30       GASOIL_fsb   -0.99         -0.01
+25  EURIBOR-ICE_fsb   -0.66         -0.72
+6          BTP3_fsb   -0.50         -0.08
+59       SONIA3_fsb   -0.50         -0.27
+53         RICE_fsb   -0.36         -0.01
+55      RUSSELL_fsb   -0.02         -0.00
+28          FED_fsb    0.09          0.50
+39          JGB_fsb    0.76          0.21
+7           BTP_fsb    0.96          0.05
+23          EUA_fsb    1.26          0.02
+29      FTSE100_fsb    1.42          0.09
+2        AUDJPY_fsb    3.31          0.23
+58          SMI_fsb    3.51          0.19
+11          CAD_fsb    3.80          0.40
+16       COPPER_fsb    5.54          0.18
+27          EUR_fsb    6.31          0.56
+1           ASX_fsb    6.55          0.40
+21          DOW_fsb    6.94          0.29
+35         GOLD_fsb    7.06          0.46
+37      HEATOIL_fsb    7.20          0.10
+33          GBP_fsb    8.18          0.67
+0           AEX_fsb    8.20          0.34
+63        SP500_fsb    9.97          0.35
+40          JPY_fsb   10.67          0.71
+50       OMXS30_fsb   14.32          0.60
+60      SOYBEAN_fsb   15.55          0.32
+52         PLAT_fsb   17.17          0.45
+45       NIKKEI_fsb   17.46          0.75
+10          CAC_fsb   19.08          0.80
+20          DAX_fsb   19.19          0.65
+44       NASDAQ_fsb   20.40          0.55
+47       OATIES_fsb   21.52          0.31
+42      LIVECOW_fsb   21.60          1.77
+26      EUROSTX_fsb   22.74          0.79
+38        IBXEX_fsb   22.99          1.13
+61      SOYMEAL_fsb   24.44          0.48
+62       SOYOIL_fsb   24.74          0.40
+57       SILVER_fsb   29.16          0.81
+54      ROBUSTA_fsb   34.25          1.08
+31     GASOLINE_fsb   50.08          0.51
+14        COCOA_fsb   53.07          1.82
+65  SUGAR_WHITE_fsb   61.60          1.94
+64      SUGAR11_fsb   63.32          1.99
+13    COCOA_LDN_fsb   85.42          3.34
+49           OJ_fsb  124.17          2.79
+
+
+====================================================================
+Market moves for period 12M, sort by vol_adjusted (12M/vol_adjusted)
+====================================================================
+
+               name  change  vol_adjusted
+67          US2_fsb   -3.75         -1.32
+72          VIX_fsb  -65.50         -1.30
+32       GAS_US_fsb  -74.20         -1.18
+71          V2X_fsb  -55.26         -0.98
+73    WHEAT_ICE_fsb  -36.23         -0.97
+56        SHATZ_fsb   -2.68         -0.81
+70          US5_fsb   -5.32         -0.79
+66         US10_fsb   -7.00         -0.74
+34         GILT_fsb  -10.56         -0.74
+51       PALLAD_fsb  -41.39         -0.73
+68        US30U_fsb  -15.98         -0.73
+15       COFFEE_fsb  -32.58         -0.73
+69         US30_fsb  -11.82         -0.73
+25  EURIBOR-ICE_fsb   -0.66         -0.72
+9          BUXL_fsb  -18.65         -0.68
+74        WHEAT_fsb  -32.87         -0.64
+12          CHF_fsb   -6.47         -0.63
+4          BOBL_fsb   -5.14         -0.58
+8          BUND_fsb   -8.07         -0.54
+18      COTTON2_fsb  -21.84         -0.47
+48          OAT_fsb   -6.58         -0.47
+17         CORN_fsb  -18.21         -0.42
+3           AUD_fsb   -6.45         -0.42
+22           DX_fsb   -3.93         -0.38
+59       SONIA3_fsb   -0.50         -0.27
+41      LEANHOG_fsb   -8.27         -0.22
+24       EURGBP_fsb   -1.48         -0.19
+19      CRUDE_W_fsb  -10.47         -0.18
+46          NZD_fsb   -2.65         -0.17
+5       BRENT_W_fsb   -9.08         -0.16
+36         HANG_fsb   -4.77         -0.16
+6          BTP3_fsb   -0.50         -0.08
+43     MSCISING_fsb   -1.25         -0.06
+30       GASOIL_fsb   -0.99         -0.01
+53         RICE_fsb   -0.36         -0.01
+55      RUSSELL_fsb   -0.02         -0.00
+23          EUA_fsb    1.26          0.02
+7           BTP_fsb    0.96          0.05
+29      FTSE100_fsb    1.42          0.09
+37      HEATOIL_fsb    7.20          0.10
+16       COPPER_fsb    5.54          0.18
+58          SMI_fsb    3.51          0.19
+39          JGB_fsb    0.76          0.21
+2        AUDJPY_fsb    3.31          0.23
+21          DOW_fsb    6.94          0.29
+47       OATIES_fsb   21.52          0.31
+60      SOYBEAN_fsb   15.55          0.32
+0           AEX_fsb    8.20          0.34
+63        SP500_fsb    9.97          0.35
+62       SOYOIL_fsb   24.74          0.40
+1           ASX_fsb    6.55          0.40
+11          CAD_fsb    3.80          0.40
+52         PLAT_fsb   17.17          0.45
+35         GOLD_fsb    7.06          0.46
+61      SOYMEAL_fsb   24.44          0.48
+28          FED_fsb    0.09          0.50
+31     GASOLINE_fsb   50.08          0.51
+44       NASDAQ_fsb   20.40          0.55
+27          EUR_fsb    6.31          0.56
+50       OMXS30_fsb   14.32          0.60
+20          DAX_fsb   19.19          0.65
+33          GBP_fsb    8.18          0.67
+40          JPY_fsb   10.67          0.71
+45       NIKKEI_fsb   17.46          0.75
+26      EUROSTX_fsb   22.74          0.79
+10          CAC_fsb   19.08          0.80
+57       SILVER_fsb   29.16          0.81
+54      ROBUSTA_fsb   34.25          1.08
+38        IBXEX_fsb   22.99          1.13
+42      LIVECOW_fsb   21.60          1.77
+14        COCOA_fsb   53.07          1.82
+65  SUGAR_WHITE_fsb   61.60          1.94
+64      SUGAR11_fsb   63.32          1.99
+49           OJ_fsb  124.17          2.79
+13    COCOA_LDN_fsb   85.42          3.34
+
+
+********************************************************************************
+                                 END OF REPORT                                  
+********************************************************************************
+
+

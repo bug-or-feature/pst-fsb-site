@@ -1,10 +1,17 @@
 
 ********************************************************************************
-                   Status report produced on 30/06/2023 22:30                   
+                   Status report produced on 30/08/2023 22:30                   
 ********************************************************************************
 
 
-Delayed methods: No delays
+
+================================================================================================================================
+                                                        Delayed methods                                                         
+================================================================================================================================
+
+                                                  process_name              last_start                last_end currently_running
+refresh_additional_sampling_all_instruments  run_stack_handler 2023-08-18 11:15:13.801 2023-08-18 11:15:29.820             False
+
 Delayed adjusted / FX prices: No delays
 Delayed optimal positions: No delays
 Instruments at trade limit: No constraints
@@ -25,106 +32,103 @@ Status of adjusted price / FX price collection
 ==============================================
 
                         last_update
-JGB_fsb         2023-06-28 05:00:00
-IBXEX_fsb       2023-06-28 05:00:00
-OMXS30_fsb      2023-06-28 05:00:00
-MSCISING_fsb    2023-06-28 05:00:00
-SONIA3_fsb      2023-06-29 05:00:00
-HANG_fsb        2023-06-29 07:00:00
-RICE_fsb        2023-06-29 17:00:00
-SOYBEAN_fsb     2023-06-29 18:00:00
-SOYMEAL_fsb     2023-06-29 18:00:00
-CORN_fsb        2023-06-29 18:00:00
-SGDUSD          2023-06-30 00:00:00
-KRWUSD          2023-06-30 00:00:00
-EURUSD          2023-06-30 00:00:00
-GBPUSD          2023-06-30 00:00:00
-AUDUSD          2023-06-30 00:00:00
-HKDUSD          2023-06-30 00:00:00
-JPYUSD          2023-06-30 00:00:00
-CNHUSD          2023-06-30 00:00:00
-CADUSD          2023-06-30 00:00:00
-CHFUSD          2023-06-30 00:00:00
-OATIES_fsb      2023-06-30 13:00:00
-COCOA_LDN_fsb   2023-06-30 15:00:00
-EUA_fsb         2023-06-30 15:00:00
-SUGAR11_fsb     2023-06-30 16:00:00
-BTP_fsb         2023-06-30 16:00:00
-SUGAR_WHITE_fsb 2023-06-30 16:00:00
-WHEAT_ICE_fsb   2023-06-30 16:00:00
-ROBUSTA_fsb     2023-06-30 16:00:00
-BTP3_fsb        2023-06-30 16:00:00
-GILT_fsb        2023-06-30 16:00:00
-COFFEE_fsb      2023-06-30 17:00:00
-COCOA_fsb       2023-06-30 17:00:00
-OJ_fsb          2023-06-30 17:00:00
-NIKKEI_fsb      2023-06-30 18:00:00
-SILVER_fsb      2023-06-30 18:00:00
-PALLAD_fsb      2023-06-30 18:00:00
-SHATZ_fsb       2023-06-30 18:00:00
-WHEAT_fsb       2023-06-30 18:00:00
-SMI_fsb         2023-06-30 18:00:00
-V2X_fsb         2023-06-30 18:00:00
-OAT_fsb         2023-06-30 18:00:00
-SOYOIL_fsb      2023-06-30 18:00:00
-AEX_fsb         2023-06-30 18:00:00
-DAX_fsb         2023-06-30 18:00:00
-ASX_fsb         2023-06-30 18:00:00
-AUD_fsb         2023-06-30 18:00:00
-BOBL_fsb        2023-06-30 18:00:00
-BRENT_W_fsb     2023-06-30 18:00:00
-BUND_fsb        2023-06-30 18:00:00
-BUXL_fsb        2023-06-30 18:00:00
-CAC_fsb         2023-06-30 18:00:00
-CAD_fsb         2023-06-30 18:00:00
-CHF_fsb         2023-06-30 18:00:00
-COPPER_fsb      2023-06-30 18:00:00
-COTTON2_fsb     2023-06-30 18:00:00
-CRUDE_W_fsb     2023-06-30 18:00:00
-LEANHOG_fsb     2023-06-30 18:00:00
-DOW_fsb         2023-06-30 18:00:00
-DX_fsb          2023-06-30 18:00:00
-LIVECOW_fsb     2023-06-30 18:00:00
-EURIBOR-ICE_fsb 2023-06-30 18:00:00
-EUROSTX_fsb     2023-06-30 18:00:00
-EUR_fsb         2023-06-30 18:00:00
-FED_fsb         2023-06-30 18:00:00
-HEATOIL_fsb     2023-06-30 18:00:00
-GOLD_fsb        2023-06-30 18:00:00
-GBP_fsb         2023-06-30 18:00:00
-GAS_US_fsb      2023-06-30 18:00:00
-GASOLINE_fsb    2023-06-30 18:00:00
-EURGBP_fsb      2023-06-30 18:00:00
-FTSE100_fsb     2023-06-30 18:00:00
-GASOIL_fsb      2023-06-30 18:00:00
-JPY_fsb         2023-06-30 19:00:00
-NZD_fsb         2023-06-30 19:00:00
-VIX_fsb         2023-06-30 19:00:00
-RUSSELL_fsb     2023-06-30 19:00:00
-US5_fsb         2023-06-30 19:00:00
-US30_fsb        2023-06-30 19:00:00
-US30U_fsb       2023-06-30 19:00:00
-US2_fsb         2023-06-30 19:00:00
-US10_fsb        2023-06-30 19:00:00
-SP500_fsb       2023-06-30 19:00:00
-PLAT_fsb        2023-06-30 19:00:00
-NASDAQ_fsb      2023-06-30 19:00:00
+IBXEX_fsb       2023-08-28 05:00:00
+MSCISING_fsb    2023-08-28 05:00:00
+OMXS30_fsb      2023-08-28 05:00:00
+JGB_fsb         2023-08-28 05:00:00
+SONIA3_fsb      2023-08-29 05:00:00
+EURIBOR-ICE_fsb 2023-08-29 18:00:00
+KRWUSD          2023-08-30 00:00:00
+AUDUSD          2023-08-30 00:00:00
+CADUSD          2023-08-30 00:00:00
+SGDUSD          2023-08-30 00:00:00
+CNHUSD          2023-08-30 00:00:00
+GBPUSD          2023-08-30 00:00:00
+CHFUSD          2023-08-30 00:00:00
+EURUSD          2023-08-30 00:00:00
+HKDUSD          2023-08-30 00:00:00
+JPYUSD          2023-08-30 00:00:00
+COCOA_LDN_fsb   2023-08-30 15:00:00
+EUA_fsb         2023-08-30 15:00:00
+AUDJPY_fsb      2023-08-30 15:00:00
+WHEAT_ICE_fsb   2023-08-30 16:00:00
+SUGAR_WHITE_fsb 2023-08-30 16:00:00
+SUGAR11_fsb     2023-08-30 16:00:00
+BTP3_fsb        2023-08-30 16:00:00
+GILT_fsb        2023-08-30 16:00:00
+BTP_fsb         2023-08-30 16:00:00
+ROBUSTA_fsb     2023-08-30 16:00:00
+COCOA_fsb       2023-08-30 17:00:00
+COFFEE_fsb*     2023-08-30 17:00:00
+OJ_fsb          2023-08-30 17:00:00
+LEANHOG_fsb     2023-08-30 18:00:00
+OATIES_fsb      2023-08-30 18:00:00
+SMI_fsb         2023-08-30 18:00:00
+RICE_fsb        2023-08-30 18:00:00
+SHATZ_fsb       2023-08-30 18:00:00
+SOYBEAN_fsb     2023-08-30 18:00:00
+SOYMEAL_fsb     2023-08-30 18:00:00
+WHEAT_fsb       2023-08-30 18:00:00
+OAT_fsb         2023-08-30 18:00:00
+SOYOIL_fsb      2023-08-30 18:00:00
+AEX_fsb         2023-08-30 18:00:00
+CRUDE_W_fsb     2023-08-30 18:00:00
+DOW_fsb         2023-08-30 18:00:00
+DAX_fsb         2023-08-30 18:00:00
+COTTON2_fsb     2023-08-30 18:00:00
+CORN_fsb        2023-08-30 18:00:00
+COPPER_fsb*     2023-08-30 18:00:00
+CHF_fsb         2023-08-30 18:00:00
+DX_fsb          2023-08-30 18:00:00
+CAD_fsb         2023-08-30 18:00:00
+BUXL_fsb        2023-08-30 18:00:00
+BUND_fsb*       2023-08-30 18:00:00
+BRENT_W_fsb     2023-08-30 18:00:00
+BOBL_fsb        2023-08-30 18:00:00
+AUD_fsb         2023-08-30 18:00:00
+ASX_fsb         2023-08-30 18:00:00
+CAC_fsb         2023-08-30 18:00:00
+EURGBP_fsb      2023-08-30 18:00:00
+LIVECOW_fsb     2023-08-30 18:00:00
+EUROSTX_fsb     2023-08-30 18:00:00
+HANG_fsb        2023-08-30 18:00:00
+EUR_fsb         2023-08-30 18:00:00
+FED_fsb         2023-08-30 18:00:00
+GAS_US_fsb      2023-08-30 18:00:00
+GASOLINE_fsb    2023-08-30 18:00:00
+GASOIL_fsb      2023-08-30 18:00:00
+FTSE100_fsb     2023-08-30 18:00:00
+GOLD_fsb        2023-08-30 19:00:00
+GBP_fsb         2023-08-30 19:00:00
+NASDAQ_fsb*     2023-08-30 19:00:00
+NIKKEI_fsb      2023-08-30 19:00:00
+NZD_fsb*        2023-08-30 19:00:00
+VIX_fsb         2023-08-30 19:00:00
+V2X_fsb         2023-08-30 19:00:00
+US5_fsb         2023-08-30 19:00:00
+US30_fsb        2023-08-30 19:00:00
+US30U_fsb       2023-08-30 19:00:00
+US2_fsb         2023-08-30 19:00:00
+US10_fsb        2023-08-30 19:00:00
+PALLAD_fsb      2023-08-30 19:00:00
+PLAT_fsb        2023-08-30 19:00:00
+SP500_fsb       2023-08-30 19:00:00
+HEATOIL_fsb     2023-08-30 19:00:00
+RUSSELL_fsb     2023-08-30 19:00:00
+SILVER_fsb      2023-08-30 19:00:00
+JPY_fsb         2023-08-30 19:00:00
 
 
-======================================================
-        Status of optimal position generation         
-======================================================
+============================================================
+           Status of optimal position generation            
+============================================================
 
-                                           last_update
-name                                                  
-fsb_strategy_v3/BUXL_fsb    2023-06-30 21:30:21.853885
-fsb_strategy_v3/CAD_fsb     2023-06-30 21:30:22.127592
-fsb_strategy_v3/CRUDE_W_fsb 2023-06-30 21:30:22.306762
-fsb_strategy_v3/EUROSTX_fsb 2023-06-30 21:30:22.461100
-fsb_strategy_v3/GOLD_fsb    2023-06-30 21:30:22.637687
-fsb_strategy_v3/NASDAQ_fsb  2023-06-30 21:30:22.802861
-fsb_strategy_v3/NZD_fsb     2023-06-30 21:30:22.954688
-fsb_strategy_v3/US10_fsb    2023-06-30 21:30:23.112263
+                                                 last_update
+fsb_static_strategy_v5/BUND_fsb   2023-08-30 21:30:27.464232
+fsb_static_strategy_v5/COFFEE_fsb 2023-08-30 21:30:27.726740
+fsb_static_strategy_v5/COPPER_fsb 2023-08-30 21:30:28.129834
+fsb_static_strategy_v5/NASDAQ_fsb 2023-08-30 21:30:28.355210
+fsb_static_strategy_v5/NZD_fsb    2023-08-30 21:30:28.535970
 
 
 ======================
@@ -136,13 +140,21 @@ Columns: [period_days, trade_limit, trades_since_last_reset, trade_capacity_rema
 Index: []
 
 
-=========================
-Status of position limits
-=========================
+=================================================================
+                    Status of position limits                    
+=================================================================
 
-Empty DataFrame
-Columns: [keys, position, pos_limit, spare]
-Index: []
+                                keys  position pos_limit    spare
+0  fsb_static_strategy_v5 COPPER_fsb     -3.30  No limit  9999999
+1    fsb_static_strategy_v5 BUND_fsb      0.46  No limit  9999999
+2  fsb_static_strategy_v5 NASDAQ_fsb     -1.63  No limit  9999999
+3     fsb_static_strategy_v5 NZD_fsb     -4.50  No limit  9999999
+4  fsb_static_strategy_v5 COFFEE_fsb     -1.50  No limit  9999999
+0                         COPPER_fsb     -3.30  No limit  9999999
+1                           BUND_fsb      0.46  No limit  9999999
+2                         NASDAQ_fsb     -1.63  No limit  9999999
+3                            NZD_fsb     -4.50  No limit  9999999
+4                         COFFEE_fsb     -1.50  No limit  9999999
 
 
 ================================================================
@@ -150,20 +162,15 @@ Index: []
 ================================================================
 
                                                         override
-name                                                            
 BRENT          Override Reduce only because ignore_instrument...
 BITCOIN_fsb    Override No trading because trading_restrictio...
 COCOA_fsb      Override Reduce only because bad_instrument in...
 COCOA_LDN_fsb  Override Reduce only because bad_instrument in...
 CORN_fsb       Override Reduce only because bad_instrument in...
-EDOLLAR_fsb    Override Reduce only because bad_instrument in...
 EURGBP_fsb     Override Reduce only because bad_instrument in...
-EURIBOR_fsb    Override Reduce only because bad_instrument in...
 FED_fsb        Override Reduce only because bad_instrument in...
 JGB_fsb        Override Reduce only because bad_instrument in...
-JSE40_fsb      Override Reduce only because bad_instrument in...
 LIVECOW_fsb    Override Reduce only because bad_instrument in...
-LUMBER_fsb     Override Reduce only because bad_instrument in...
 MSCISING_fsb   Override Reduce only because bad_instrument in...
 OATIES_fsb     Override Reduce only because bad_instrument in...
 RICE_fsb       Override Reduce only because bad_instrument in...
@@ -186,13 +193,15 @@ run_daily_prices_updates                            True         False          
 run_daily_fx_and_contract_updates                   True         False          True
 run_daily_update_multiple_adjusted_prices           True         False          True
 run_stack_handler                                  False          True          True
+run_ig_handler_weekday                             False          True          True
+run_ig_handler_overnight                            True         False          True
+run_ig_handler_weekend                              True         False          True
 run_epic_discovery                                 False          True          True
-run_market_info_updates                             True         False          True
 run_reports                                         True         False          True
 run_backups                                         True         False          True
 run_cleaners                                        True         False          True
 run_systems                                         True         False          True
-run_strategy_order_generator                       False          True          True
+run_strategy_order_generator                        True         False          True
 
 
 ==============================================================================================================
@@ -200,17 +209,18 @@ run_strategy_order_generator                       False          True          
 ==============================================================================================================
 
                                                          start                  end status    PID      running
-run_reports                                2023-06-30 22:30:02  2023-06-29 22:36:14     GO  88446      running
-run_epic_discovery                         2023-06-30 01:55:10  2023-06-30 04:47:02     GO      0  not running
-run_daily_fx_and_contract_updates          2023-06-30 11:15:39  2023-06-30 11:25:27     GO      0  not running
-run_market_info_updates                    2023-06-30 11:00:03  2023-06-30 12:01:03     GO      0  not running
-run_capital_update                         2023-06-30 00:45:02  2023-06-30 18:45:07     GO      0  not running
-run_daily_prices_updates                   2023-06-30 20:05:02  2023-06-30 20:16:36     GO      0  not running
-run_daily_update_multiple_adjusted_prices  2023-06-30 20:20:01  2023-06-30 20:20:35     GO      0  not running
-run_stack_handler                          2023-06-30 01:15:01  2023-06-30 20:23:04     GO      0  not running
-run_systems                                2023-06-30 21:30:03  2023-06-30 21:30:24     GO      0  not running
-run_cleaners                               2023-06-30 22:00:07  2023-06-30 22:00:08     GO      0  not running
-run_backups                                2023-06-30 22:15:05  2023-06-30 22:22:31     GO      0  not running
+run_reports                                2023-08-30 22:30:07  2023-08-29 22:47:51     GO  71183      running
+run_epic_discovery                         2023-08-30 00:59:14  2023-08-30 03:46:20     GO      0  not running
+run_stack_handler                          2023-08-30 05:45:07  2023-08-30 05:47:16     GO      0      crashed
+run_daily_fx_and_contract_updates          2023-08-30 11:15:06  2023-08-30 11:25:50     GO      0  not running
+run_capital_update                         2023-08-30 00:45:08  2023-08-30 18:45:13     GO      0  not running
+run_ig_handler_weekday                     2023-08-30 05:15:05  2023-08-30 19:22:06     GO      0      crashed
+run_daily_prices_updates                   2023-08-30 20:05:07  2023-08-30 20:18:01     GO      0  not running
+run_daily_update_multiple_adjusted_prices  2023-08-30 20:20:01  2023-08-30 20:20:37     GO      0  not running
+run_systems                                2023-08-30 21:30:06  2023-08-30 21:30:29     GO      0  not running
+run_strategy_order_generator               2023-08-30 21:40:06  2023-08-30 21:40:08     GO      0  not running
+run_cleaners                               2023-08-30 22:00:06  2023-08-30 22:00:07     GO      0  not running
+run_backups                                2023-08-30 22:15:07  2023-08-30 22:23:00     GO      0  not running
 
 
 ========================================================================================================================================================
@@ -218,50 +228,52 @@ run_backups                                2023-06-30 22:15:05  2023-06-30 22:22
 ========================================================================================================================================================
 
                                                                           process_name              last_start                last_end currently_running
-method_or_strategy                                                                                                                                      
-roll_report                                                                run_reports 2023-06-29 22:30:11.883 2023-06-29 22:30:41.376             False
-instrument_risk_report                                                     run_reports 2023-06-29 22:30:41.388 2023-06-29 22:31:20.112             False
-min_capital                                                                run_reports 2023-06-29 22:31:20.120 2023-06-29 22:31:57.015             False
-remove_markets_report                                                      run_reports 2023-06-29 22:31:57.023 2023-06-29 22:33:58.612             False
-fsb_report                                                                 run_reports 2023-06-29 22:33:58.621 2023-06-29 22:34:47.192             False
-slippage_report                                                            run_reports 2023-06-29 22:34:47.199 2023-06-29 22:34:51.868             False
-costs_report                                                               run_reports 2023-06-29 22:34:51.877 2023-06-29 22:36:14.260             False
-strategy_allocation                                                 run_capital_update 2023-06-30 00:45:04.552 2023-06-30 00:45:04.636             False
-do_epic_discovery                                                   run_epic_discovery 2023-06-30 01:55:11.237 2023-06-30 04:47:02.463             False
-do_market_info_updates                                         run_market_info_updates 2023-06-30 11:00:04.083 2023-06-30 12:01:02.901             False
-update_fx_prices                                     run_daily_fx_and_contract_updates 2023-06-30 11:15:39.691 2023-06-30 11:17:29.850             False
-update_sampled_contracts                             run_daily_fx_and_contract_updates 2023-06-30 11:17:32.085 2023-06-30 11:25:27.235             False
-update_total_capital                                                run_capital_update 2023-06-30 18:45:07.004 2023-06-30 18:45:07.745             False
-refresh_additional_sampling_all_instruments                          run_stack_handler 2023-06-30 19:23:04.177 2023-06-30 19:24:41.216             False
-update_historical_prices                                      run_daily_prices_updates 2023-06-30 20:05:03.346 2023-06-30 20:16:19.864             False
-generate_fsb_updates                                          run_daily_prices_updates 2023-06-30 20:16:19.872 2023-06-30 20:16:36.016             False
-update_multiple_adjusted_prices              run_daily_update_multiple_adjusted_prices 2023-06-30 20:20:01.938 2023-06-30 20:20:34.955             False
-fsb_strategy_v3                                                            run_systems 2023-06-30 21:30:04.157 2023-06-30 21:30:23.495             False
-clean_backtest_states                                                     run_cleaners 2023-06-30 22:00:08.016 2023-06-30 22:00:08.027             False
-clean_echo_files                                                          run_cleaners 2023-06-30 22:00:08.034 2023-06-30 22:00:08.055             False
-clean_log_files                                                           run_cleaners 2023-06-30 22:00:08.063 2023-06-30 22:00:08.071             False
-backup_arctic_to_csv                                                       run_backups 2023-06-30 22:15:06.322 2023-06-30 22:22:14.209             False
-backup_mongo_data_as_dump                                                  run_backups 2023-06-30 22:22:14.242 2023-06-30 22:22:30.110             False
-backup_files                                                               run_backups 2023-06-30 22:22:30.140 2023-06-30 22:22:30.536             False
-status_report                                                              run_reports 2023-06-30 22:30:03.103 2023-06-29 22:30:11.875              True
+refresh_additional_sampling_all_instruments                          run_stack_handler 2023-08-18 11:15:13.801 2023-08-18 11:15:29.820             False
+create_broker_orders_from_contract_orders                            run_stack_handler 2023-08-29 19:36:24.329 2023-08-29 19:36:24.343             False
+safe_stack_removal                                                   run_stack_handler 2023-08-29 19:45:00.031 2023-08-29 19:45:00.183             False
+roll_report                                                                run_reports 2023-08-29 22:30:12.439 2023-08-29 22:30:44.093             False
+instrument_risk_report                                                     run_reports 2023-08-29 22:30:44.101 2023-08-29 22:31:27.603             False
+min_capital                                                                run_reports 2023-08-29 22:31:27.614 2023-08-29 22:32:09.299             False
+remove_markets_report                                                      run_reports 2023-08-29 22:32:09.308 2023-08-29 22:34:11.082             False
+fsb_report                                                                 run_reports 2023-08-29 22:34:11.091 2023-08-29 22:35:06.241             False
+slippage_report                                                            run_reports 2023-08-29 22:35:06.252 2023-08-29 22:35:18.288             False
+costs_report                                                               run_reports 2023-08-29 22:35:18.331 2023-08-29 22:36:00.608             False
+trade_report                                                               run_reports 2023-08-29 22:36:00.619 2023-08-29 22:36:01.163             False
+daily_pandl_report                                                         run_reports 2023-08-29 22:36:01.172 2023-08-29 22:36:08.431             False
+strategy_report                                                            run_reports 2023-08-29 22:36:08.446 2023-08-29 22:41:11.039             False
+reconcile_report                                                           run_reports 2023-08-29 22:41:11.046 2023-08-29 22:41:12.579             False
+market_monitor_report                                                      run_reports 2023-08-29 22:41:12.586 2023-08-29 22:47:29.765             False
+risk_report                                                                run_reports 2023-08-29 22:47:29.774 2023-08-29 22:47:51.239             False
+strategy_allocation                                                 run_capital_update 2023-08-30 00:45:10.014 2023-08-30 00:45:10.088             False
+do_epic_discovery                                                   run_epic_discovery 2023-08-30 00:59:15.030 2023-08-30 03:46:20.221             False
+check_external_position_break                                        run_stack_handler 2023-08-30 05:45:07.910 2023-08-30 05:45:08.752             False
+spawn_children_from_new_instrument_orders                            run_stack_handler 2023-08-30 05:45:08.760 2023-08-29 19:44:59.371              True
+update_fx_prices                                     run_daily_fx_and_contract_updates 2023-08-30 11:15:07.393 2023-08-30 11:16:55.330             False
+update_sampled_contracts                             run_daily_fx_and_contract_updates 2023-08-30 11:16:57.920 2023-08-30 11:25:50.285             False
+update_total_capital                                                run_capital_update 2023-08-30 18:45:12.609 2023-08-30 18:45:13.263             False
+refresh_additional_sampling_all_instruments                     run_ig_handler_weekday 2023-08-30 19:15:10.933 2023-08-30 19:15:19.862             False
+do_market_info_updates                                          run_ig_handler_weekday 2023-08-30 19:16:56.038 2023-08-30 19:16:57.134             False
+update_historical_prices                                      run_daily_prices_updates 2023-08-30 20:05:07.936 2023-08-30 20:17:44.157             False
+generate_fsb_updates                                          run_daily_prices_updates 2023-08-30 20:17:44.165 2023-08-30 20:18:01.197             False
+update_multiple_adjusted_prices              run_daily_update_multiple_adjusted_prices 2023-08-30 20:20:01.981 2023-08-30 20:20:36.656             False
+fsb_static_strategy_v5                                                     run_systems 2023-08-30 21:30:07.151 2023-08-30 21:30:28.860             False
+fsb_static_strategy_v5                                    run_strategy_order_generator 2023-08-30 21:40:07.373 2023-08-30 21:40:07.983             False
+clean_backtest_states                                                     run_cleaners 2023-08-30 22:00:07.080 2023-08-30 22:00:07.094             False
+clean_echo_files                                                          run_cleaners 2023-08-30 22:00:07.102 2023-08-30 22:00:07.154             False
+clean_log_files                                                           run_cleaners 2023-08-30 22:00:07.161 2023-08-30 22:00:07.169             False
+backup_arctic_to_csv                                                       run_backups 2023-08-30 22:15:07.980 2023-08-30 22:22:48.185             False
+backup_mongo_data_as_dump                                                  run_backups 2023-08-30 22:22:48.192 2023-08-30 22:22:59.148             False
+backup_files                                                               run_backups 2023-08-30 22:22:59.156 2023-08-30 22:22:59.589             False
+status_report                                                              run_reports 2023-08-30 22:30:07.974 2023-08-29 22:30:12.432              True
 update_epics                                         run_daily_fx_and_contract_updates                     NaT                     NaT             False
-check_external_position_break                                        run_stack_handler                     NaT                     NaT             False
-spawn_children_from_new_instrument_orders                            run_stack_handler                     NaT                     NaT             False
 generate_force_roll_orders                                           run_stack_handler                     NaT                     NaT             False
-create_broker_orders_from_contract_orders                            run_stack_handler                     NaT                     NaT             False
 process_fills_stack                                                  run_stack_handler                     NaT                     NaT             False
 handle_completed_orders                                              run_stack_handler                     NaT                     NaT             False
-safe_stack_removal                                                   run_stack_handler                     NaT                     NaT             False
+do_market_info_updates                                        run_ig_handler_overnight                     NaT                     NaT             False
+do_wang                                                         run_ig_handler_weekend                     NaT                     NaT             False
 liquidity_report                                                           run_reports                     NaT                     NaT             False
-daily_pandl_report                                                         run_reports                     NaT                     NaT             False
-reconcile_report                                                           run_reports                     NaT                     NaT             False
-trade_report                                                               run_reports                     NaT                     NaT             False
-strategy_report                                                            run_reports                     NaT                     NaT             False
-risk_report                                                                run_reports                     NaT                     NaT             False
 duplicate_market                                                           run_reports                     NaT                     NaT             False
-market_monitor_report                                                      run_reports                     NaT                     NaT             False
 account_curve_report                                                       run_reports                     NaT                     NaT             False
-fsb_strategy_v3                                           run_strategy_order_generator                     NaT                     NaT             False
 
 
 ===============================================================================
@@ -269,18 +281,20 @@ fsb_strategy_v3                                           run_strategy_order_gen
 ===============================================================================
 
                                           previous_process start_time  end_time
-run_capital_update                                    None   00:40:00  19:50:00
-run_daily_prices_updates                              None   20:00:00  23:50:00
-run_daily_fx_and_contract_updates                     None   11:10:00  23:50:00
-run_daily_update_multiple_adjusted_prices             None   20:15:00  23:50:00
-run_stack_handler                                     None   00:10:00  19:45:00
-run_epic_discovery                                    None   01:55:00  05:00:00
-run_market_info_updates                               None   11:00:00  23:50:00
-run_reports                                           None   22:25:00  23:50:00
-run_backups                                           None   22:10:00  23:50:00
-run_cleaners                                          None   21:55:00  23:50:00
-run_systems                                           None   20:30:00  23:50:00
-run_strategy_order_generator                          None   06:00:00  19:30:00
+run_capital_update                                    None   00:44:00  19:45:00
+run_daily_prices_updates                              None   20:04:00  23:50:00
+run_daily_fx_and_contract_updates                     None   11:14:00  23:50:00
+run_daily_update_multiple_adjusted_prices             None   20:19:00  23:50:00
+run_stack_handler                                     None   01:14:00  19:45:00
+run_ig_handler_weekday                                None   00:01:00  19:45:00
+run_ig_handler_overnight                              None   00:01:00  23:55:00
+run_ig_handler_weekend                                None   00:01:00  23:55:00
+run_epic_discovery                                    None   00:59:00  05:00:00
+run_reports                                           None   22:29:00  23:50:00
+run_backups                                           None   22:14:00  23:50:00
+run_cleaners                                          None   21:59:00  23:50:00
+run_systems                                           None   21:29:00  23:50:00
+run_strategy_order_generator                          None   21:39:00  23:50:00
 
 
 ********************************************************************************

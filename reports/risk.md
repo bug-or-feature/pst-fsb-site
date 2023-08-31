@@ -1,9 +1,9 @@
 ---
-title: FSB Instrument Risk Report
+title: Risk Report
 layout: minimal
 parent: Reports
 ---
 
 <pre>
-{% include_relative raw/FSB_Instrument_risk_report.txt %}
+{% include_relative raw/Risk_report.txt %}
 </pre>
