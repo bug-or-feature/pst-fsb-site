@@ -1,18 +1,44 @@
 
 ********************************************************************************
-                    FSB report produced on 30/08/2023 22:34                     
+                    FSB report produced on 27/10/2023 22:34                     
 ********************************************************************************
 
 
+Instruments where the epic for a given contract is yet to be defined.
+This can happen for forward contracts where there are only two epics, but should never happen for priced. Missing forwards will normally resolve just after a  roll, but if IG skip a contract will need manual action. 
+
+===========================
+   Missing forward epic    
+===========================
+
+     Instrument  Since_Roll
+0  GASOLINE_fsb           1
+1   HEATOIL_fsb           1
+2  MSCISING_fsb           3
+3      RICE_fsb           1
+
+
+===================
+Missing priced epic
+===================
+
+Empty DataFrame
+Columns: []
+Index: []
+
 Instruments where the minimum bet is misconfigured, or recently changed by IG
 
-=============================================================
-               Misconfigured minimum bet size                
-=============================================================
+======================================================================
+                    Misconfigured minimum bet size                    
+======================================================================
 
-                          ExpectedMinBet  ActualMinBet Status
-Contract                                                     
-SUGAR_WHITE_fsb/20231200            15.0           0.1    n/a
+                          ExpectedMinBet  ActualMinBet In_Hours_Status
+Contract                                                              
+SUGAR_WHITE_fsb/20241200             0.1          15.0         OFFLINE
+SUGAR_WHITE_fsb/20241000             0.1          15.0         OFFLINE
+SUGAR_WHITE_fsb/20240800             0.1          15.0         OFFLINE
+SUGAR_WHITE_fsb/20240500             0.1          15.0         OFFLINE
+SUGAR_WHITE_fsb/20240300             0.1          15.0         OFFLINE
 
 Instruments where the market info has not been recently updated
 
@@ -38,13 +64,13 @@ Index: []
 Possible unexpected IG roll schedule, or roll config
 
 
-=================
-Problem FSB Rolls
-=================
+======================================
+          Problem FSB Rolls           
+======================================
 
-Empty DataFrame
-Columns: []
-Index: []
+                Expected        Actual
+Instrument                            
+SONIA3_fsb  [U, Z, H, M]  [U, Z, H, Z]
 
 Possible problem correlations. The priced contracts below have possible data or config issues
 Price: correlation between spread bet price and the underlying future, per contract
@@ -57,18 +83,29 @@ Problem FSB Correlations for priced contracts
 
                           Price  Returns
 Contract                                
-SUGAR_WHITE_fsb/20231000   0.99     0.10
-RICE_fsb/20231100         -0.08     0.24
-OMXS30_fsb/20230900        0.95     0.35
-CAC_fsb/20230900           0.89     0.49
-JGB_fsb/20230900           0.98     0.55
-BTP3_fsb/20230900          0.75     0.72
-US30U_fsb/20231200         0.50     0.74
-SOYMEAL_fsb/20231200       0.70     0.79
-US30_fsb/20231200          0.76     0.84
-LEANHOG_fsb/20231000      -0.22     0.89
-GASOLINE_fsb/20231000      0.23     0.90
-SHATZ_fsb/20230900         0.36     0.91
+BUXL_fsb/20231200          0.67    -0.32
+BUND_fsb/20231200          0.65    -0.26
+BOBL_fsb/20231200          0.66    -0.19
+OAT_fsb/20231200           0.70    -0.17
+SHATZ_fsb/20231200         0.76    -0.06
+GILT_fsb/20231200          0.85    -0.06
+EURIBOR-ICE_fsb/20231200  -0.41    -0.04
+NASDAQ_fsb/20231200        0.78    -0.04
+HANG_fsb/20231100          0.53     0.03
+DAX_fsb/20231200           0.85     0.04
+BTP3_fsb/20231200          0.68     0.17
+JGB_fsb/20231200           0.92     0.19
+BTP_fsb/20231200           0.81     0.26
+SUGAR_WHITE_fsb/20231200   0.99     0.30
+RUSSELL_fsb/20231200       0.82     0.31
+DOW_fsb/20231200           0.83     0.32
+GAS_US_fsb/20231200        0.28     0.35
+FED_fsb/20231100           0.86     0.37
+LEANHOG_fsb/20231200       0.67     0.39
+EUROSTX_fsb/20231200       0.95     0.45
+ROBUSTA_fsb/20240100       0.92     0.52
+GASOIL_fsb/20231100        0.69     0.63
+SOYMEAL_fsb/20231200       0.69     0.80
 
 Possible problem correlations. The forward contracts below have possible data or config issues
 Price: correlation between spread bet price and the underlying future, per contract
@@ -81,15 +118,29 @@ Problem FSB Correlations for forward contracts
 
                           Price  Returns
 Contract                                
-SMI_fsb/20231200           0.63    -0.10
-EUROSTX_fsb/20231200       0.44    -0.09
-FTSE100_fsb/20231200       0.73     0.17
-GASOIL_fsb/20231000        0.94     0.25
-LEANHOG_fsb/20231200       0.71     0.25
-SUGAR_WHITE_fsb/20231200   0.99     0.30
-ROBUSTA_fsb/20240100       0.90     0.36
-HANG_fsb/20231000          0.69     0.50
-LIVECOW_fsb/20231200       0.58     0.83
+HANG_fsb/20231200          0.77    -0.51
+DOW_fsb/20240300           0.56    -0.37
+JPY_fsb/20240300           0.82    -0.35
+NASDAQ_fsb/20240300        0.69    -0.33
+EURGBP_fsb/20240300        0.76    -0.32
+SP500_fsb/20240300         0.74    -0.22
+DAX_fsb/20240300           0.39    -0.13
+EURIBOR-ICE_fsb/20240300  -0.44    -0.09
+RUSSELL_fsb/20240300       0.82    -0.08
+SMI_fsb/20240300           0.69    -0.02
+EUROSTX_fsb/20240300       0.39     0.05
+AUD_fsb/20240300           0.62     0.09
+CHF_fsb/20240300           0.91     0.11
+FTSE100_fsb/20240300       0.93     0.12
+EUR_fsb/20240300           0.63     0.16
+CAD_fsb/20240300           0.85     0.22
+SUGAR_WHITE_fsb/20240300   0.90     0.25
+GBP_fsb/20240300           0.51     0.29
+NZD_fsb/20240300           0.82     0.31
+GASOIL_fsb/20231200        0.79     0.41
+FED_fsb/20231200           0.85     0.52
+PALLAD_fsb/20240300        0.73     0.58
+CORN_fsb/20240300          0.39     0.81
 
 Price: correlation between spread bet price and the underlying future, per contract
 Returns: correlation between spread bet returns and the underlying future, per contract
@@ -101,385 +152,386 @@ Sorted by contract
 
                           Price  Returns
 Contract                                
-AEX_fsb/20230900           0.97     0.65
-ASX_fsb/20230900           0.97     0.82
-ASX_fsb/20231200            NaN      NaN
-AUDJPY_fsb/20230900        0.97     0.88
-AUDJPY_fsb/20231200         NaN      NaN
-AUD_fsb/20230900           0.99     0.83
-AUD_fsb/20231200           0.99     0.71
-BOBL_fsb/20230900          0.93     0.93
-BRENT_W_fsb/20231000       1.00     0.93
-BRENT_W_fsb/20231100       1.00     0.92
-BRENT_W_fsb/20231200       1.00     0.88
-BTP3_fsb/20230900          0.75     0.72
-BTP_fsb/20230900           0.99     0.93
-BUND_fsb/20230900          0.86     0.82
-BUXL_fsb/20230900          0.96     0.78
-CAC_fsb/20230900           0.89     0.49
-CAD_fsb/20230900           1.00     0.93
-CAD_fsb/20231200           1.00     0.88
-CHF_fsb/20230900           1.00     0.93
-CHF_fsb/20231200           0.99     0.84
-COCOA_LDN_fsb/20230900     1.00     1.00
-COCOA_LDN_fsb/20231200     1.00     0.94
-COCOA_LDN_fsb/20240300     0.99     0.57
+AEX_fsb/20231100           0.83     0.97
+ASX_fsb/20231200           0.98     0.86
+ASX_fsb/20240300            NaN      NaN
+ASX_fsb/20240600           0.44    -0.06
+AUDJPY_fsb/20231200        0.96     0.92
+AUDJPY_fsb/20240300         NaN      NaN
+AUD_fsb/20231200           0.99     0.77
+AUD_fsb/20240300           0.62     0.09
+BOBL_fsb/20231200          0.66    -0.19
+BRENT_W_fsb/20231200       1.00     0.91
+BRENT_W_fsb/20240100       0.98     0.92
+BRENT_W_fsb/20240200       0.98     0.91
+BTP3_fsb/20231200          0.68     0.17
+BTP_fsb/20231200           0.81     0.26
+BUND_fsb/20231200          0.65    -0.26
+BUXL_fsb/20231200          0.67    -0.32
+CAC_fsb/20231100           0.99     0.91
+CAD_fsb/20231200           1.00     0.91
+CAD_fsb/20240300           0.85     0.22
+CHF_fsb/20231200           1.00     0.88
+CHF_fsb/20240300           0.91     0.11
+COCOA_LDN_fsb/20231200     1.00     0.98
+COCOA_LDN_fsb/20240300     1.00     0.82
+COCOA_LDN_fsb/20240500     0.93    -0.27
 COCOA_fsb/20231200         1.00     1.00
-COCOA_fsb/20240300         1.00     0.99
+COCOA_fsb/20240300         1.00     1.00
 COCOA_fsb/20240500         1.00     1.00
-COFFEE_fsb/20231200        0.99     0.95
-COFFEE_fsb/20240300        0.98     0.91
-COPPER_fsb/20230900        0.99     0.88
-COPPER_fsb/20231200        0.97     0.87
-CORN_fsb/20230900          0.86     0.89
-CORN_fsb/20231200          0.92     0.82
-COTTON2_fsb/20231200       0.98     0.87
-COTTON2_fsb/20240300       0.84     0.80
-CRUDE_W_fsb/20231000       1.00     0.94
-CRUDE_W_fsb/20231100       0.99     0.92
-CRUDE_W_fsb/20231200       0.94     0.88
-DAX_fsb/20230900           0.98     0.88
-DOW_fsb/20230900           1.00     0.95
-DX_fsb/20230900            0.98     0.88
-DX_fsb/20231200            0.97     0.82
+COFFEE_fsb/20231200        1.00     0.97
+COFFEE_fsb/20240300        0.98     0.96
+COPPER_fsb/20231200        0.99     0.88
+COPPER_fsb/20240300        0.96     0.85
+CORN_fsb/20231200          0.94     0.83
+CORN_fsb/20240300          0.39     0.81
+COTTON2_fsb/20231200       0.99     0.86
+COTTON2_fsb/20240300       0.92     0.80
+CRUDE_W_fsb/20231200       0.98     0.93
+CRUDE_W_fsb/20240100       0.93     0.90
+CRUDE_W_fsb/20240200       0.85     0.87
+DAX_fsb/20231200           0.85     0.04
+DAX_fsb/20240300           0.39    -0.13
+DOW_fsb/20231200           0.83     0.32
+DOW_fsb/20240300           0.56    -0.37
+DX_fsb/20231200            0.98     0.85
+DX_fsb/20240300            0.91     0.85
 EUA_fsb/20231200           1.00     0.91
 EUA_fsb/20241200           1.00     0.91
-EUA_fsb/20251200           0.83     0.92
-EURGBP_fsb/20230900        0.99     0.96
-EURGBP_fsb/20231200        0.98     0.91
-EURIBOR-ICE_fsb/20230900   1.00     0.98
-EURIBOR-ICE_fsb/20231200   1.00     0.98
-EURIBOR-ICE_fsb/20240300   0.97     0.62
-EUROSTX_fsb/20230900       0.98     0.88
-EUROSTX_fsb/20231200       0.44    -0.09
-EUR_fsb/20230900           1.00     0.95
-EUR_fsb/20231200           0.99     0.93
-FED_fsb/20230800           0.99     0.90
-FED_fsb/20231000           0.97     0.92
-FTSE100_fsb/20230900       0.99     0.87
-FTSE100_fsb/20231200       0.73     0.17
-GASOIL_fsb/20230900        0.99     0.63
-GASOIL_fsb/20231000        0.94     0.25
-GASOLINE_fsb/20230900      0.93     0.78
-GASOLINE_fsb/20231000      0.23     0.90
-GAS_US_fsb/20231000        0.92     0.93
-GBP_fsb/20230900           1.00     0.94
-GBP_fsb/20231200           0.99     0.90
-GOLD_fsb/20231200          0.92     0.89
-GOLD_fsb/20240200          0.99     0.90
+EUA_fsb/20251200           0.85     0.92
+EURGBP_fsb/20231200        0.99     0.91
+EURGBP_fsb/20240300        0.76    -0.32
+EURIBOR-ICE_fsb/20231200  -0.41    -0.04
+EURIBOR-ICE_fsb/20240300  -0.44    -0.09
+EURIBOR-ICE_fsb/20240600   0.78    -0.05
+EUROSTX_fsb/20231200       0.95     0.45
+EUROSTX_fsb/20240300       0.39     0.05
+EUR_fsb/20231200           1.00     0.93
+EUR_fsb/20240300           0.63     0.16
+FED_fsb/20231000           0.98     0.93
+FED_fsb/20231100           0.86     0.37
+FED_fsb/20231200           0.85     0.52
+FTSE100_fsb/20231200       0.86     0.63
+FTSE100_fsb/20240300       0.93     0.12
+GASOIL_fsb/20231100        0.69     0.63
+GASOIL_fsb/20231200        0.79     0.41
+GASOLINE_fsb/20231100      0.71     0.64
+GASOLINE_fsb/20231200      0.98     0.84
+GAS_US_fsb/20231200        0.28     0.35
+GBP_fsb/20231200           1.00     0.91
+GBP_fsb/20240300           0.51     0.29
+GILT_fsb/20231200          0.85    -0.06
+GOLD_fsb/20231200          0.94     0.90
+GOLD_fsb/20240200          0.92     0.92
 GOLD_fsb/20240400          0.98     0.80
-HANG_fsb/20230800          0.99     0.84
-HANG_fsb/20230900           NaN      NaN
-HANG_fsb/20231000          0.69     0.50
-HEATOIL_fsb/20230900       1.00     0.96
-HEATOIL_fsb/20231000       1.00     0.94
-IBXEX_fsb/20230900         0.92     0.71
-JGB_fsb/20230900           0.98     0.55
-JGB_fsb/20231200            NaN      NaN
-JPY_fsb/20230900           1.00     0.88
-JPY_fsb/20231200           0.99     0.84
-LEANHOG_fsb/20231000      -0.22     0.89
-LEANHOG_fsb/20231200       0.71     0.25
-LIVECOW_fsb/20231000       1.00     0.95
-LIVECOW_fsb/20231200       0.58     0.83
-NASDAQ_fsb/20230900        0.99     0.94
-NIKKEI_fsb/20230900        0.94     0.65
-NIKKEI_fsb/20231200         NaN      NaN
-NZD_fsb/20230900           0.99     0.85
-NZD_fsb/20231200           0.99     0.71
-OATIES_fsb/20230900        1.00     0.83
-OATIES_fsb/20231200        0.97     0.78
-OAT_fsb/20230900           0.99     0.96
-OJ_fsb/20231100            0.97     0.93
-OJ_fsb/20240100            0.97     0.93
-OMXS30_fsb/20230900        0.95     0.35
-OMXS30_fsb/20231000         NaN      NaN
-PALLAD_fsb/20230900        0.99     0.87
-PALLAD_fsb/20231200        0.99     0.87
-PLAT_fsb/20231000          1.00     0.93
-RICE_fsb/20230900          0.25     0.68
-RICE_fsb/20231100         -0.08     0.24
-ROBUSTA_fsb/20231100       0.84     0.86
-ROBUSTA_fsb/20240100       0.90     0.36
-RUSSELL_fsb/20230900       1.00     0.95
-SHATZ_fsb/20230900         0.36     0.91
-SILVER_fsb/20230900        0.99     0.92
-SILVER_fsb/20231200        0.95     0.90
-SMI_fsb/20230900           0.97     0.88
-SMI_fsb/20231200           0.63    -0.10
-SONIA3_fsb/20230600        1.00     0.93
+HANG_fsb/20231000          0.97     0.42
+HANG_fsb/20231100          0.53     0.03
+HANG_fsb/20231200          0.77    -0.51
+HEATOIL_fsb/20231100       0.91     0.95
+HEATOIL_fsb/20231200       0.87     0.88
+IBXEX_fsb/20231100         1.00     0.68
+JGB_fsb/20231200           0.92     0.19
+JPY_fsb/20231200           1.00     0.84
+JPY_fsb/20240300           0.82    -0.35
+LEANHOG_fsb/20231200       0.67     0.39
+LIVECOW_fsb/20231200       0.83     0.91
+NASDAQ_fsb/20231200        0.78    -0.04
+NASDAQ_fsb/20240300        0.69    -0.33
+NIKKEI_fsb/20231200        0.97     0.83
+NIKKEI_fsb/20240300         NaN      NaN
+NZD_fsb/20231200           0.99     0.77
+NZD_fsb/20240300           0.82     0.31
+OATIES_fsb/20231200        0.98     0.84
+OATIES_fsb/20240300        0.95     0.62
+OAT_fsb/20231200           0.70    -0.17
+OJ_fsb/20240100            0.96     0.96
+OMXS30_fsb/20231100        0.98     0.84
+PALLAD_fsb/20231200        1.00     0.88
+PALLAD_fsb/20240300        0.73     0.58
+PLAT_fsb/20240100          0.97     0.95
+PLAT_fsb/20240400          0.98     0.93
+RICE_fsb/20231100         -0.06     0.36
+RICE_fsb/20240100          0.93     0.70
+ROBUSTA_fsb/20240100       0.92     0.52
+ROBUSTA_fsb/20240300       0.91     0.64
+ROBUSTA_fsb/20240500       0.67    -0.16
+RUSSELL_fsb/20231200       0.82     0.31
+RUSSELL_fsb/20240300       0.82    -0.08
+SHATZ_fsb/20231200         0.76    -0.06
+SILVER_fsb/20231200        0.97     0.92
+SILVER_fsb/20240300        0.99     0.93
+SMI_fsb/20231200           0.98     0.61
+SMI_fsb/20240300           0.69    -0.02
 SONIA3_fsb/20230900        1.00     0.95
 SONIA3_fsb/20231200        1.00     0.95
-SONIA3_fsb/20240300        0.98     0.60
-SOYBEAN_fsb/20231100       0.99     0.86
+SONIA3_fsb/20240300        0.99     0.66
+SOYBEAN_fsb/20231100       1.00     0.87
 SOYBEAN_fsb/20240100       0.91     0.63
-SOYMEAL_fsb/20231200       0.70     0.79
-SOYOIL_fsb/20230900        1.00     0.88
+SOYMEAL_fsb/20231200       0.69     0.80
 SOYOIL_fsb/20231200        0.98     0.92
-SP500_fsb/20230900         0.99     0.93
-SUGAR11_fsb/20231000       1.00     1.00
+SP500_fsb/20240300         0.74    -0.22
 SUGAR11_fsb/20240300       1.00     1.00
 SUGAR11_fsb/20240500       1.00     0.99
-SUGAR_WHITE_fsb/20231000   0.99     0.10
 SUGAR_WHITE_fsb/20231200   0.99     0.30
 SUGAR_WHITE_fsb/20240300   0.90     0.25
-US10_fsb/20231200          0.86     0.93
-US2_fsb/20231200           1.00     1.00
-US30U_fsb/20231200         0.50     0.74
-US30_fsb/20231200          0.76     0.84
-US5_fsb/20231200           0.92     0.98
-V2X_fsb/20230900           0.99     0.86
-V2X_fsb/20231000           0.95     0.82
-WHEAT_ICE_fsb/20231100     1.00     0.97
+US10_fsb/20231200          1.00     0.94
+US10_fsb/20240300          0.98     0.83
+US2_fsb/20231200           0.99     0.94
+US2_fsb/20240300           0.98     0.88
+US30U_fsb/20231200         1.00     0.93
+US30U_fsb/20240300          NaN      NaN
+US30_fsb/20231200          1.00     0.94
+US30_fsb/20240300          0.95     0.77
+US5_fsb/20231200           1.00     0.94
+US5_fsb/20240300            NaN      NaN
 WHEAT_ICE_fsb/20240500     1.00     0.86
 WHEAT_ICE_fsb/20241100     0.80     0.79
-WHEAT_fsb/20230900         1.00     0.90
 WHEAT_fsb/20231200         0.99     0.89
 
 
-====================================================================================================
-                                     FSB mappings and expiries                                      
-====================================================================================================
+==============================================================================================================
+                                          FSB mappings and expiries                                           
+==============================================================================================================
 
-                                              Epic               Expiry      Status In_Hours     Pos
-Contract                                                                                            
-AEX_fsb/20231000                IX.D.AEX.Month2.IP  2023-10-20 13:30:00     OFFLINE     TRUE     fwd
-AEX_fsb/20230900                IX.D.AEX.Month1.IP  2023-09-15 13:30:00   TRADEABLE     TRUE  priced
-ASX_fsb/20240300                IX.D.ASX.MONTH4.IP  2024-03-21 00:59:00     OFFLINE     TRUE       -
-ASX_fsb/20231200                IX.D.ASX.MONTH2.IP  2023-12-21 00:59:00     OFFLINE     TRUE     fwd
-ASX_fsb/20230900                IX.D.ASX.MONTH3.IP  2023-09-21 01:59:00   TRADEABLE     TRUE  priced
-AUDJPY_fsb/20240600             CF.D.AUDJPY.JUN.IP  2024-06-14 19:00:00     OFFLINE     TRUE       -
-AUDJPY_fsb/20240300             CF.D.AUDJPY.MAR.IP  2024-03-15 20:00:00     OFFLINE     TRUE       -
-AUDJPY_fsb/20231200             CF.D.AUDJPY.DEC.IP  2023-12-15 20:00:00   TRADEABLE     TRUE     fwd
-AUDJPY_fsb/20230900             CF.D.AUDJPY.SEP.IP  2023-09-15 19:00:00   TRADEABLE     TRUE  priced
-AUD_fsb/20240600                   CF.D.AUD.JUN.IP  2024-06-14 19:00:00     OFFLINE     TRUE       -
-AUD_fsb/20240300                   CF.D.AUD.MAR.IP  2024-03-15 20:00:00     OFFLINE     TRUE       -
-AUD_fsb/20231200                   CF.D.AUD.DEC.IP  2023-12-15 20:00:00   TRADEABLE     TRUE     fwd
-AUD_fsb/20230900                   CF.D.AUD.SEP.IP  2023-09-15 19:00:00   TRADEABLE     TRUE  priced
-BOBL_fsb/20231200              IR.D.FGBM.Month2.IP  2023-12-06 16:15:00     OFFLINE     TRUE     fwd
-BOBL_fsb/20230900              IR.D.FGBM.Month1.IP  2023-09-06 15:15:00   TRADEABLE     TRUE  priced
-BRENT_W_fsb/20240200            EN.D.LCO.Month2.IP  2023-12-28 19:30:00     OFFLINE     TRUE       -
-BRENT_W_fsb/20240100            EN.D.LCO.Month6.IP  2023-11-29 19:30:00     OFFLINE     TRUE       -
-BRENT_W_fsb/20231200            EN.D.LCO.Month5.IP  2023-10-30 19:30:00   TRADEABLE     TRUE     fwd
-BRENT_W_fsb/20231100            EN.D.LCO.Month3.IP  2023-09-28 17:30:00   TRADEABLE     TRUE  priced
-BRENT_W_fsb/20231000            EN.D.LCO.Month4.IP  2023-08-30 18:30:00   TRADEABLE     TRUE       -
-BTP3_fsb/20231200              IR.D.FBTS.Month2.IP  2023-12-06 16:15:00     OFFLINE     TRUE     fwd
-BTP3_fsb/20230900              IR.D.FBTS.Month1.IP  2023-09-06 15:15:00  EDITS_ONLY     TRUE  priced
-BTP_fsb/20231200               IR.D.FBTP.Month2.IP  2023-12-06 16:15:00     OFFLINE     TRUE     fwd
-BTP_fsb/20230900               IR.D.FBTP.Month1.IP  2023-09-06 15:15:00  EDITS_ONLY     TRUE  priced
-BUND_fsb/20231200              IR.D.FGBL.Month2.IP  2023-12-06 16:15:00     OFFLINE     TRUE     fwd
-BUND_fsb/20230900              IR.D.FGBL.Month1.IP  2023-09-06 15:15:00   TRADEABLE     TRUE  priced
-BUXL_fsb/20231200              IR.D.FGBX.Month2.IP  2023-12-06 16:15:00     OFFLINE     TRUE     fwd
-BUXL_fsb/20230900              IR.D.FGBX.Month1.IP  2023-09-06 15:15:00   TRADEABLE     TRUE  priced
-CAC_fsb/20231000                IX.D.CAC.Month1.IP  2023-10-20 13:40:00     OFFLINE     TRUE     fwd
-CAC_fsb/20230900                IX.D.CAC.Month2.IP  2023-09-15 13:40:00   TRADEABLE     TRUE  priced
-CAD_fsb/20240600                CF.D.USDCAD.JUN.IP  2024-06-14 19:00:00     OFFLINE     TRUE       -
-CAD_fsb/20240300                CF.D.USDCAD.MAR.IP  2024-03-15 20:00:00     OFFLINE     TRUE       -
-CAD_fsb/20231200                CF.D.USDCAD.DEC.IP  2023-12-15 20:00:00   TRADEABLE     TRUE     fwd
-CAD_fsb/20230900                CF.D.USDCAD.SEP.IP  2023-09-15 19:00:00   TRADEABLE     TRUE  priced
-CHF_fsb/20240600                CF.D.USDCHF.JUN.IP  2024-06-14 19:00:00     OFFLINE     TRUE       -
-CHF_fsb/20240300                CF.D.USDCHF.MAR.IP  2024-03-15 20:00:00     OFFLINE     TRUE       -
-CHF_fsb/20231200                CF.D.USDCHF.DEC.IP  2023-12-15 20:00:00   TRADEABLE     TRUE     fwd
-CHF_fsb/20230900                CF.D.USDCHF.SEP.IP  2023-09-15 19:00:00   TRADEABLE     TRUE  priced
-COCOA_LDN_fsb/20241200          CO.D.LCC.Month2.IP  2024-12-06 16:50:00         n/a    FALSE       -
-COCOA_LDN_fsb/20240900          CO.D.LCC.Month1.IP  2024-09-06 15:50:00         n/a    FALSE       -
-COCOA_LDN_fsb/20240700          CO.D.LCC.Month6.IP  2024-07-05 15:50:00         n/a    FALSE       -
-COCOA_LDN_fsb/20240500          CO.D.LCC.Month5.IP  2024-05-07 15:50:00         n/a    FALSE       -
-COCOA_LDN_fsb/20240300          CO.D.LCC.Month4.IP  2024-03-07 16:50:00         n/a    FALSE       -
-COCOA_LDN_fsb/20231200          CO.D.LCC.Month7.IP  2023-12-07 16:50:00         n/a    FALSE     fwd
-COCOA_LDN_fsb/20230900          CO.D.LCC.Month3.IP  2023-09-07 15:50:00         n/a    FALSE  priced
-COCOA_fsb/20250300               CO.D.CC.Month1.IP  2025-02-14 18:50:00     OFFLINE     TRUE       -
-COCOA_fsb/20241200               CO.D.CC.Month2.IP  2024-11-08 18:50:00     OFFLINE     TRUE       -
-COCOA_fsb/20240900               CO.D.CC.Month6.IP  2024-08-09 17:50:00     OFFLINE     TRUE       -
-COCOA_fsb/20240700               CO.D.CC.Month5.IP  2024-06-14 17:50:00     OFFLINE     TRUE       -
-COCOA_fsb/20240500               CO.D.CC.Month7.IP  2024-04-12 17:50:00     OFFLINE     TRUE       -
-COCOA_fsb/20240300               CO.D.CC.Month3.IP  2024-02-09 18:50:00     OFFLINE     TRUE     fwd
-COCOA_fsb/20231200               CO.D.CC.Month4.IP  2023-11-10 18:50:00  EDITS_ONLY     TRUE  priced
-COFFEE_fsb/20240300              CO.D.KC.Month1.IP  2024-02-20 19:25:00     OFFLINE     TRUE     fwd
-COFFEE_fsb/20231200              CO.D.KC.Month2.IP  2023-11-20 19:25:00  EDITS_ONLY     TRUE  priced
-COPPER_fsb/20240300              MT.D.HG.Month2.IP  2024-02-28 18:00:00     OFFLINE     TRUE       -
-COPPER_fsb/20231200              MT.D.HG.Month1.IP  2023-11-29 18:00:00   TRADEABLE     TRUE     fwd
-CORN_fsb/20240300                 CO.D.C.Month1.IP  2024-02-28 19:15:00     OFFLINE     TRUE     fwd
-CORN_fsb/20231200                 CO.D.C.Month2.IP  2023-11-29 19:15:00   TRADEABLE     TRUE  priced
-COTTON2_fsb/20240300             CO.D.CT.Month1.IP  2024-02-16 19:15:00     OFFLINE     TRUE     fwd
-COTTON2_fsb/20231200             CO.D.CT.Month2.IP  2023-11-17 19:15:00   TRADEABLE     TRUE  priced
-CRUDE_W_fsb/20231200             EN.D.CL.Month1.IP  2023-11-17 19:30:00     OFFLINE     TRUE       -
-CRUDE_W_fsb/20231100             EN.D.CL.Month2.IP  2023-10-19 18:30:00   TRADEABLE     TRUE     fwd
-CRUDE_W_fsb/20231000             EN.D.CL.Month3.IP  2023-09-19 18:30:00   TRADEABLE     TRUE  priced
-DAX_fsb/20231200                  IX.D.DAX.VFAR.IP  2023-12-15 12:00:00     OFFLINE     TRUE     fwd
-DAX_fsb/20230900                   IX.D.DAX.FAR.IP  2023-09-15 11:00:00   TRADEABLE     TRUE  priced
-DOW_fsb/20231200                IX.D.DOW.MONTH1.IP  2023-12-15 14:30:00     OFFLINE     TRUE     fwd
-DOW_fsb/20230900                IX.D.DOW.MONTH2.IP  2023-09-15 12:30:00   TRADEABLE     TRUE  priced
-DX_fsb/20231200                  CO.D.DX.Month2.IP  2023-12-15 20:00:00     OFFLINE     TRUE     fwd
-DX_fsb/20230900                  CO.D.DX.Month1.IP  2023-09-15 18:00:00   TRADEABLE     TRUE  priced
-EUA_fsb/20251200                CO.D.CFI.Month1.IP  2025-12-15 17:00:00         n/a    FALSE       -
-EUA_fsb/20241200                CO.D.CFI.Month2.IP  2024-12-16 17:00:00         n/a    FALSE     fwd
-EUA_fsb/20231200                CO.D.CFI.Month3.IP  2023-12-15 17:00:00         n/a    FALSE  priced
-EURGBP_fsb/20240600             CF.D.EURGBP.JUN.IP  2024-06-14 19:00:00     OFFLINE     TRUE       -
-EURGBP_fsb/20240300             CF.D.EURGBP.MAR.IP  2024-03-15 20:00:00     OFFLINE     TRUE       -
-EURGBP_fsb/20231200             CF.D.EURGBP.DEC.IP  2023-12-15 20:00:00   TRADEABLE     TRUE     fwd
-EURGBP_fsb/20230900             CF.D.EURGBP.SEP.IP  2023-09-15 19:00:00   TRADEABLE     TRUE  priced
-EURIBOR-ICE_fsb/20260600        IR.D.FEI.MONTH5.IP  2026-06-15 09:00:00     OFFLINE     TRUE       -
-EURIBOR-ICE_fsb/20260300        IR.D.FEI.Month4.IP  2026-03-16 10:00:00   TRADEABLE     TRUE       -
-EURIBOR-ICE_fsb/20251200        IR.D.FEI.Month3.IP  2025-12-15 10:00:00   TRADEABLE     TRUE       -
-EURIBOR-ICE_fsb/20250900        IR.D.FEI.Month2.IP  2025-09-15 09:00:00   TRADEABLE     TRUE       -
-EURIBOR-ICE_fsb/20250600        IR.D.FEI.Month1.IP  2025-06-16 09:00:00   TRADEABLE     TRUE       -
-EURIBOR-ICE_fsb/20250300        IR.D.FEI.Mnth12.IP  2025-03-17 10:00:00   TRADEABLE     TRUE       -
-EURIBOR-ICE_fsb/20241200       IR.D.FEI.Month11.IP  2024-12-16 10:00:00   TRADEABLE     TRUE       -
-EURIBOR-ICE_fsb/20240900        IR.D.FEI.Mnth10.IP  2024-09-16 09:00:00   TRADEABLE     TRUE       -
-EURIBOR-ICE_fsb/20240600        IR.D.FEI.Month9.IP  2024-06-17 09:00:00   TRADEABLE     TRUE       -
-EURIBOR-ICE_fsb/20240300        IR.D.FEI.Month8.IP  2024-03-18 10:00:00   TRADEABLE     TRUE       -
-EURIBOR-ICE_fsb/20231200        IR.D.FEI.Month7.IP  2023-12-18 10:00:00   TRADEABLE     TRUE     fwd
-EURIBOR-ICE_fsb/20230900        IR.D.FEI.MONTH6.IP  2023-09-18 09:00:00   TRADEABLE     TRUE  priced
-EUROSTX_fsb/20231200           IX.D.STXE.MONTH3.IP  2023-12-15 10:50:00     OFFLINE     TRUE     fwd
-EUROSTX_fsb/20230900           IX.D.STXE.MONTH2.IP  2023-09-15 09:50:00   TRADEABLE     TRUE  priced
-EUR_fsb/20240600                CF.D.EURUSD.JUN.IP  2024-06-14 19:00:00     OFFLINE     TRUE       -
-EUR_fsb/20240300                CF.D.EURUSD.MAR.IP  2024-03-15 20:00:00     OFFLINE     TRUE       -
-EUR_fsb/20231200                CF.D.EURUSD.DEC.IP  2023-12-15 20:00:00   TRADEABLE     TRUE     fwd
-EUR_fsb/20230900                CF.D.EURUSD.SEP.IP  2023-09-15 19:00:00   TRADEABLE     TRUE  priced
-FED_fsb/20240700                IR.D.FF.Month10.IP  2024-07-31 19:00:00     OFFLINE     TRUE       -
-FED_fsb/20240600                 IR.D.FF.Month9.IP  2024-06-28 19:00:00     OFFLINE     TRUE       -
-FED_fsb/20240500                 IR.D.FF.Month8.IP  2024-05-31 19:00:00     OFFLINE     TRUE       -
-FED_fsb/20240400                 IR.D.FF.Month7.IP  2024-04-30 19:00:00     OFFLINE     TRUE       -
-FED_fsb/20240300                 IR.D.FF.Month6.IP  2024-03-29 20:00:00     OFFLINE     TRUE       -
-FED_fsb/20240200                 IR.D.FF.Month5.IP  2024-02-29 20:00:00     OFFLINE     TRUE       -
-FED_fsb/20240100                 IR.D.FF.MonthX.IP  2024-01-31 20:00:00     OFFLINE     TRUE       -
-FED_fsb/20231200                 IR.D.FF.Month3.IP  2023-12-29 20:00:00     OFFLINE     TRUE       -
-FED_fsb/20231100                 IR.D.FF.Month2.IP  2023-11-30 20:00:00     OFFLINE     TRUE       -
-FED_fsb/20231000                 IR.D.FF.Month1.IP  2023-10-31 20:00:00   TRADEABLE     TRUE     fwd
-FED_fsb/20230900                IR.D.FF.Month12.IP  2023-09-29 19:00:00     OFFLINE     TRUE  priced
-FED_fsb/20230800                IR.D.FF.Month11.IP  2023-08-31 19:00:00   TRADEABLE     TRUE       -
-FTSE100_fsb/20231200           IX.D.FTSE.MONTH1.IP  2023-12-15 10:00:00     OFFLINE     TRUE     fwd
-FTSE100_fsb/20230900           IX.D.FTSE.MONTH2.IP  2023-09-15 09:00:00   TRADEABLE     TRUE  priced
-GASOIL_fsb/20231000             EN.D.LGO.Month1.IP  2023-10-11 15:30:00   TRADEABLE     TRUE     fwd
-GASOIL_fsb/20230900             EN.D.LGO.Month2.IP  2023-09-11 15:30:00   TRADEABLE     TRUE  priced
-GASOLINE_fsb/20231000            EN.D.RB.Month2.IP  2023-09-28 18:30:00   TRADEABLE     TRUE  priced
-GASOLINE_fsb/20230900            EN.D.RB.Month1.IP  2023-08-30 18:30:00   TRADEABLE     TRUE       -
-GAS_US_fsb/20231100              EN.D.NG.Month2.IP  2023-10-26 18:30:00   TRADEABLE     TRUE     fwd
-GAS_US_fsb/20231000              EN.D.NG.Month1.IP  2023-09-26 18:30:00   TRADEABLE     TRUE  priced
-GBP_fsb/20240600                CF.D.GBPUSD.JUN.IP  2024-06-14 19:00:00     OFFLINE     TRUE       -
-GBP_fsb/20240300                CF.D.GBPUSD.MAR.IP  2024-03-15 20:00:00     OFFLINE     TRUE       -
-GBP_fsb/20231200                CF.D.GBPUSD.DEC.IP  2023-12-15 20:00:00   TRADEABLE     TRUE     fwd
-GBP_fsb/20230900                CF.D.GBPUSD.SEP.IP  2023-09-15 19:00:00   TRADEABLE     TRUE  priced
-GILT_fsb/20240300               IR.D.FLG.Month2.IP  2024-02-27 16:15:00         n/a    FALSE     fwd
-GILT_fsb/20231200               IR.D.FLG.Month1.IP  2023-11-28 16:15:00         n/a    FALSE  priced
-GOLD_fsb/20240400                MT.D.GC.Month3.IP  2024-03-26 18:30:00     OFFLINE     TRUE       -
-GOLD_fsb/20240200                MT.D.GC.Month1.IP  2024-01-26 18:30:00     OFFLINE     TRUE     fwd
-GOLD_fsb/20231200                MT.D.GC.Month2.IP  2023-11-27 18:30:00   TRADEABLE     TRUE  priced
-HANG_fsb/20231100            IX.D.HANGSENG.NEAR.IP  2023-11-29 03:59:00     OFFLINE     TRUE       -
-HANG_fsb/20231000             IX.D.HANGSENG.FAR.IP  2023-10-30 03:59:00     OFFLINE     TRUE     fwd
-HANG_fsb/20230900            IX.D.HANGSENG.VFAR.IP  2023-09-28 02:59:00   TRADEABLE     TRUE  priced
-HEATOIL_fsb/20231000             EN.D.HO.Month1.IP  2023-09-28 18:30:00   TRADEABLE     TRUE  priced
-HEATOIL_fsb/20230900             EN.D.HO.Month2.IP  2023-08-30 18:30:00   TRADEABLE     TRUE       -
-IBXEX_fsb/20231000             IX.D.IBEX.Month1.IP  2023-10-20 14:15:00     OFFLINE     TRUE     fwd
-IBXEX_fsb/20230900             IX.D.IBEX.Month2.IP  2023-09-15 14:15:00   TRADEABLE     TRUE  priced
-JGB_fsb/20240300                IR.D.JGB.Month1.IP  2024-03-12 06:10:00     OFFLINE     TRUE       -
-JGB_fsb/20231200                IR.D.JGB.Month2.IP  2023-12-12 06:10:00     OFFLINE     TRUE     fwd
-JGB_fsb/20230900                IR.D.JGB.Month3.IP  2023-09-11 05:10:00   TRADEABLE     TRUE  priced
-JPY_fsb/20240600                CF.D.USDJPY.JUN.IP  2024-06-14 19:00:00     OFFLINE     TRUE       -
-JPY_fsb/20240300                CF.D.USDJPY.MAR.IP  2024-03-15 20:00:00     OFFLINE     TRUE       -
-JPY_fsb/20231200                CF.D.USDJPY.DEC.IP  2023-12-15 20:00:00   TRADEABLE     TRUE     fwd
-JPY_fsb/20230900                CF.D.USDJPY.SEP.IP  2023-09-15 19:00:00   TRADEABLE     TRUE  priced
-LEANHOG_fsb/20231200             CO.D.LH.Month1.IP  2023-11-30 19:00:00     OFFLINE     TRUE     fwd
-LEANHOG_fsb/20231000             CO.D.LH.Month2.IP  2023-09-29 18:00:00   TRADEABLE     TRUE  priced
-LIVECOW_fsb/20231200             CO.D.LC.Month1.IP  2023-11-30 19:00:00     OFFLINE     TRUE     fwd
-LIVECOW_fsb/20231000             CO.D.LC.Month2.IP  2023-09-29 18:00:00   TRADEABLE     TRUE  priced
-MSCISING_fsb/20231000     IX.D.SINGAPORE.MONTH2.IP  2023-10-30 10:10:00     OFFLINE     TRUE     fwd
-MSCISING_fsb/20230900     IX.D.SINGAPORE.MONTH1.IP  2023-09-28 09:10:00   TRADEABLE     TRUE  priced
-NASDAQ_fsb/20231200          IX.D.NASDAQ.MONTH4.IP  2023-12-15 13:30:00     OFFLINE     TRUE     fwd
-NASDAQ_fsb/20230900          IX.D.NASDAQ.MONTH3.IP  2023-09-15 12:30:00   TRADEABLE     TRUE  priced
-NIKKEI_fsb/20231200             IX.D.NIKFUT.FAR.IP  2023-12-07 21:15:00     OFFLINE     TRUE     fwd
-NIKKEI_fsb/20230900            IX.D.NIKFUT.FAR3.IP  2023-09-07 20:15:00   TRADEABLE     TRUE  priced
-NZD_fsb/20240600                CF.D.NZDUSD.JUN.IP  2024-06-14 19:00:00     OFFLINE     TRUE       -
-NZD_fsb/20240300                CF.D.NZDUSD.MAR.IP  2024-03-15 20:00:00     OFFLINE     TRUE       -
-NZD_fsb/20231200                CF.D.NZDUSD.DEC.IP  2023-12-15 20:00:00   TRADEABLE     TRUE     fwd
-NZD_fsb/20230900                CF.D.NZDUSD.SEP.IP  2023-09-15 19:00:00   TRADEABLE     TRUE  priced
-OATIES_fsb/20240300               CO.D.O.Month1.IP  2024-02-28 19:15:00     OFFLINE     TRUE     fwd
-OATIES_fsb/20231200               CO.D.O.Month2.IP  2023-11-29 19:15:00   TRADEABLE     TRUE  priced
-OAT_fsb/20231200               IR.D.FOAT.Month2.IP  2023-12-06 16:15:00     OFFLINE     TRUE     fwd
-OAT_fsb/20230900               IR.D.FOAT.Month1.IP  2023-09-06 15:15:00   TRADEABLE     TRUE  priced
-OJ_fsb/20240100                  CO.D.OJ.Month1.IP  2023-12-26 18:30:00     OFFLINE     TRUE     fwd
-OJ_fsb/20231100                  CO.D.OJ.Month2.IP  2023-10-26 17:30:00     OFFLINE     TRUE  priced
-OMXS30_fsb/20231000             IX.D.OMX.MONTH1.IP  2023-10-20 07:00:00     OFFLINE     TRUE     fwd
-OMXS30_fsb/20230900             IX.D.OMX.MONTH2.IP  2023-09-15 07:00:00   TRADEABLE     TRUE  priced
-PALLAD_fsb/20240300              MT.D.PA.Month1.IP  2024-02-28 18:00:00     OFFLINE     TRUE     fwd
-PALLAD_fsb/20231200              MT.D.PA.Month2.IP  2023-11-29 18:00:00   TRADEABLE     TRUE  priced
-PLAT_fsb/20240100                MT.D.PL.Month2.IP  2023-12-22 18:05:00     OFFLINE     TRUE     fwd
-PLAT_fsb/20231000                MT.D.PL.Month1.IP  2023-09-22 17:05:00   TRADEABLE     TRUE  priced
-RICE_fsb/20231100                CO.D.RR.Month2.IP  2023-10-30 18:15:00   TRADEABLE     TRUE  priced
-RICE_fsb/20230900                CO.D.RR.Month1.IP  2023-08-30 17:15:00     OFFLINE     TRUE       -
-ROBUSTA_fsb/20240300            CO.D.LKD.Month1.IP  2024-02-20 17:30:00         n/a    FALSE       -
-ROBUSTA_fsb/20240100            CO.D.LKD.Month3.IP  2023-12-19 17:30:00         n/a    FALSE     fwd
-ROBUSTA_fsb/20231100            CO.D.LKD.Month2.IP  2023-10-20 16:30:00         n/a    FALSE  priced
-RUSSELL_fsb/20231200        IX.D.RUSSELL.MONTH2.IP  2023-12-15 14:30:00     OFFLINE     TRUE     fwd
-RUSSELL_fsb/20230900        IX.D.RUSSELL.MONTH1.IP  2023-09-15 12:30:00   TRADEABLE     TRUE  priced
-SHATZ_fsb/20231200             IR.D.FGBS.Month2.IP  2023-12-06 16:15:00     OFFLINE     TRUE     fwd
-SHATZ_fsb/20230900             IR.D.FGBS.Month1.IP  2023-09-06 15:15:00   TRADEABLE     TRUE  priced
-SILVER_fsb/20240300              MT.D.SI.Month1.IP  2024-02-28 18:25:00     OFFLINE     TRUE     fwd
-SILVER_fsb/20231200              MT.D.SI.Month2.IP  2023-11-29 18:25:00   TRADEABLE     TRUE  priced
-SMI_fsb/20231200                IX.D.SMI.MONTH2.IP  2023-12-15 08:00:00     OFFLINE     TRUE     fwd
-SMI_fsb/20230900                IX.D.SMI.MONTH1.IP  2023-09-15 07:00:00   TRADEABLE     TRUE  priced
-SONIA3_fsb/20260300             IR.D.FSS.Month6.IP  2026-06-16 10:00:00         n/a    FALSE       -
-SONIA3_fsb/20251200             IR.D.FSS.month9.IP  2026-03-17 11:00:00         n/a    FALSE       -
-SONIA3_fsb/20250900             IR.D.FSS.Month4.IP  2025-12-16 11:00:00         n/a    FALSE       -
-SONIA3_fsb/20250600             IR.D.FSS.Month3.IP  2025-09-16 10:00:00         n/a    FALSE       -
-SONIA3_fsb/20250300             IR.D.FSS.Month2.IP  2025-06-20 10:00:00         n/a    FALSE       -
-SONIA3_fsb/20241200             IR.D.FSS.MONTHC.IP  2025-03-14 11:00:00         n/a    FALSE       -
-SONIA3_fsb/20240300            IR.D.FSS.Month11.IP  2024-06-18 10:00:00         n/a    FALSE       -
-SONIA3_fsb/20231200            IR.D.FSS.Month10.IP  2024-03-19 11:00:00         n/a    FALSE     fwd
-SONIA3_fsb/20230900             IR.D.FSS.Month8.IP  2023-12-19 11:00:00         n/a    FALSE  priced
-SONIA3_fsb/20230600             IR.D.FSS.Month7.IP  2023-09-19 10:00:00         n/a    FALSE       -
-SOYBEAN_fsb/20240100              CO.D.S.Month2.IP  2023-12-28 18:15:00         n/a    FALSE     fwd
-SOYBEAN_fsb/20231100              CO.D.S.Month1.IP  2023-10-30 18:15:00         n/a    FALSE  priced
-SOYMEAL_fsb/20240100             CO.D.SM.Month1.IP  2023-12-28 19:15:00     OFFLINE     TRUE     fwd
-SOYMEAL_fsb/20231200             CO.D.SM.Month2.IP  2023-11-29 19:15:00   TRADEABLE     TRUE  priced
-SOYOIL_fsb/20240500              CO.D.BO.Month1.IP  2024-04-29 18:15:00     OFFLINE     TRUE       -
-SOYOIL_fsb/20240300              CO.D.BO.Month2.IP  2024-02-28 19:15:00     OFFLINE     TRUE       -
-SOYOIL_fsb/20240100              CO.D.BO.Month4.IP  2023-12-28 19:15:00     OFFLINE     TRUE     fwd
-SOYOIL_fsb/20231200              CO.D.BO.Month3.IP  2023-11-29 19:15:00   TRADEABLE     TRUE  priced
-SP500_fsb/20231200            IX.D.SPTRD.MONTH1.IP  2023-12-15 14:30:00     OFFLINE     TRUE     fwd
-SP500_fsb/20230900            IX.D.SPTRD.MONTH2.IP  2023-09-15 12:30:00   TRADEABLE     TRUE  priced
-SUGAR11_fsb/20261000             CO.D.SB.Month5.IP  2026-09-28 16:55:00     OFFLINE     TRUE       -
-SUGAR11_fsb/20250500             CO.D.SB.Month7.IP  2025-04-28 16:55:00     OFFLINE     TRUE       -
-SUGAR11_fsb/20250300             CO.D.SB.Month1.IP  2025-02-26 17:55:00     OFFLINE     TRUE       -
-SUGAR11_fsb/20241000             CO.D.SB.Month8.IP  2024-09-26 16:55:00     OFFLINE     TRUE       -
-SUGAR11_fsb/20240700             CO.D.SB.Month2.IP  2024-06-26 16:55:00     OFFLINE     TRUE       -
-SUGAR11_fsb/20240500             CO.D.SB.Month4.IP  2024-04-26 16:55:00     OFFLINE     TRUE       -
-SUGAR11_fsb/20240300             CO.D.SB.Month3.IP  2024-02-27 17:55:00     OFFLINE     TRUE     fwd
-SUGAR11_fsb/20231000             CO.D.SB.Month6.IP  2023-09-27 16:55:00  EDITS_ONLY     TRUE  priced
-SUGAR_WHITE_fsb/20241000        CO.D.LSU.Month4.IP  2024-09-12 16:55:00         n/a    FALSE       -
-SUGAR_WHITE_fsb/20240800        CO.D.LSU.Month3.IP  2024-07-11 16:55:00         n/a    FALSE       -
-SUGAR_WHITE_fsb/20240500        CO.D.LSU.Month2.IP  2024-04-05 16:55:00         n/a    FALSE       -
-SUGAR_WHITE_fsb/20240300        CO.D.LSU.Month1.IP  2024-02-08 17:55:00         n/a    FALSE       -
-SUGAR_WHITE_fsb/20231200        CO.D.LSU.Month6.IP  2023-11-09 17:55:00         n/a    FALSE     fwd
-SUGAR_WHITE_fsb/20231000        CO.D.LSU.Month5.IP  2023-09-14 16:55:00         n/a    FALSE  priced
-US10_fsb/20240300         IR.D.10YEAR100.Month1.IP  2024-02-27 20:00:00     OFFLINE     TRUE     fwd
-US10_fsb/20231200         IR.D.10YEAR100.Month2.IP  2023-11-28 20:00:00   TRADEABLE     TRUE  priced
-US2_fsb/20240300          IR.D.02YEAR100.Month1.IP  2024-02-27 20:00:00     OFFLINE     TRUE     fwd
-US2_fsb/20231200          IR.D.02YEAR100.Month2.IP  2023-11-28 20:00:00   TRADEABLE     TRUE  priced
-US30U_fsb/20240300         IR.D.ULTRA100.Month1.IP  2024-02-27 20:00:00     OFFLINE     TRUE     fwd
-US30U_fsb/20231200         IR.D.ULTRA100.Month2.IP  2023-11-28 20:00:00   TRADEABLE     TRUE  priced
-US30_fsb/20240300           IR.D.BOND100.Month1.IP  2024-02-27 20:00:00     OFFLINE     TRUE     fwd
-US30_fsb/20231200           IR.D.BOND100.Month2.IP  2023-11-28 20:00:00   TRADEABLE     TRUE  priced
-US5_fsb/20240300          IR.D.05YEAR100.Month1.IP  2024-02-27 20:00:00     OFFLINE     TRUE     fwd
-US5_fsb/20231200          IR.D.05YEAR100.Month2.IP  2023-11-28 20:00:00   TRADEABLE     TRUE  priced
-V2X_fsb/20240100             IN.D.VSTOXX.MONTH3.IP  2024-01-17 10:30:00     OFFLINE     TRUE       -
-V2X_fsb/20231200             IN.D.VSTOXX.MONTH5.IP  2023-12-20 10:30:00     OFFLINE     TRUE       -
-V2X_fsb/20231100             IN.D.VSTOXX.MONTH2.IP  2023-11-15 10:30:00     OFFLINE     TRUE       -
-V2X_fsb/20231000             IN.D.VSTOXX.MONTH4.IP  2023-10-18 09:30:00   TRADEABLE     TRUE     fwd
-V2X_fsb/20230900             IN.D.VSTOXX.MONTH1.IP  2023-09-20 09:30:00   TRADEABLE     TRUE  priced
-VIX_fsb/20240100                IN.D.VIX.MONTH1.IP  2024-01-17 14:00:00     OFFLINE     TRUE       -
-VIX_fsb/20231200                IN.D.VIX.MONTH4.IP  2023-12-20 14:00:00     OFFLINE     TRUE       -
-VIX_fsb/20231100                IN.D.VIX.MONTH2.IP  2023-11-15 14:00:00     OFFLINE     TRUE       -
-VIX_fsb/20231000                IN.D.VIX.MONTH3.IP  2023-10-18 13:00:00   TRADEABLE     TRUE     fwd
-VIX_fsb/20230900                IN.D.VIX.MONTH5.IP  2023-09-20 13:00:00   TRADEABLE     TRUE  priced
-WHEAT_ICE_fsb/20241100          CO.D.LWB.Month3.IP  2024-10-18 15:50:00     OFFLINE     TRUE       -
-WHEAT_ICE_fsb/20240500          CO.D.LWB.Month1.IP  2024-04-19 15:50:00     OFFLINE     TRUE     fwd
-WHEAT_ICE_fsb/20231100          CO.D.LWB.Month4.IP  2023-10-20 15:50:00  EDITS_ONLY     TRUE  priced
-WHEAT_fsb/20240700                CO.D.W.Month1.IP  2024-06-27 18:15:00     OFFLINE     TRUE       -
-WHEAT_fsb/20240500                CO.D.W.Month2.IP  2024-04-29 18:15:00     OFFLINE     TRUE       -
-WHEAT_fsb/20240300                CO.D.W.Month3.IP  2024-02-28 19:15:00     OFFLINE     TRUE     fwd
-WHEAT_fsb/20231200                CO.D.W.MonthZ.IP  2023-11-29 19:15:00   TRADEABLE     TRUE  priced
+                                              Epic               Expiry In_Hours_Status     Pos  HistorySynced
+Contract                                                                                                      
+AEX_fsb/20231200                IX.D.AEX.Month2.IP  2023-12-15 14:30:00         OFFLINE     fwd          False
+AEX_fsb/20231100                IX.D.AEX.Month1.IP  2023-11-17 14:30:00       TRADEABLE  priced          False
+ASX_fsb/20240600                IX.D.ASX.MONTH3.IP  2024-06-20 01:59:00         OFFLINE       -          False
+ASX_fsb/20240300                IX.D.ASX.MONTH4.IP  2024-03-21 00:59:00         OFFLINE     fwd          False
+ASX_fsb/20231200                IX.D.ASX.MONTH2.IP  2023-12-21 00:59:00       TRADEABLE  priced          False
+AUDJPY_fsb/20240900             CF.D.AUDJPY.SEP.IP  2024-09-13 19:00:00         OFFLINE       -          False
+AUDJPY_fsb/20240600             CF.D.AUDJPY.JUN.IP  2024-06-14 19:00:00         OFFLINE       -          False
+AUDJPY_fsb/20240300             CF.D.AUDJPY.MAR.IP  2024-03-15 20:00:00       TRADEABLE     fwd          False
+AUDJPY_fsb/20231200             CF.D.AUDJPY.DEC.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+AUD_fsb/20240900                   CF.D.AUD.SEP.IP  2024-09-13 19:00:00         OFFLINE       -          False
+AUD_fsb/20240600                   CF.D.AUD.JUN.IP  2024-06-14 19:00:00         OFFLINE       -          False
+AUD_fsb/20240300                   CF.D.AUD.MAR.IP  2024-03-15 20:00:00       TRADEABLE     fwd          False
+AUD_fsb/20231200                   CF.D.AUD.DEC.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+BOBL_fsb/20240300              IR.D.FGBM.Month1.IP  2024-03-06 16:15:00         OFFLINE     fwd          False
+BOBL_fsb/20231200              IR.D.FGBM.Month2.IP  2023-12-06 16:15:00       TRADEABLE  priced          False
+BRENT_W_fsb/20240400            EN.D.LCO.Month3.IP  2024-02-28 18:30:00         OFFLINE       -          False
+BRENT_W_fsb/20240300            EN.D.LCO.Month4.IP  2024-01-30 19:30:00         OFFLINE       -          False
+BRENT_W_fsb/20240200            EN.D.LCO.Month2.IP  2023-12-28 19:30:00         OFFLINE       -          False
+BRENT_W_fsb/20240100            EN.D.LCO.Month6.IP  2023-11-29 19:30:00       TRADEABLE     fwd          False
+BRENT_W_fsb/20231200            EN.D.LCO.Month5.IP  2023-10-30 19:30:00       TRADEABLE  priced          False
+BTP3_fsb/20240300              IR.D.FBTS.Month1.IP  2024-03-06 16:15:00         OFFLINE     fwd          False
+BTP3_fsb/20231200              IR.D.FBTS.Month2.IP  2023-12-06 16:15:00      EDITS_ONLY  priced          False
+BTP_fsb/20240300               IR.D.FBTP.Month1.IP  2024-03-06 16:15:00         OFFLINE     fwd          False
+BTP_fsb/20231200               IR.D.FBTP.Month2.IP  2023-12-06 16:15:00      EDITS_ONLY  priced          False
+BUND_fsb/20240300              IR.D.FGBL.Month1.IP  2024-03-06 16:15:00         OFFLINE     fwd          False
+BUND_fsb/20231200              IR.D.FGBL.Month2.IP  2023-12-06 16:15:00       TRADEABLE  priced          False
+BUXL_fsb/20240300              IR.D.FGBX.Month1.IP  2024-03-06 16:15:00         OFFLINE     fwd          False
+BUXL_fsb/20231200              IR.D.FGBX.Month2.IP  2023-12-06 16:15:00       TRADEABLE  priced          False
+CAC_fsb/20231200                IX.D.CAC.Month1.IP  2023-12-15 14:40:00         OFFLINE     fwd          False
+CAC_fsb/20231100                IX.D.CAC.Month2.IP  2023-11-17 14:40:00       TRADEABLE  priced          False
+CAD_fsb/20240900                CF.D.USDCAD.SEP.IP  2024-09-13 19:00:00         OFFLINE       -          False
+CAD_fsb/20240600                CF.D.USDCAD.JUN.IP  2024-06-14 19:00:00         OFFLINE       -          False
+CAD_fsb/20240300                CF.D.USDCAD.MAR.IP  2024-03-15 20:00:00       TRADEABLE     fwd          False
+CAD_fsb/20231200                CF.D.USDCAD.DEC.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+CHF_fsb/20240900                CF.D.USDCHF.SEP.IP  2024-09-13 19:00:00         OFFLINE       -          False
+CHF_fsb/20240600                CF.D.USDCHF.JUN.IP  2024-06-14 19:00:00         OFFLINE       -          False
+CHF_fsb/20240300                CF.D.USDCHF.MAR.IP  2024-03-15 20:00:00       TRADEABLE     fwd          False
+CHF_fsb/20231200                CF.D.USDCHF.DEC.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+COCOA_LDN_fsb/20250300          CO.D.LCC.Month3.IP  2025-03-07 16:50:00         OFFLINE       -          False
+COCOA_LDN_fsb/20241200          CO.D.LCC.Month2.IP  2024-12-06 16:50:00         OFFLINE       -          False
+COCOA_LDN_fsb/20240900          CO.D.LCC.Month1.IP  2024-09-06 15:50:00         OFFLINE       -          False
+COCOA_LDN_fsb/20240700          CO.D.LCC.Month6.IP  2024-07-05 15:50:00         OFFLINE       -          False
+COCOA_LDN_fsb/20240500          CO.D.LCC.Month5.IP  2024-05-07 15:50:00         OFFLINE       -          False
+COCOA_LDN_fsb/20240300          CO.D.LCC.Month4.IP  2024-03-07 16:50:00       TRADEABLE     fwd          False
+COCOA_LDN_fsb/20231200          CO.D.LCC.Month7.IP  2023-12-07 16:50:00       TRADEABLE  priced          False
+COCOA_fsb/20250300               CO.D.CC.Month1.IP  2025-02-14 18:50:00         OFFLINE       -          False
+COCOA_fsb/20241200               CO.D.CC.Month2.IP  2024-11-08 18:50:00         OFFLINE       -          False
+COCOA_fsb/20240900               CO.D.CC.Month6.IP  2024-08-09 17:50:00         OFFLINE       -          False
+COCOA_fsb/20240700               CO.D.CC.Month5.IP  2024-06-14 17:50:00         OFFLINE       -          False
+COCOA_fsb/20240500               CO.D.CC.Month7.IP  2024-04-12 17:50:00         OFFLINE       -          False
+COCOA_fsb/20240300               CO.D.CC.Month3.IP  2024-02-09 18:50:00      EDITS_ONLY     fwd          False
+COCOA_fsb/20231200               CO.D.CC.Month4.IP  2023-11-10 18:50:00      EDITS_ONLY  priced          False
+COFFEE_fsb/20240300              CO.D.KC.Month1.IP  2024-02-20 19:25:00      EDITS_ONLY     fwd          False
+COFFEE_fsb/20231200              CO.D.KC.Month2.IP  2023-11-20 19:25:00      EDITS_ONLY  priced          False
+COPPER_fsb/20240300              MT.D.HG.Month2.IP  2024-02-28 18:00:00         OFFLINE     fwd          False
+COPPER_fsb/20231200              MT.D.HG.Month1.IP  2023-11-29 18:00:00       TRADEABLE  priced          False
+CORN_fsb/20240300                 CO.D.C.Month1.IP  2024-02-28 19:15:00         OFFLINE     fwd          False
+CORN_fsb/20231200                 CO.D.C.Month2.IP  2023-11-29 19:15:00      EDITS_ONLY  priced          False
+COTTON2_fsb/20240300             CO.D.CT.Month1.IP  2024-02-16 19:15:00      EDITS_ONLY     fwd          False
+COTTON2_fsb/20231200             CO.D.CT.Month2.IP  2023-11-17 19:15:00      EDITS_ONLY  priced          False
+CRUDE_W_fsb/20240200             EN.D.CL.Month2.IP  2024-01-19 19:30:00         OFFLINE       -          False
+CRUDE_W_fsb/20240100             EN.D.CL.Month3.IP  2023-12-18 19:30:00       TRADEABLE     fwd          False
+CRUDE_W_fsb/20231200             EN.D.CL.Month1.IP  2023-11-17 19:30:00       TRADEABLE  priced          False
+DAX_fsb/20240300                   IX.D.DAX.FAR.IP  2024-03-15 12:00:00         OFFLINE     fwd          False
+DAX_fsb/20231200                  IX.D.DAX.VFAR.IP  2023-12-15 12:00:00       TRADEABLE  priced          False
+DOW_fsb/20240300                IX.D.DOW.MONTH2.IP  2024-03-15 13:30:00         OFFLINE     fwd          False
+DOW_fsb/20231200                IX.D.DOW.MONTH1.IP  2023-12-15 14:30:00       TRADEABLE  priced          False
+DX_fsb/20240300                  CO.D.DX.Month1.IP  2024-03-15 19:00:00         OFFLINE     fwd          False
+DX_fsb/20231200                  CO.D.DX.Month2.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+EUA_fsb/20251200                CO.D.CFI.Month1.IP  2025-12-15 17:00:00         OFFLINE       -          False
+EUA_fsb/20241200                CO.D.CFI.Month2.IP  2024-12-16 17:00:00         OFFLINE     fwd          False
+EUA_fsb/20231200                CO.D.CFI.Month3.IP  2023-12-15 17:00:00       TRADEABLE  priced          False
+EURGBP_fsb/20240900             CF.D.EURGBP.SEP.IP  2024-09-13 19:00:00         OFFLINE       -          False
+EURGBP_fsb/20240600             CF.D.EURGBP.JUN.IP  2024-06-14 19:00:00         OFFLINE       -          False
+EURGBP_fsb/20240300             CF.D.EURGBP.MAR.IP  2024-03-15 20:00:00       TRADEABLE     fwd          False
+EURGBP_fsb/20231200             CF.D.EURGBP.DEC.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+EURIBOR-ICE_fsb/20260900        IR.D.FEI.MONTH6.IP  2026-09-14 09:00:00         OFFLINE       -          False
+EURIBOR-ICE_fsb/20260600        IR.D.FEI.MONTH5.IP  2026-06-15 09:00:00         OFFLINE       -          False
+EURIBOR-ICE_fsb/20260300        IR.D.FEI.Month4.IP  2026-03-16 10:00:00       TRADEABLE       -          False
+EURIBOR-ICE_fsb/20251200        IR.D.FEI.Month3.IP  2025-12-15 10:00:00       TRADEABLE       -          False
+EURIBOR-ICE_fsb/20250900        IR.D.FEI.Month2.IP  2025-09-15 09:00:00       TRADEABLE       -          False
+EURIBOR-ICE_fsb/20250600        IR.D.FEI.Month1.IP  2025-06-16 09:00:00       TRADEABLE       -          False
+EURIBOR-ICE_fsb/20250300        IR.D.FEI.Mnth12.IP  2025-03-17 10:00:00       TRADEABLE       -          False
+EURIBOR-ICE_fsb/20241200       IR.D.FEI.Month11.IP  2024-12-16 10:00:00       TRADEABLE       -          False
+EURIBOR-ICE_fsb/20240900        IR.D.FEI.Mnth10.IP  2024-09-16 09:00:00       TRADEABLE       -          False
+EURIBOR-ICE_fsb/20240600        IR.D.FEI.Month9.IP  2024-06-17 09:00:00       TRADEABLE       -          False
+EURIBOR-ICE_fsb/20240300        IR.D.FEI.Month8.IP  2024-03-18 10:00:00       TRADEABLE     fwd          False
+EURIBOR-ICE_fsb/20231200        IR.D.FEI.Month7.IP  2023-12-18 10:00:00       TRADEABLE  priced          False
+EUROSTX_fsb/20240300           IX.D.STXE.MONTH2.IP  2024-03-15 10:50:00         OFFLINE     fwd          False
+EUROSTX_fsb/20231200           IX.D.STXE.MONTH3.IP  2023-12-15 10:50:00       TRADEABLE  priced          False
+EUR_fsb/20240900                CF.D.EURUSD.SEP.IP  2024-09-13 19:00:00         OFFLINE       -          False
+EUR_fsb/20240600                CF.D.EURUSD.JUN.IP  2024-06-14 19:00:00         OFFLINE       -          False
+EUR_fsb/20240300                CF.D.EURUSD.MAR.IP  2024-03-15 20:00:00       TRADEABLE     fwd          False
+EUR_fsb/20231200                CF.D.EURUSD.DEC.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+FED_fsb/20240900                IR.D.FF.Month12.IP  2024-09-30 19:00:00         OFFLINE       -          False
+FED_fsb/20240800                IR.D.FF.Month11.IP  2024-08-30 19:00:00         OFFLINE       -          False
+FED_fsb/20240700                IR.D.FF.Month10.IP  2024-07-31 19:00:00         OFFLINE       -          False
+FED_fsb/20240600                 IR.D.FF.Month9.IP  2024-06-28 19:00:00         OFFLINE       -          False
+FED_fsb/20240500                 IR.D.FF.Month8.IP  2024-05-31 19:00:00         OFFLINE       -          False
+FED_fsb/20240400                 IR.D.FF.Month7.IP  2024-04-30 19:00:00         OFFLINE       -          False
+FED_fsb/20240300                 IR.D.FF.Month6.IP  2024-03-29 20:00:00         OFFLINE       -          False
+FED_fsb/20240200                 IR.D.FF.Month5.IP  2024-02-29 20:00:00         OFFLINE       -          False
+FED_fsb/20240100                 IR.D.FF.MonthX.IP  2024-01-31 20:00:00         OFFLINE       -          False
+FED_fsb/20231200                 IR.D.FF.Month3.IP  2023-12-29 20:00:00       TRADEABLE     fwd          False
+FED_fsb/20231100                 IR.D.FF.Month2.IP  2023-11-30 20:00:00       TRADEABLE  priced          False
+FED_fsb/20231000                 IR.D.FF.Month1.IP  2023-10-31 20:00:00       TRADEABLE       -          False
+FTSE100_fsb/20240300           IX.D.FTSE.MONTH2.IP  2024-03-15 10:00:00         OFFLINE     fwd          False
+FTSE100_fsb/20231200           IX.D.FTSE.MONTH1.IP  2023-12-15 10:00:00       TRADEABLE  priced          False
+GASOIL_fsb/20231200             EN.D.LGO.Month1.IP  2023-12-11 16:30:00         OFFLINE     fwd          False
+GASOIL_fsb/20231100             EN.D.LGO.Month2.IP  2023-11-09 16:30:00       TRADEABLE  priced          False
+GASOLINE_fsb/20231200            EN.D.RB.Month2.IP  2023-11-29 19:30:00       TRADEABLE  priced          False
+GASOLINE_fsb/20231100            EN.D.RB.Month1.IP  2023-10-30 19:30:00       TRADEABLE       -          False
+GAS_US_fsb/20240100              EN.D.NG.Month2.IP  2023-12-26 19:30:00       TRADEABLE     fwd          False
+GAS_US_fsb/20231200              EN.D.NG.Month1.IP  2023-11-27 19:30:00       TRADEABLE  priced          False
+GBP_fsb/20240900                CF.D.GBPUSD.SEP.IP  2024-09-13 19:00:00         OFFLINE       -          False
+GBP_fsb/20240600                CF.D.GBPUSD.JUN.IP  2024-06-14 19:00:00         OFFLINE       -          False
+GBP_fsb/20240300                CF.D.GBPUSD.MAR.IP  2024-03-15 20:00:00       TRADEABLE     fwd          False
+GBP_fsb/20231200                CF.D.GBPUSD.DEC.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+GILT_fsb/20240300               IR.D.FLG.Month2.IP  2024-02-27 16:15:00         OFFLINE     fwd          False
+GILT_fsb/20231200               IR.D.FLG.Month1.IP  2023-11-28 16:15:00       TRADEABLE  priced          False
+GOLD_fsb/20240400                MT.D.GC.Month3.IP  2024-03-26 18:30:00         OFFLINE       -          False
+GOLD_fsb/20240200                MT.D.GC.Month1.IP  2024-01-26 18:30:00       TRADEABLE     fwd          False
+GOLD_fsb/20231200                MT.D.GC.Month2.IP  2023-11-27 18:30:00       TRADEABLE  priced          False
+HANG_fsb/20231200            IX.D.HANGSENG.VFAR.IP  2023-12-28 03:59:00         OFFLINE     fwd          False
+HANG_fsb/20231100            IX.D.HANGSENG.NEAR.IP  2023-11-29 03:59:00       TRADEABLE  priced          False
+HANG_fsb/20231000             IX.D.HANGSENG.FAR.IP  2023-10-30 03:59:00       TRADEABLE       -          False
+HEATOIL_fsb/20231200             EN.D.HO.Month1.IP  2023-11-29 19:30:00       TRADEABLE  priced          False
+HEATOIL_fsb/20231100             EN.D.HO.Month2.IP  2023-10-30 19:30:00       TRADEABLE       -          False
+IBXEX_fsb/20231200             IX.D.IBEX.Month1.IP  2023-12-15 15:15:00         OFFLINE     fwd          False
+IBXEX_fsb/20231100             IX.D.IBEX.Month2.IP  2023-11-17 15:15:00       TRADEABLE  priced          False
+JGB_fsb/20240600                IR.D.JGB.Month3.IP  2024-06-12 05:10:00         OFFLINE       -          False
+JGB_fsb/20240300                IR.D.JGB.Month1.IP  2024-03-12 06:10:00         OFFLINE     fwd          False
+JGB_fsb/20231200                IR.D.JGB.Month2.IP  2023-12-12 06:10:00       TRADEABLE  priced          False
+JPY_fsb/20240900                CF.D.USDJPY.SEP.IP  2024-09-13 19:00:00         OFFLINE       -          False
+JPY_fsb/20240600                CF.D.USDJPY.JUN.IP  2024-06-14 19:00:00         OFFLINE       -          False
+JPY_fsb/20240300                CF.D.USDJPY.MAR.IP  2024-03-15 20:00:00       TRADEABLE     fwd          False
+JPY_fsb/20231200                CF.D.USDJPY.DEC.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+LEANHOG_fsb/20240200             CO.D.LH.Month2.IP  2024-01-31 19:00:00         OFFLINE     fwd          False
+LEANHOG_fsb/20231200             CO.D.LH.Month1.IP  2023-11-30 19:00:00      EDITS_ONLY  priced          False
+LIVECOW_fsb/20240200             CO.D.LC.Month2.IP  2024-01-31 19:00:00         OFFLINE     fwd          False
+LIVECOW_fsb/20231200             CO.D.LC.Month1.IP  2023-11-30 19:00:00      EDITS_ONLY  priced          False
+MSCISING_fsb/20231100     IX.D.SINGAPORE.MONTH1.IP  2023-11-29 10:10:00       TRADEABLE  priced          False
+MSCISING_fsb/20231000     IX.D.SINGAPORE.MONTH2.IP  2023-10-30 10:10:00       TRADEABLE       -          False
+NASDAQ_fsb/20240300          IX.D.NASDAQ.MONTH3.IP  2024-03-15 13:30:00         OFFLINE     fwd          False
+NASDAQ_fsb/20231200          IX.D.NASDAQ.MONTH4.IP  2023-12-15 13:30:00       TRADEABLE  priced          False
+NIKKEI_fsb/20240300            IX.D.NIKFUT.FAR3.IP  2024-03-07 21:15:00         OFFLINE     fwd          False
+NIKKEI_fsb/20231200             IX.D.NIKFUT.FAR.IP  2023-12-07 21:15:00       TRADEABLE  priced          False
+NZD_fsb/20240900                CF.D.NZDUSD.SEP.IP  2024-09-13 19:00:00         OFFLINE       -          False
+NZD_fsb/20240600                CF.D.NZDUSD.JUN.IP  2024-06-14 19:00:00         OFFLINE       -          False
+NZD_fsb/20240300                CF.D.NZDUSD.MAR.IP  2024-03-15 20:00:00       TRADEABLE     fwd          False
+NZD_fsb/20231200                CF.D.NZDUSD.DEC.IP  2023-12-15 20:00:00       TRADEABLE  priced          False
+OATIES_fsb/20240300               CO.D.O.Month1.IP  2024-02-28 19:15:00         OFFLINE     fwd          False
+OATIES_fsb/20231200               CO.D.O.Month2.IP  2023-11-29 19:15:00      EDITS_ONLY  priced          False
+OAT_fsb/20240300               IR.D.FOAT.Month1.IP  2024-03-06 16:15:00         OFFLINE     fwd          False
+OAT_fsb/20231200               IR.D.FOAT.Month2.IP  2023-12-06 16:15:00       TRADEABLE  priced          False
+OJ_fsb/20240300                  CO.D.OJ.Month2.IP  2024-02-26 18:30:00         OFFLINE     fwd          False
+OJ_fsb/20240100                  CO.D.OJ.Month1.IP  2023-12-26 18:30:00      EDITS_ONLY  priced          False
+OMXS30_fsb/20231200             IX.D.OMX.MONTH1.IP  2023-12-15 08:00:00         OFFLINE     fwd          False
+OMXS30_fsb/20231100             IX.D.OMX.MONTH2.IP  2023-11-17 08:00:00       TRADEABLE  priced          False
+PALLAD_fsb/20240300              MT.D.PA.Month1.IP  2024-02-28 18:00:00         OFFLINE     fwd          False
+PALLAD_fsb/20231200              MT.D.PA.Month2.IP  2023-11-29 18:00:00       TRADEABLE  priced          False
+PLAT_fsb/20240400                MT.D.PL.Month1.IP  2024-03-22 18:05:00         OFFLINE     fwd          False
+PLAT_fsb/20240100                MT.D.PL.Month2.IP  2023-12-22 18:05:00       TRADEABLE  priced          False
+RICE_fsb/20240100                CO.D.RR.Month1.IP  2023-12-28 18:15:00      EDITS_ONLY  priced          False
+RICE_fsb/20231100                CO.D.RR.Month2.IP  2023-10-30 18:15:00      EDITS_ONLY       -          False
+ROBUSTA_fsb/20240500            CO.D.LKD.Month2.IP  2024-04-22 16:30:00         OFFLINE       -          False
+ROBUSTA_fsb/20240300            CO.D.LKD.Month1.IP  2024-02-20 17:30:00         OFFLINE     fwd          False
+ROBUSTA_fsb/20240100            CO.D.LKD.Month3.IP  2023-12-19 17:30:00       TRADEABLE  priced          False
+RUSSELL_fsb/20240300        IX.D.RUSSELL.MONTH1.IP  2024-03-15 13:30:00         OFFLINE     fwd          False
+RUSSELL_fsb/20231200        IX.D.RUSSELL.MONTH2.IP  2023-12-15 14:30:00       TRADEABLE  priced          False
+SHATZ_fsb/20240300             IR.D.FGBS.Month1.IP  2024-03-06 16:15:00         OFFLINE     fwd          False
+SHATZ_fsb/20231200             IR.D.FGBS.Month2.IP  2023-12-06 16:15:00       TRADEABLE  priced          False
+SILVER_fsb/20240300              MT.D.SI.Month1.IP  2024-02-28 18:25:00         OFFLINE     fwd          False
+SILVER_fsb/20231200              MT.D.SI.Month2.IP  2023-11-29 18:25:00       TRADEABLE  priced          False
+SMI_fsb/20240300                IX.D.SMI.MONTH1.IP  2024-03-15 08:00:00         OFFLINE     fwd          False
+SMI_fsb/20231200                IX.D.SMI.MONTH2.IP  2023-12-15 08:00:00       TRADEABLE  priced          False
+SONIA3_fsb/20260300             IR.D.FSS.Month6.IP  2026-06-16 10:00:00         OFFLINE       -          False
+SONIA3_fsb/20251200             IR.D.FSS.month9.IP  2026-03-17 11:00:00         OFFLINE       -          False
+SONIA3_fsb/20250900             IR.D.FSS.Month4.IP  2025-12-16 11:00:00         OFFLINE       -          False
+SONIA3_fsb/20250600             IR.D.FSS.Month3.IP  2025-09-16 10:00:00         OFFLINE       -          False
+SONIA3_fsb/20250300             IR.D.FSS.Month2.IP  2025-06-20 10:00:00         OFFLINE       -          False
+SONIA3_fsb/20241200             IR.D.FSS.MONTHC.IP  2025-03-14 11:00:00       TRADEABLE       -          False
+SONIA3_fsb/20240300            IR.D.FSS.Month11.IP  2024-06-18 10:00:00       TRADEABLE     fwd          False
+SONIA3_fsb/20231200            IR.D.FSS.Month10.IP  2024-03-19 11:00:00       TRADEABLE  priced          False
+SONIA3_fsb/20230900             IR.D.FSS.Month8.IP  2023-12-19 11:00:00       TRADEABLE       -          False
+SONIA3_fsb/20230600             IR.D.FSS.Month7.IP  2023-09-19 10:00:00         OFFLINE       -          False
+SOYBEAN_fsb/20240100              CO.D.S.Month2.IP  2023-12-28 18:15:00       TRADEABLE     fwd          False
+SOYBEAN_fsb/20231100              CO.D.S.Month1.IP  2023-10-30 18:15:00       TRADEABLE  priced          False
+SOYMEAL_fsb/20240100             CO.D.SM.Month1.IP  2023-12-28 19:15:00         OFFLINE     fwd          False
+SOYMEAL_fsb/20231200             CO.D.SM.Month2.IP  2023-11-29 19:15:00       TRADEABLE  priced          False
+SOYOIL_fsb/20240500              CO.D.BO.Month1.IP  2024-04-29 18:15:00         OFFLINE       -          False
+SOYOIL_fsb/20240300              CO.D.BO.Month2.IP  2024-02-28 19:15:00         OFFLINE       -          False
+SOYOIL_fsb/20240100              CO.D.BO.Month4.IP  2023-12-28 19:15:00         OFFLINE     fwd          False
+SOYOIL_fsb/20231200              CO.D.BO.Month3.IP  2023-11-29 19:15:00       TRADEABLE  priced          False
+SP500_fsb/20240300            IX.D.SPTRD.MONTH2.IP  2024-03-15 13:30:00         OFFLINE     fwd          False
+SP500_fsb/20231200            IX.D.SPTRD.MONTH1.IP  2023-12-15 14:30:00       TRADEABLE  priced          False
+SUGAR11_fsb/20261000             CO.D.SB.Month5.IP  2026-09-28 16:55:00         OFFLINE       -          False
+SUGAR11_fsb/20250700             CO.D.SB.Month6.IP  2025-06-26 16:55:00         OFFLINE       -          False
+SUGAR11_fsb/20250500             CO.D.SB.Month7.IP  2025-04-28 16:55:00         OFFLINE       -          False
+SUGAR11_fsb/20250300             CO.D.SB.Month1.IP  2025-02-26 17:55:00         OFFLINE       -          False
+SUGAR11_fsb/20241000             CO.D.SB.Month8.IP  2024-09-26 16:55:00         OFFLINE       -          False
+SUGAR11_fsb/20240700             CO.D.SB.Month2.IP  2024-06-26 16:55:00         OFFLINE       -          False
+SUGAR11_fsb/20240500             CO.D.SB.Month4.IP  2024-04-26 16:55:00         OFFLINE     fwd          False
+SUGAR11_fsb/20240300             CO.D.SB.Month3.IP  2024-02-27 17:55:00      EDITS_ONLY  priced          False
+SUGAR_WHITE_fsb/20241200        CO.D.LSU.Month5.IP  2024-11-14 17:55:00         OFFLINE       -          False
+SUGAR_WHITE_fsb/20241000        CO.D.LSU.Month4.IP  2024-09-12 16:55:00         OFFLINE       -          False
+SUGAR_WHITE_fsb/20240800        CO.D.LSU.Month3.IP  2024-07-11 16:55:00         OFFLINE       -          False
+SUGAR_WHITE_fsb/20240500        CO.D.LSU.Month2.IP  2024-04-05 16:55:00         OFFLINE       -          False
+SUGAR_WHITE_fsb/20240300        CO.D.LSU.Month1.IP  2024-02-08 17:55:00         OFFLINE     fwd          False
+SUGAR_WHITE_fsb/20231200        CO.D.LSU.Month6.IP  2023-11-09 17:55:00       TRADEABLE  priced          False
+US10_fsb/20240300         IR.D.10YEAR100.Month1.IP  2024-02-27 20:00:00         OFFLINE     fwd          False
+US10_fsb/20231200         IR.D.10YEAR100.Month2.IP  2023-11-28 20:00:00       TRADEABLE  priced          False
+US2_fsb/20240300          IR.D.02YEAR100.Month1.IP  2024-02-27 20:00:00         OFFLINE     fwd          False
+US2_fsb/20231200          IR.D.02YEAR100.Month2.IP  2023-11-28 20:00:00       TRADEABLE  priced          False
+US30U_fsb/20240300         IR.D.ULTRA100.Month1.IP  2024-02-27 20:00:00         OFFLINE     fwd          False
+US30U_fsb/20231200         IR.D.ULTRA100.Month2.IP  2023-11-28 20:00:00       TRADEABLE  priced          False
+US30_fsb/20240300           IR.D.BOND100.Month1.IP  2024-02-27 20:00:00         OFFLINE     fwd          False
+US30_fsb/20231200           IR.D.BOND100.Month2.IP  2023-11-28 20:00:00       TRADEABLE  priced          False
+US5_fsb/20240300          IR.D.05YEAR100.Month1.IP  2024-02-27 20:00:00         OFFLINE     fwd          False
+US5_fsb/20231200          IR.D.05YEAR100.Month2.IP  2023-11-28 20:00:00       TRADEABLE  priced          False
+V2X_fsb/20240300             IN.D.VSTOXX.MONTH4.IP  2024-03-20 10:30:00         OFFLINE       -          False
+V2X_fsb/20240200             IN.D.VSTOXX.MONTH1.IP  2024-02-14 10:30:00         OFFLINE       -          False
+V2X_fsb/20240100             IN.D.VSTOXX.MONTH3.IP  2024-01-17 10:30:00         OFFLINE       -          False
+V2X_fsb/20231200             IN.D.VSTOXX.MONTH5.IP  2023-12-20 10:30:00       TRADEABLE     fwd          False
+V2X_fsb/20231100             IN.D.VSTOXX.MONTH2.IP  2023-11-15 10:30:00       TRADEABLE  priced          False
+VIX_fsb/20240300                IN.D.VIX.MONTH3.IP  2024-03-20 14:00:00         OFFLINE       -          False
+VIX_fsb/20240200                IN.D.VIX.MONTH5.IP  2024-02-14 14:00:00         OFFLINE       -          False
+VIX_fsb/20240100                IN.D.VIX.MONTH1.IP  2024-01-17 14:00:00         OFFLINE       -          False
+VIX_fsb/20231200                IN.D.VIX.MONTH4.IP  2023-12-20 14:00:00       TRADEABLE     fwd          False
+VIX_fsb/20231100                IN.D.VIX.MONTH2.IP  2023-11-15 14:00:00       TRADEABLE  priced          False
+WHEAT_ICE_fsb/20250500          CO.D.LWB.Month4.IP  2025-04-18 15:50:00         OFFLINE       -          False
+WHEAT_ICE_fsb/20241100          CO.D.LWB.Month3.IP  2024-10-18 15:50:00         OFFLINE     fwd          False
+WHEAT_ICE_fsb/20240500          CO.D.LWB.Month1.IP  2024-04-19 15:50:00      EDITS_ONLY  priced          False
+WHEAT_fsb/20240700                CO.D.W.Month1.IP  2024-06-27 18:15:00         OFFLINE       -          False
+WHEAT_fsb/20240500                CO.D.W.Month2.IP  2024-04-29 18:15:00         OFFLINE       -          False
+WHEAT_fsb/20240300                CO.D.W.Month3.IP  2024-02-28 19:15:00         OFFLINE     fwd          False
+WHEAT_fsb/20231200                CO.D.W.MonthZ.IP  2023-11-29 19:15:00      EDITS_ONLY  priced          False
 
 
 ********************************************************************************

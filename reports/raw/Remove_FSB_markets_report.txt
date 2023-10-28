@@ -1,23 +1,23 @@
 
 ********************************************************************************
-             Remove FSB markets report produced on 30/08/2023 22:32             
+             Remove FSB markets report produced on 27/10/2023 22:32             
 ********************************************************************************
 
 
 List of markets which should be marked as untradeable due to risk, liquidity or cost issues
-Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: ['BRENT', 'BTP3_fsb', 'EURIBOR-ICE_fsb'] 
+Following should be removed from trading (add to config.bad_markets) [0.300000 threshold]: [] 
 
 
 
-Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['RICE_fsb', 'JSE40_fsb', 'COCOA_fsb', 'LIVECOW_fsb', 'COCOA_LDN_fsb', 'LUMBER_fsb', 'CORN_fsb', 'EURIBOR_fsb', 'EDOLLAR_fsb']
+Following should be allowed to trade (delete from config.bad_markets) [0.300000 threshold]: ['EURIBOR-ICE_fsb', 'LUMBER-new_fsb', 'EDOLLAR_fsb', 'LUMBER_new_fsb', 'LUMBER_fsb', 'EURIBOR_fsb', 'BRENT', 'JSE40_fsb']
 
 
 
-Markets too expensive (SR cost per trade > 0.010): ['EURIBOR-ICE_fsb', 'FED_fsb', 'MSCISING_fsb', 'OATIES_fsb']
+Markets too expensive (SR cost per trade > 0.010): ['FED_fsb', 'MSCISING_fsb', 'OATIES_fsb']
 
 
 
-Markets too safe (Annual % std. dev < 5.0): ['BOBL_fsb', 'BTP3_fsb', 'EURIBOR-ICE_fsb', 'FED_fsb', 'JGB_fsb', 'SHATZ_fsb', 'SONIA3_fsb', 'US2_fsb', 'US5_fsb']
+Markets too safe (Annual % std. dev < 5.0): ['BOBL_fsb', 'BTP3_fsb', 'EURGBP_fsb', 'FED_fsb', 'JGB_fsb', 'SHATZ_fsb', 'SONIA3_fsb', 'US2_fsb', 'US5_fsb']
 
 
 
@@ -29,10 +29,9 @@ Use the following if you want to minimise turnover of markets
 Put following into config.yaml
 exclude_instrument_lists:
   bad_markets:
-    - BRENT 
+    - BOBL_fsb 
     - BTP3_fsb 
     - EURGBP_fsb 
-    - EURIBOR-ICE_fsb 
     - FED_fsb 
     - JGB_fsb 
     - MSCISING_fsb 
@@ -40,6 +39,7 @@ exclude_instrument_lists:
     - SHATZ_fsb 
     - SONIA3_fsb 
     - US2_fsb 
+    - US5_fsb 
     - V2X_fsb 
  
 
@@ -50,9 +50,8 @@ Put following into config.yaml
 exclude_instrument_lists:
   bad_markets:
     - BOBL_fsb 
-    - BRENT 
     - BTP3_fsb 
-    - EURIBOR-ICE_fsb 
+    - EURGBP_fsb 
     - FED_fsb 
     - JGB_fsb 
     - MSCISING_fsb 

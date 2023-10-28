@@ -1,70 +1,89 @@
 
 ********************************************************************************
-                 Reconcile report produced on 30/08/2023 22:40                  
+                 Reconcile report produced on 27/10/2023 22:39                  
 ********************************************************************************
 
 
-Breaks Optimal vs actual ['fsb_static_strategy_v5 BUND_fsb', 'fsb_static_strategy_v5 COPPER_fsb', 'fsb_static_strategy_v5 NASDAQ_fsb', 'fsb_static_strategy_v5 NZD_fsb']
+Breaks Optimal vs actual ['fsb_static_strategy_v5_1 COPPER_fsb', 'fsb_static_strategy_v5_1 GAS_US_fsb', 'fsb_static_strategy_v5_1 NASDAQ_fsb', 'fsb_static_strategy_v5_1 NZD_fsb', 'fsb_static_strategy_v5_1 PALLAD_fsb', 'fsb_static_strategy_v5_1 SMI_fsb', 'fsb_static_strategy_v5_1 SOYOIL_fsb', 'fsb_static_strategy_v5_1 SUGAR11_fsb', 'fsb_static_strategy_v5_1 US10_fsb']
  Breaks Instrument vs Contract []
- Breaks Broker vs Contract []
+ Breaks Broker vs Contract [BRENT_W_fsb/20231030, BRENT_W_fsb/20231129]
 
-==============================================================
-                       Positions in DB                        
-==============================================================
+===============================================================
+                        Positions in DB                        
+===============================================================
 
-  instrument_code contract_date          expiry_date  position
-0        BUND_fsb      20230906  2023-09-06 00:00:00      0.46
-1      COFFEE_fsb      20231120  2023-11-20 00:00:00     -1.50
-2      COPPER_fsb      20231129  2023-11-29 00:00:00     -3.30
-3      NASDAQ_fsb      20230915  2023-09-15 00:00:00     -1.63
-4         NZD_fsb      20230915  2023-09-15 00:00:00     -4.50
-
-
-==============================================================
-                       Positions broker                       
-==============================================================
-
-  instrument_code contract_date          expiry_date  position
-0        BUND_fsb      20230906  2023-09-06 00:00:00      0.46
-2      COFFEE_fsb      20231120  2023-11-20 00:00:00     -1.50
-4      COPPER_fsb      20231129  2023-11-29 00:00:00     -3.30
-3      NASDAQ_fsb      20230915  2023-09-15 00:00:00     -1.63
-1         NZD_fsb      20230915  2023-09-15 00:00:00     -4.50
+   instrument_code contract_date          expiry_date  position
+0      BRENT_W_fsb      20231030  2023-10-30 00:00:00      0.80
+1         BUND_fsb      20231206  2023-12-06 00:00:00     -2.11
+2       COPPER_fsb      20231129  2023-11-29 00:00:00     -2.88
+3           DX_fsb      20231215  2023-12-15 00:00:00      6.35
+4       GAS_US_fsb      20231127  2023-11-27 00:00:00     -3.32
+5      LEANHOG_fsb      20231130  2023-11-30 00:00:00      0.48
+6       NASDAQ_fsb      20231215  2023-12-15 00:00:00     -1.12
+7          NZD_fsb      20231215  2023-12-15 00:00:00     -1.87
+8       PALLAD_fsb      20231129  2023-11-29 00:00:00     -2.11
+9          SMI_fsb      20231215  2023-12-15 00:00:00     -2.17
+10      SOYOIL_fsb      20231129  2023-11-29 00:00:00      1.15
+11        US10_fsb      20231128  2023-11-28 00:00:00     -9.61
 
 
-==============================================================================================
-                                         Trades in DB                                         
-==============================================================================================
+===============================================================
+                       Positions broker                        
+===============================================================
 
-                     strategy_name contract_date           fill_datetime    fill  filled_price
-COPPER_fsb  fsb_static_strategy_v5    [20231200] 2023-08-30 08:52:20.140  [-3.3]       38277.5
-
-
-=================================================================================
-                               Trades from broker                                
-=================================================================================
-
-           strategy_name contract_date        fill_datetime    fill  filled_price
-COPPER_fsb                  [20231200]  2023-08-30T07:49:49  [-3.3]       38277.5
-COPPER_fsb                  [20230900]  2023-08-29T13:29:23  [3.94]       37565.0
-COPPER_fsb                  [20230900]  2023-08-29T13:29:23  [3.94]       37565.0
-COPPER_fsb                  [20230900]  2023-08-29T13:29:23  [3.94]       37565.0
-COPPER_fsb                  [20230900]  2023-08-29T13:29:23  [3.94]       37565.0
-COPPER_fsb                  [20230900]  2023-08-29T13:29:23  [3.94]       37565.0
-COPPER_fsb                  [20230900]  2023-08-29T13:29:23  [3.94]       37565.0
-COPPER_fsb                  [20230900]  2023-08-29T13:29:23  [3.94]       37565.0
+   instrument_code contract_date          expiry_date  position
+9      BRENT_W_fsb      20231129  2023-11-29 00:00:00      0.80
+7         BUND_fsb      20231206  2023-12-06 00:00:00     -2.11
+10      COPPER_fsb      20231129  2023-11-29 00:00:00     -2.88
+8           DX_fsb      20231215  2023-12-15 00:00:00      6.35
+4       GAS_US_fsb      20231127  2023-11-27 00:00:00     -3.32
+11     LEANHOG_fsb      20231130  2023-11-30 00:00:00      0.48
+2       NASDAQ_fsb      20231215  2023-12-15 00:00:00     -1.12
+6          NZD_fsb      20231215  2023-12-15 00:00:00     -1.87
+0       PALLAD_fsb      20231129  2023-11-29 00:00:00     -2.11
+3          SMI_fsb      20231215  2023-12-15 00:00:00     -2.17
+1       SOYOIL_fsb      20231129  2023-11-29 00:00:00      1.15
+5         US10_fsb      20231128  2023-11-28 00:00:00     -9.61
 
 
-=================================================================
-                 Optimal versus actual positions                 
-=================================================================
+==================================================================================================
+                                           Trades in DB                                           
+==================================================================================================
 
-                                   current        optimal  breaks
-fsb_static_strategy_v5 BUND_fsb       0.46    0.87 / 2.42    True
-fsb_static_strategy_v5 COFFEE_fsb    -1.50  -1.54 / -1.18   False
-fsb_static_strategy_v5 COPPER_fsb    -3.30   -3.3 / -2.18    True
-fsb_static_strategy_v5 NASDAQ_fsb    -1.63  -0.81 / -0.21    True
-fsb_static_strategy_v5 NZD_fsb       -4.50  -4.42 / -3.26    True
+                        strategy_name contract_date           fill_datetime     fill  filled_price
+BRENT_W_fsb  fsb_static_strategy_v5_1    [20231200] 2023-10-27 04:45:10.542  [-1.02]        8914.5
+
+
+===================================================================================
+                                Trades from broker                                 
+===================================================================================
+
+            strategy_name contract_date        fill_datetime     fill  filled_price
+BRENT_W_fsb                  [20240100]  2023-10-27T18:59:23    [0.8]        8923.0
+BRENT_W_fsb                  [20231200]  2023-10-27T18:59:23   [-0.8]        9045.0
+BRENT_W_fsb                  [20231200]  2023-10-27T04:45:10  [-1.02]        8914.5
+US10_fsb                     [20231200]  2023-10-26T04:45:09   [0.67]       10562.2
+NASDAQ_fsb                   [20231200]  2023-10-25T04:45:10  [-0.51]       14786.3
+
+
+====================================================================
+                  Optimal versus actual positions                   
+====================================================================
+
+                                      current        optimal  breaks
+fsb_static_strategy_v5_1 BRENT_W_fsb     0.80     0.7 / 0.82   False
+fsb_static_strategy_v5_1 BUND_fsb       -2.11  -2.32 / -1.63   False
+fsb_static_strategy_v5_1 COPPER_fsb     -2.88  -2.67 / -2.14    True
+fsb_static_strategy_v5_1 DX_fsb          6.35    6.06 / 7.11   False
+fsb_static_strategy_v5_1 GAS_US_fsb     -3.32  -3.16 / -2.76    True
+fsb_static_strategy_v5_1 LEANHOG_fsb     0.48    0.08 / 1.22   False
+fsb_static_strategy_v5_1 NASDAQ_fsb     -1.12  -1.98 / -1.67    True
+fsb_static_strategy_v5_1 NZD_fsb        -1.87   -2.5 / -1.97    True
+fsb_static_strategy_v5_1 PALLAD_fsb     -2.11  -3.71 / -3.21    True
+fsb_static_strategy_v5_1 SMI_fsb        -2.17    -3.0 / -2.5    True
+fsb_static_strategy_v5_1 SOYOIL_fsb      1.15    0.36 / 0.53    True
+fsb_static_strategy_v5_1 SUGAR11_fsb     0.00      1.8 / 2.0    True
+fsb_static_strategy_v5_1 US10_fsb       -9.61   -9.12 / -8.2    True
 
 
 ********************************************************************************
